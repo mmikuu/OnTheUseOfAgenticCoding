@@ -1,0 +1,2143 @@
+owner,repo_name,pull_number,url,state,initial_commit,initial_total_additions,initial_total_deletions,initial_change_lines,initial_file_change,text
+567-labs,instructor,1407,https://github.com/567-labs/instructor/pull/1407,MERGED,2,148,7,155,2,"feat: add citation information to README and docs
+
+Added BibTeX citation format for academic references. Added citation section to both README.md and docs/index.md. Consistent citation format across documentation.
+docs: enhance contributing guidelines in README
+
+Expanded the contributing section to include detailed setup instructions for the development environment, testing procedures, and code quality requirements. Updated formatting and linting tools information, and clarified the pull request process."
+84codes,crystal-packages,22,https://github.com/84codes/crystal-packages/pull/22,MERGED,1,1,1,2,1,add yaml-static as depdency for alpine image
+ApeWorX,ape,2122,https://github.com/ApeWorX/ape/pull/2122,MERGED,1,2,0,2,1,fix: eip-712 hex data display
+C-Loftus,talon-ai-tools,181,https://github.com/C-Loftus/talon-ai-tools/pull/181,MERGED,1,18,18,36,6,"Use ""modelThread"" instead of ""thread"" to avoid future name collisions."
+ComposioHQ,composio,1540,https://github.com/ComposioHQ/composio/pull/1540,MERGED,1,2,2,4,1,Update quickstart.mdx
+E3SM-Project,e3sm_diags,830,https://github.com/E3SM-Project/e3sm_diags/pull/830,MERGED,2,15,5,20,2,"updateAODVIS obs in annual_cycle_zonal_mean
+fix_iss_810"
+INCATools,ontology-access-kit,817,https://github.com/INCATools/ontology-access-kit/pull/817,MERGED,1,9,0,9,1,Adding step to build pandoc for sphinx docs
+JoshuaC215,agent-service-toolkit,68,https://github.com/JoshuaC215/agent-service-toolkit/pull/68,MERGED,1,3,3,6,1,Fix bug where only one parallel tool call returned
+MaiM-with-u,MaiBot,194,https://github.com/MaiM-with-u/MaiBot/pull/194,MERGED,1,33,29,62,4,fix: 统一使用os.getenv获取数据库连接信息，避免从config对象获取不存在的值时出现KeyError
+MinBZK,poc-machine-law,14,https://github.com/MinBZK/poc-machine-law/pull/14,MERGED,1,504,99,603,14,Explanations
+MinBZK,poc-machine-law,19,https://github.com/MinBZK/poc-machine-law/pull/19,MERGED,3,284,119,403,9,"show tree
+split explanations
+Working tree
+add title"
+MinBZK,poc-machine-law,25,https://github.com/MinBZK/poc-machine-law/pull/25,MERGED,1,214,202,416,1,Add button the request if there requirements aren't met
+MinBZK,poc-machine-law,30,https://github.com/MinBZK/poc-machine-law/pull/30,MERGED,1,59,2,61,2,Adds editing feature
+MinBZK,poc-machine-law,80,https://github.com/MinBZK/poc-machine-law/pull/80,MERGED,1,153,20,173,14,Sort laws by impact
+Nayshins,ummon,44,https://github.com/Nayshins/ummon/pull/44,MERGED,1,17,3329,3346,18,"Remove MCP code and associated functions
+
+This was getting ahead of itself, and now going to wait for an
+officially supported rust mcp crate"
+Nayshins,ummon,58,https://github.com/Nayshins/ummon/pull/58,MERGED,1,576,35,611,7,"Implement knowledge graph update mechanisms (#49)
+
+This commit enhances the knowledge graph update process with:
+
+- Metadata table to track file indexing timestamps
+- Support for incremental updates based on file modification times
+- Ability to fully rebuild the graph with --full flag
+- Pruning methods to selectively update only modified files
+- Updated documentation for the new features"
+OpenAdaptAI,OpenAdapt,680,https://github.com/OpenAdaptAI/OpenAdapt/pull/680,MERGED,1,1,0,1,1,add hidden import replicate
+PipedreamHQ,pipedream,15063,https://github.com/PipedreamHQ/pipedream/pull/15063,MERGED,2,40,11,51,3,"Adding Gmail List Labels action
+Update pnpm-lock.yaml"
+PipedreamHQ,pipedream,16157,https://github.com/PipedreamHQ/pipedream/pull/16157,MERGED,5,136,49,185,29,"Adding limits and fixing the state prop
+version bumps
+Bumping linear versions too
+Bumping linear versions too
+Update pnpm-lock.yaml"
+PipedreamHQ,pipedream,16397,https://github.com/PipedreamHQ/pipedream/pull/16397,MERGED,2,29,19,48,3,"Small patch to connect triggers docs
+Update pnpm-lock.yaml"
+Shopify,app_profiler,167,https://github.com/Shopify/app_profiler/pull/167,MERGED,1,6,2,8,3,Release 0.4.0
+airbytehq,airbyte,56401,https://github.com/airbytehq/airbyte/pull/56401,MERGED,1,25,16,41,5,[source mssql] Fix non-unique value clustered index issue
+aklinker1,bunv,1,https://github.com/aklinker1/bunv/pull/1,MERGED,1,304,305,609,6,chore: Refactor file structure
+aklinker1,bunv,4,https://github.com/aklinker1/bunv/pull/4,MERGED,11,108,62,170,2,"fix workflow??
+Add setup action
+Remove windows
+Upload artifacts
+Simplify build step
+zip
+adjust zip
+comment for testing
+Add release steps
+Cleanupg
+cleanup"
+aklinker1,bunv,9,https://github.com/aklinker1/bunv/pull/9,MERGED,5,20,25,45,1,"Debug
+Don't staple?
+Don't notarize?
+Add notarize back
+Cleanup"
+aklinker1,bunv,25,https://github.com/aklinker1/bunv/pull/25,MERGED,1,4,1,5,1,fix: Ignore making config directory if it already exists
+aleph-im,aleph-vm,754,https://github.com/aleph-im/aleph-vm/pull/754,MERGED,1,18,0,18,1,Feature: Create Ubuntu 24.04 QEMU runtime
+alexei-led,aws-mcp-server,5,https://github.com/alexei-led/aws-mcp-server/pull/5,MERGED,1,10,22,32,3,fix: update Dockerfile to install Session Manager plugin only for x86_64 architecture and simplify dependency installation in CI
+alexei-led,aws-mcp-server,7,https://github.com/alexei-led/aws-mcp-server/pull/7,MERGED,1,31,69,100,8,fixing version work with setuptools_scm in Docker build
+anthropics,anthropic-cookbook,73,https://github.com/anthropics/anthropic-cookbook/pull/73,MERGED,1,72,0,72,1,Add a tool use/JSON example where input is undefined
+anthropics,anthropic-quickstarts,262,https://github.com/anthropics/anthropic-quickstarts/pull/262,MERGED,2,12,3,15,2,"fix: respect user-selected tool version in computer use demo
+
+Ensure the tool version selected via the radio button is properly used
+in API calls instead of defaulting to the model config value. This
+allows custom model strings to specify the computer use beta version
+they require.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+pinned streamlit to 1.41.0"
+anthropics,claude-code,698,https://github.com/anthropics/claude-code/pull/698,MERGED,1,87,0,87,1,post changelog file
+anthropics,devcontainer-features,3,https://github.com/anthropics/devcontainer-features/pull/3,MERGED,1,5,0,5,1,Add GitHub token for repository tagging
+artsy,eigen,10279,https://github.com/artsy/eigen/pull/10279,MERGED,1,25,20,45,2,"feat: fixes suppress artwork copy, rearrange context menu, enable feature flag"
+ascorbic,unpic-img,720,https://github.com/ascorbic/unpic-img/pull/720,MERGED,1,49,27,76,1,ci: try a better lockfile action
+ascorbic,unpic-img,765,https://github.com/ascorbic/unpic-img/pull/765,MERGED,1,15,13,28,2,chore: update more
+axelclark,ex338,1353,https://github.com/axelclark/ex338/pull/1353,MERGED,1,419,339,758,46,"Upgrade Phoenix LiveView to v1.0
+
+- Update phoenix_live_view to version ~> 1.0
+- Update related phoenix dependencies
+- Replace deprecated API calls (push_redirect -> push_navigate, live_flash -> Phoenix.Flash.get)
+- Add JavaScript shim for phx-feedback-for compatibility
+- Fix tests and adapt to new API changes
+- Make flash component IDs dynamic to eliminate duplicate ID warnings
+- Fix unused imports in test files"
+basicmachines-co,basic-memory,4,https://github.com/basicmachines-co/basic-memory/pull/4,MERGED,5,894,483,1377,22,"fix sync
+db_version_service
+add schema version model
+add db check at startup
+fix sync test"
+bcpeinhardt,learn_otp_with_gleam,1,https://github.com/bcpeinhardt/learn_otp_with_gleam/pull/1,MERGED,1,31209,10,31219,8,parallel letter frequency example in tasks
+bearcove,dylo,1,https://github.com/bearcove/dylo/pull/1,MERGED,1,16,2,18,3,chore(dylo-cli): release v1.0.1
+beatrix-ha,beatrix,31,https://github.com/beatrix-ha/beatrix/pull/31,MERGED,6,656,282,938,16,"why cant we all agree on this stupid file
+It's a start
+Fix Cursor
+Clean up this mess
+Open the item if there's only one
+Reorganize a bit"
+beekeeper-studio,beekeeper-studio,2633,https://github.com/beekeeper-studio/beekeeper-studio/pull/2633,MERGED,1,14,2,16,2,Fix Iam toggling requiring SSL for no reason
+bendotcodes,cookies,866,https://github.com/bendotcodes/cookies/pull/866,MERGED,1,2,2,4,2,Fix react links
+brentyi,jaxls,39,https://github.com/brentyi/jaxls/pull/39,MERGED,1,157,57,214,3,Add option to return summary from `.solve()`
+brentyi,tyro,176,https://github.com/brentyi/tyro/pull/176,MERGED,1,17,1,18,2,"More complete wrappers in `tyro.extras` (for `torchrun`, etc)"
+brentyi,tyro,249,https://github.com/brentyi/tyro/pull/249,MERGED,1,6,6,12,2,Reduce `Unknown` types at API boundaries
+chairemobilite,transition,1164,https://github.com/chairemobilite/transition/pull/1164,MERGED,1,2,9,11,2,"fix left menu titles not appearing when hovering
+
+closes #1153"
+cloudflare,workerd,2447,https://github.com/cloudflare/workerd/pull/2447,MERGED,1,6,0,6,1,EW-8589 add a compat date to support custom ports for worker subrequests
+cloudflare,workerd,3118,https://github.com/cloudflare/workerd/pull/3118,MERGED,1,28,47,75,6,"Revert ""Update node crypto kdf apis to use BufferSource"""
+cmackenzie1,torii-rs,7,https://github.com/cmackenzie1/torii-rs/pull/7,MERGED,1,2,0,2,2,add splash image
+codeforjapan,mapprint,511,https://github.com/codeforjapan/mapprint/pull/511,MERGED,1,0,17462,17462,54,remove failed version of dir
+codeforjapan,mapprint,525,https://github.com/codeforjapan/mapprint/pull/525,MERGED,2,745,635,1380,28,"Add SASS dependency to package files
+- Update package.json and package-lock.json with sass dependency
+- Required for proper SASS compilation and print styles
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+## 概要 | About
+
+<!--
+- Fix: #xxx
+- このPull Requestの目的を説明する
+-->
+
+## 動作確認方法 | How to check
+
+<!--
+- このPull Requestが正常に動くことを他人が確認できるような手順を書く
+- このPull Requestで影響を受ける範囲の動作確認を他人が検証できるような手順を書く
+-->
+
+## スクリーンショット | Screenshot
+
+<!--
+- このPull Requestの影響を受ける範囲のスクリーンショットを貼る
+- 見た目に影響がない場合は「なし」と書く
+
+### Before
+-
+
+### After
+-
+
+-->
+modify language files"
+codefriar,sf-mcp,2,https://github.com/codefriar/sf-mcp/pull/2,MERGED,1,92,95,187,4,"feat(context directories): All commands require a directory
+
+to execute from, so that the child_process can CWD there, and the sf cli understand it's project context"
+coder,coder,13391,https://github.com/coder/coder/pull/13391,MERGED,1,2,2,4,1,"Update manifest.json
+
+Change Secure Browser > Enterprise Browser per Island's direction."
+coder,coder,13426,https://github.com/coder/coder/pull/13426,MERGED,1,32,74,106,9,"chore: remove `failing_sections` from healthcheck
+
+Closes #10854."
+coder,coder,13618,https://github.com/coder/coder/pull/13618,MERGED,1,13,11,24,1,fix: track login page correctly
+coder,coder,13924,https://github.com/coder/coder/pull/13924,MERGED,1,24,0,24,3,chore: add Star the Repo to support links
+coder,coder,14353,https://github.com/coder/coder/pull/14353,MERGED,1,10,0,10,1,"chore: sign the windows installer
+
+We have been signing all Windows executablees, but not the installer."
+coder,coder,14936,https://github.com/coder/coder/pull/14936,MERGED,1,1,1,2,1,"Update 2.13.x support status to ""Not Supported"""
+coder,coder,14937,https://github.com/coder/coder/pull/14937,MERGED,1,2,2,4,1,"docs: fix to provisioners.md to add a missing character
+
+Changed yaml example references with provisioneraemon:  to provisionerDaemon:"
+coder,coder,15098,https://github.com/coder/coder/pull/15098,MERGED,1,3,3,6,1,fix: fix error handling to prevent spam in proc prio management (#15071)
+coder,coder,16457,https://github.com/coder/coder/pull/16457,MERGED,1,2,2,4,1,comment out optional lines in values.yaml
+coder,coder,16943,https://github.com/coder/coder/pull/16943,MERGED,1,1,1,2,1,switch external-auth order
+coder,coder,17002,https://github.com/coder/coder/pull/17002,MERGED,1,32,0,32,1,add the start workspace workflow
+commontoolsinc,labs,18,https://github.com/commontoolsinc/labs/pull/18,MERGED,4,433,86,519,3,"Update gitignore
+Interpreting JSON to rxjs graph
+Graph JSON -> rendered HTML node
+Cleanup"
+commontoolsinc,labs,502,https://github.com/commontoolsinc/labs/pull/502,MERGED,2,52,20,72,1,"document cell interface for system vs spells (+ minor fix for update)
+minor fix: for push it's ok to follow references as well, since we treat the array as value"
+commontoolsinc,labs,1000,https://github.com/commontoolsinc/labs/pull/1000,MERGED,1,7,0,7,1,Suppress keyboard events within Composer to prevent CommandCenter handling them
+cpunion,axum-params,1,https://github.com/cpunion/axum-params/pull/1,MERGED,1,3277,0,3277,16,rails-like params
+danmayer,coverband,538,https://github.com/danmayer/coverband/pull/538,MERGED,1,103,7,110,8,fixes #467 this is a useful feature for some folks with complex deployments
+daytonaio,docs,328,https://github.com/daytonaio/docs/pull/328,MERGED,1,3,2,5,2,"feat: add links to LLMs context files
+
+Add llms.txt and llms-full.txt links to documentation to help users leverage AI assistants for development.
+
+Signed-off-by: nkkko <nikola.balic@gmail.com>"
+dbieber,GoNoteGo,56,https://github.com/dbieber/GoNoteGo/pull/56,MERGED,9,22,44,66,3,"enable ssh and pi user on startup
+Use US country for wifi by default
+Remove tab and add -y
+libopenblas-dev
+python-dateutil
+pin python dep for selenium compat; remove unused mouse and leds jobs; run usercode from /home/pi
+try different boot dir
+Make paritions explicit
+Add to history"
+dbieber,GoNoteGo,59,https://github.com/dbieber/GoNoteGo/pull/59,MERGED,1,5,1,6,1,iptables
+dbieber,GoNoteGo,67,https://github.com/dbieber/GoNoteGo/pull/67,MERGED,1,1,1,2,1,Remove openai dep
+dbieber,GoNoteGo,68,https://github.com/dbieber/GoNoteGo/pull/68,MERGED,1,15,15,30,1,Fix max version numbers
+dbieber,GoNoteGo,105,https://github.com/dbieber/GoNoteGo/pull/105,MERGED,1,1,3,4,2,Clean up wifi changes
+defog-ai,defog-python,72,https://github.com/defog-ai/defog-python/pull/72,MERGED,4,195,40,235,3,"add `post_tool_function` param
+add tests for post_tool_function
+update version
+linting"
+defog-ai,introspect,73,https://github.com/defog-ai/introspect/pull/73,MERGED,8,559,590,1149,31,"add db creds table
+use get_api_key_from_key_name function
+improve .env.template
+used key_name for query routes
+pretty big changes that help make sure we can support multiple api keys on the backend
+fixes to multiple backend processes
+preliminary frontend fixes
+made all needed frontend changes"
+defog-ai,introspect,258,https://github.com/defog-ai/introspect/pull/258,MERGED,1,20,14,34,1,"update question generation mode to expect dependent variable groups, instead of individual dependent variables"
+defog-ai,introspect,407,https://github.com/defog-ai/introspect/pull/407,MERGED,19,328,3673,4001,43,"remove oracle folder
+update db models and oracle routes
+remove unused prompts
+move oracle clarifications into own folder
+update oracle clarification routes
+delete unused test file
+update reports and analysis db model
+remove unused stuff
+fix function by adding db type creds
+add set_analysis and set_report helper functions
+add generate report
+update sorry response
+fix silly bugs
+handle null states better
+kill unused code
+up defog library version
+increase timeout to 10 minutes
+simplify oracle report creation
+tweak prompts"
+defog-ai,introspect,473,https://github.com/defog-ai/introspect/pull/473,MERGED,2,132,39,171,6,"add citations for multi-agent report generation
+add report_content_with_citations field in reports table and update report generation logic"
+defog-ai,introspect,491,https://github.com/defog-ai/introspect/pull/491,MERGED,1,68,27,95,1,"use gemini pro 2.5 for web search, when GEMINI_API_KEY is set"
+devondragon,SpringUserFramework,148,https://github.com/devondragon/SpringUserFramework/pull/148,MERGED,10,175,121,296,8,"make controller path mappings configurable
+Merge pull request #139 from Edamijueda/issue-#135
+
+make controller path mappings configurable
+Merge pull request #143 from devondragon/issue-135-Make-Controller-Path-Mappings-Configurable
+
+Issue 135 make controller path mappings configurable
+Migrate schema.sql from resources to db-scripts directory
+Merge pull request #146 from devondragon/issue-145-BUG---Schema-file-is-in-a-location-where-it-is-automatically-executed
+
+Migrate schema.sql from resources to db-scripts directory
+[Gradle Release Plugin] - pre tag commit:  '3.0.1'.
+[Gradle Release Plugin] - new version commit:  '3.0.2-SNAPSHOT'.
+Update CHANGELOG.md
+
+Cleaning up the AI generated CHANGELOG
+Merge pull request #147 from devondragon/devondragon-changelog-1
+
+Update CHANGELOG.md
+Update README.md
+
+Updated Maven Central library version numbers"
+devondragon,workers-users,23,https://github.com/devondragon/workers-users/pull/23,MERGED,2,179,92,271,5,"chore: Refactor session state code and add error handling
+
+Refactor session state code into smaller files and add error handling for creating, updating, retrieving, and deleting sessions.
+chore: Refactor session state code and improve error handling"
+ditto-assistant,ditto-app,106,https://github.com/ditto-assistant/ditto-app/pull/106,MERGED,1,3,35,38,2,use mistral for text only main agent prompting
+dominikszopa,fundraising-website,58,https://github.com/dominikszopa/fundraising-website/pull/58,MERGED,2,89,19,108,4,"Initial docker files
+Updated docker files
+Updated README"
+doobidoo,mcp-memory-service,17,https://github.com/doobidoo/mcp-memory-service/pull/17,MERGED,1,1077,8,1085,9,"feat: Enhance UV integration for improved dependency management
+
+Add comprehensive UV support with:
+- UV wrapper scripts (uv_wrapper.py, memory_wrapper_uv.py)
+- UV configuration (.uv/config.toml)
+- Migration tools (scripts/convert_to_uv.py, scripts/install_uv.py)
+- Updated documentation with UV-first approach
+- UV detection in server.py
+- Shortcut scripts for Windows and Unix
+
+This improves dependency resolution speed, cross-platform
+compatibility, and handles PyTorch installation complexities
+more effectively, while maintaining backward compatibility."
+douvy,btc-tooling,22,https://github.com/douvy/btc-tooling/pull/22,MERGED,3,319,135,454,9,"Implement OrderBook basic structure with amount controls
+
+- Create mock data generator for OrderBook
+- Implement static UI layout with sample data
+- Add functional amount control buttons
+- Add hover effects and highlighting for orders
+- Improve responsiveness with fixed height sections
+
+Closes #12 (OrderBook Iteration 1)
+Add Issue Completion Protocol to CLAUDE.md
+orderbook-basic: Update CLAUDE.md with server restart capability and cleanup mockData.ts"
+etalab,admin_api_entreprise,1703,https://github.com/etalab/admin_api_entreprise/pull/1703,MERGED,1,446,1550,1996,2,Update local OpenAPI files
+expectedparrot,edsl,400,https://github.com/expectedparrot/edsl/pull/400,MERGED,1,6,3,9,1,Make memory fluent
+expectedparrot,edsl,412,https://github.com/expectedparrot/edsl/pull/412,MERGED,1,9,15,24,2,Fix gg mixin bug & make sql-fluent
+expectedparrot,edsl,416,https://github.com/expectedparrot/edsl/pull/416,MERGED,2,52,17,69,5,"Allow cache = False
+Increasing allowed question options to 200"
+expectedparrot,edsl,463,https://github.com/expectedparrot/edsl/pull/463,MERGED,1,1,1,2,1,Missing package for anthropic models
+expectedparrot,edsl,486,https://github.com/expectedparrot/edsl/pull/486,MERGED,1,9,2,11,1,Fix flatten issue
+expectedparrot,edsl,546,https://github.com/expectedparrot/edsl/pull/546,MERGED,1,47,29,76,2,Better exceptions for filtering
+expectedparrot,edsl,552,https://github.com/expectedparrot/edsl/pull/552,MERGED,2,57,3,60,3,"Make survey a callable object
+Add scoring function to Results object"
+expectedparrot,edsl,561,https://github.com/expectedparrot/edsl/pull/561,MERGED,5,73,9,82,6,"Make survey a callable object
+Add scoring function to Results object
+More information about failure
+Add and remove edsl version stuff from language model serialization
+Helper function to_survey to make more fluent"
+expectedparrot,edsl,569,https://github.com/expectedparrot/edsl/pull/569,MERGED,7,676,87,763,23,"Change defaults on Scenario list
+Add image support
+Create a scenario list from a pandas DF
+Add meaningful HTML method to all questions
+More support for HTML
+HTML methods for the more obscure exmples
+Some helper functions for Agent/AgentList"
+expectedparrot,edsl,597,https://github.com/expectedparrot/edsl/pull/597,MERGED,1,79,0,79,1,Add features to ScenarioList
+expectedparrot,edsl,601,https://github.com/expectedparrot/edsl/pull/601,MERGED,4,93,6,99,5,"Should fix Issue #599
+Get serialization stuff out of key/value methods in Base
+Dont' check for API keys by default
+Print a scenario list like a table"
+expectedparrot,edsl,642,https://github.com/expectedparrot/edsl/pull/642,MERGED,1,0,2,2,1,Remove errant break point
+geneontology,go-ontology,30119,https://github.com/geneontology/go-ontology/pull/30119,MERGED,3,11,0,11,1,"Adding DisjointUnion axiom for chromosome.
+DU for Organelle
+
+Proposed: `'membrane-bounded organelle', 'membraneless organelle'`
+
+Why is 'postsynaptic specialization' currently sitting outside?
+DisjointUnion cellular_component
+Proposed: 'protein-containing complex', 'virion component', 'cellular anatomical structure'"
+gianlucamazza,solana-mmaker,2,https://github.com/gianlucamazza/solana-mmaker/pull/2,MERGED,1,51,8,59,3,wip
+giselles-ai,giselle,36,https://github.com/giselles-ai/giselle/pull/36,MERGED,6,231,25,256,6,"add isFinal type
+show final node label
+set final node
+remove
+tweak
+fix migrate script"
+giselles-ai,giselle,65,https://github.com/giselles-ai/giselle/pull/65,MERGED,1,24,48,72,2,"refactor(graph): Inline debounce logic in GraphProvider
+
+Simplify state management by removing separate useDebounce hook and
+incorporating debouncing directly in the GraphProvider component.
+The functionality remains the same but with cleaner code organization.
+
+Key changes:
+- Remove standalone useDebounce hook
+- Add timeout handling directly in enhancedDispatch
+- Clean up timeout on component unmount
+- Fix potential memory leak by clearing timeout between state updates
+
+The 500ms debounce delay for graph updates is preserved."
+giselles-ai,giselle,68,https://github.com/giselles-ai/giselle/pull/68,MERGED,24,1862,955,2817,25,"fix(graph): Set final flag on target nodes in graph connections
+
+Remove check for existing final nodes and always mark new target nodes as
+final in addNodesAndConnect action. This ensures consistent node state
+handling in the graph visualization.
+feat(flow): Implement persistent flow storage and indexing
+
+Add flow persistence and state management improvements:
+- Store flow data in Vercel Blob storage
+- Add FlowIndex type to track flow metadata separately
+- Restructure flow state management with new actions/reducers
+- Add initialization and queuing states
+
+This change improves flow execution reliability by persisting flow data
+and separating flow metadata from execution state.
+prototype view
+feat(flow): Add streaming flow execution with action status updates
+
+Implement streaming execution pipeline for flow actions with real-time
+status updates:
+- Add new replaceFlowAction type and reducer
+- Refactor runAction to use streaming pattern with ai/rsc
+- Move action status management to server-side streaming updates
+- Simplify client-side flow
+feat(flow): Add streaming action status updates
+
+Implement new flow action streaming architecture for real-time status updates:
+- Add replaceFlowAction reducer to handle granular action state changes
+- Refactor runAction to use streaming updates via createStreamableValue
+- Remove synchronous action status updates in favor of streaming approach
+
+This change improves UI responsiveness by providing immediate feedback on
+action execution state changes.
+feat(flow): Add output field to flow actions
+
+Implement action output display functionality:
+- Add output string field to Running and Completed flow actions
+- Update UI to show output in ActionItem component
+- Modify generateText to demonstrate output streaming updates
+
+This change enables real-time display of action outputs, improving
+visibility of action execution progress and results.
+feat(flow): Implement text generation with OpenAI integration
+
+Add text generation functionality with streaming responses:
+- Integrate OpenAI GPT-4 model for text generation
+- Add source-aware system prompts for context-based responses
+- Modify output type to handle structured streaming responses
+- Update UI to properly display JSON and string outputs
+feat(flow): Add artifact creation and management
+
+Implement artifact handling within flow execution:
+- Add artifacts array to Flow type to track generated content
+- Create addArtifact action and reducer for artifact management
+- Wire up text generator to create and store artifacts
+- Update flow initialization to include artifacts state
+
+This change enables persistent storage of generated content and proper
+artifact tracking throughout the flow execution lifecycle.
+refactor: restructure flow execution system
+
+- Rename FlowAction to Step and FlowActionLayer to Job for clearer semantics
+- Simplify flow execution by moving core logic to server-side
+- Update action types and reducers to handle new Step/Job structure
+- Add prompt resolution logic for steps
+- Improve state management for step execution and output handling
+- Remove client-side flow building during execution
+fix: add stepId to setStepOutput action and fix flow reducer
+
+- Add stepId field to SetStepOutputAction interface
+- Implement missing setStepOutput case in flow reducer
+- Clean up unused imports in server-action.ts
+- Add stream.done() call after flow execution
+feat(flow): Add streaming status and improve step state handling
+
+Enhance flow execution with intermediate streaming state and more robust
+step status management. Changes include:
+
+- Add new ""streaming"" status for better progress indication
+- Rename setStepOutput to updateStep with unified status/output updates
+- Refactor step state transitions in flow reducer
+- Update UI components to handle streaming state
+- Improve action item display with cleaner output rendering
+
+This change provides better visibility into step execution progress and
+a more maintainable state management approach.
+refactor(flow): Simplify step update logic in v2FlowReducer
+
+Reorganize step status and output updates to be more maintainable:
+- Consolidate conditional logic for progress states
+- Use object spread for cleaner property updates
+- Remove nested if statements for better readability
+
+No behavioral changes, purely internal code restructuring.
+feat(viewer): Add artifact rendering and update action item display
+
+Implement new artifact rendering functionality and refine action item UI:
+- Add ArtifactRender component for displaying markdown content
+- Show latest generated artifact in viewer main panel
+- Simplify action item by removing output text display
+- Update spinner behavior for different step statuses
+
+The changes improve the user experience by focusing on artifact presentation
+while streamlining the action item status indicators.
+tweak
+refactor(flow): Simplify flow actions and add source resolution
+
+Major refactoring of flow execution system:
+- Remove replaceStep action as it's no longer needed
+- Add source resolution for steps using files and text content
+- Make flow building async to support source fetching
+- Add TypeScript improvements and type assertions
+
+BREAKING CHANGE: buildFlow is now an async function and must be awaited
+style(viewer): Improve scroll behavior for beta prototype viewer
+
+Add overflow handling to prevent layout issues with large artifacts and
+improve the user experience by making the artifact section scrollable
+while keeping the job list fixed.
+
+Also comment out unused finalNodeId display.
+refactor: simplify artifact and node element types
+
+- Remove unused elements array from Artifact type
+- Remove redundant fields from GiselleNodeArtifactElement (category, properties)
+- Update artifact generation code to reflect simplified types
+feat: Add artifact chaining in flow execution
+
+- Maintain array of generated artifacts during flow execution
+- Pass previous artifacts as sources to subsequent steps
+- Rename generateText to generateArtifactObject for clarity
+- Add artifact generation and tracking logic in flow execution
+fix: Add overflow-hidden to viewer container
+
+Prevent viewport overflow in the flow viewer by adding overflow-hidden CSS property to the main container div.
+refactor: Add action type switching for flow steps
+
+- Add switch statement to handle different step action types
+- Move artifact generation into textGenerator case
+- Remove debug console.log statement
+- Prepare structure for handling multiple step action types
+feat(flow): Implement web search artifact generation and processing
+
+Add web search functionality to the flow system with the following changes:
+- Create new WebSearchArtifact type and generation logic
+- Implement chunked processing of search results using FirecrawlJS
+- Add streaming support for search progress updates
+- Update source types and utils to handle web search artifacts
+- Remove TODO placeholder for web search implementation
+
+The implementation includes markdown content storage in Vercel Blob storage
+and proper error handling for failed scraping tasks.
+feat(flow): Implement web search artifact generation and processing
+
+Add web search functionality to the flow system with the following changes:
+- Create new WebSearchArtifact type and generation logic
+- Implement chunked processing of search results using FirecrawlJS
+- Add streaming support for search progress updates
+- Update source types and utils to handle web search artifacts
+- Remove TODO placeholder for web search implementation
+
+The implementation includes markdown content storage in Vercel Blob storage
+and proper error handling for failed scraping tasks.
+feat(viewer): implement tabbed artifact viewer
+
+Add tabbed navigation to the artifact viewer with the following changes:
+- Integrate Radix UI Tabs component for step navigation
+- Update StepItem to function as a tab trigger button
+- Show artifacts for both streaming and completed steps
+- Replace single artifact view with multi-tab content display
+- Update styling for better visual hierarchy
+- Fix model name to use gpt-4o-mini
+
+The changes enable users to switch between different step outputs
+instead of only viewing the last artifact.
+refactor: reorganize artifact types and improve flow generation
+
+- Split artifacts into TextArtifact and WebSearchArtifact types
+- Add builder functions for artifacts and generator nodes
+- Move source handling to dedicated files
+- Improve type safety for step outputs
+- Limit web search results to top 2 by relevance
+- Clean up flow execution with GenerateResult type"
+giselles-ai,giselle,74,https://github.com/giselles-ai/giselle/pull/74,MERGED,1,4,7,11,2,"feat: Set 5-minute timeout for Agent playground page
+
+Now that we know how to set maxDuration on a page-by-page basis, we have changed from using vercel.json to specify it for the entire project.
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config#maxduration
+
+Also, when executing the Run function, MaxDuration is now set to the maximum of 5 minutes, since the previous 1 minute may be too short."
+giselles-ai,giselle,86,https://github.com/giselles-ai/giselle/pull/86,MERGED,10,326,46,372,10,"feat(ui): Add left menu navigation panel to beta prototype
+
+Implement new collapsible side menu with tabbed navigation structure:
+- Add LayersIcon component for overview tab
+- Create reusable Tabs components using Radix UI primitives
+- Set up basic Overview and GitHub tab sections
+- Style menu with dark theme and glass morphism effects
+
+The left menu provides quick access to project overview and GitHub
+integration features while maintaining a clean, minimal interface.
+feat(ui): Enhance left menu tabs styling and content
+
+Improve navigation tabs UI and content structure in playground view:
+- Add gap between tab triggers for better spacing
+- Remove padding from tabs content container
+- Add headers with close buttons to content panels
+- Implement GitHub icon and styling for tab trigger
+- Add initial Overview and GitHub Integration content layouts
+
+The changes focus on improving visual hierarchy and usability of the
+left menu navigation system while maintaining the dark theme aesthetic.
+feat(ui): Add tab state management and close functionality
+
+Add controlled state handling for left menu tabs:
+- Implement tab value state management using useState
+- Add ability to close tabs by clicking X icon
+- Make tabs component controlled via value and onValueChange props
+
+The changes improve UX by allowing users to explicitly close tab panels
+and maintain proper tab state control.
+feat(ui): Add editable agent name in Overview panel
+
+Add interactive agent name editing functionality to the Overview panel with:
+- Click-to-edit agent name field
+- Auto-focus and text selection on edit mode
+- Blur handling to exit edit mode
+- Default ""Unnamed Agent"" placeholder
+
+Improves UX by allowing users to customize agent names directly in the UI
+rather than using static text.
+refactor: Reorganize Overview component file structure
+
+Move Overview component from components/ to dedicated overview/ directory to
+better organize related features and maintain a cleaner component hierarchy
+refactor(overview): Memoize blur handler with useCallback
+
+Extract inline blur handler into memoized callback function to optimize
+component re-renders and maintain consistent function references
+feat(agent): Add in-place agent name editing with server persistence
+
+Implement editable agent name functionality in the overview panel:
+- Add server action for updating agent name in database
+- Enable in-place editing with input focus management
+- Add keyboard support for submitting via Enter key
+- Persist name changes to database using Drizzle ORM
+
+Part of agent management improvements
+feat(agent): Add global agent name state management
+
+Implement React Context for managing agent name across components:
+- Create AgentNameProvider and useAgentName hook for centralized state
+- Pass initial agent name from server-side props
+- Update agent name display to use shared context state
+- Replace hardcoded ""Unnamed Agent"" with dynamic name value
+
+The change improves state management by providing a single source of truth
+for the agent name, making it more maintainable and consistent across the
+application.
+feat(agent): Add cache revalidation for agent name updates
+
+Add user authentication and cache revalidation to name update flow:
+- Add user authentication check before updating agent name
+- Revalidate agents cache after name updates
+- Ensure agent list stays in sync across the application
+
+The change ensures data consistency by invalidating cached agent data
+after name updates, preventing stale data from being displayed in other
+parts of the application.
+refactor(ui): Remove GitHub tab from left menu
+
+Comment out GitHub tab trigger while feature is in development to avoid
+showing incomplete functionality to users."
+giselles-ai,giselle,89,https://github.com/giselles-ai/giselle/pull/89,MERGED,13,289,71,360,8,"feat(github): Add feature-flagged GitHub integration UI
+
+Implement initial GitHub integration panel with feature flag control:
+- Add GitHubIntegration component
+- Configure feature flag for GitHub integration visibility
+- Extract GitHub panel to separate component
+- Add server-side flag check
+
+The GitHub integration UI is hidden behind a feature flag to allow
+controlled rollout and testing before general availability.
+feat(github): Add repository selector to GitHub integration
+
+Add initial repository selection UI with mock data:
+- Create reusable Heading component for section titles
+- Add repository dropdown with Select component
+- Include mock repository data for development
+- Style repository selection section
+
+This is a preliminary UI implementation for repository selection. Mock data
+is used temporarily until GitHub API integration is implemented.
+refactor(ui): Rename Heading component to Section
+
+Rename Heading component file to better reflect its purpose as a section
+separator with title.
+refactor(ui): Rename Heading component to SectionHeader
+
+Improve component naming clarity by changing Heading to SectionHeader to better
+reflect its specific purpose in the left menu section components. Update all
+related imports and usage instances.
+
+This change enhances code maintainability and follows more specific naming
+conventions for UI components.
+feat(ui): Add Section component for left menu layout structure
+
+Add new Section component to standardize layout patterns in the left menu.
+Implement consistent spacing and structure for GitHub integration sections.
+
+- Create reusable Section component with standardized gap spacing
+- Add Trigger section to GitHub integration panel
+- Update layout structure to use new Section component
+- Improve vertical spacing between sections
+
+The Section component helps maintain consistent UI patterns and reduces
+duplicate styling code across the left menu interface.
+feat(ui): Add GitHub event selection with custom Label component
+
+- Create reusable Label component using Radix UI primitives and CVA
+- Implement event selection dropdown in GitHub integration panel
+- Add mock event data for issue interactions
+
+Part of GitHub integration feature #XXX
+feat(github): Add node selection for GitHub integration actions
+
+- Implement Action section with node selection dropdown
+- Add mock node data for workflow starting points
+- Reuse Label and Select components for consistent UI
+feat(ui): Update GitHub integration form layout and styling
+
+Add form field wrapper component and improve visual hierarchy in form sections.
+Key changes:
+- Create new SectionFormField component for consistent form layout
+- Update label text color from black-30 to black-70 for better contrast
+- Modify node name format in mock data to show flow connections
+- Adjust form field labels and select widths for better UX
+
+Part of GitHub integration UI improvements
+feat(github): Add follow-up action selector to integration flow
+
+Add new ""Then"" field to GitHub integration form allowing users to specify
+post-flow actions like commenting on issues or creating pull requests.
+
+- Introduce mockNextActions array with initial action options
+- Add new select field under ""Action"" section for follow-up steps
+- Maintain consistent form styling with SectionFormField wrapper
+
+Part of GitHub automation workflow enhancements
+feat(github): Add call sign input to GitHub event trigger
+
+Add input field for custom call signs that will trigger GitHub automation
+workflows (e.g., bot commands in comments or PR descriptions).
+
+- Add text input field under Trigger section
+- Remove fixed width constraints from select components
+- Ensure consistent full-width form elements
+
+Part of improving GitHub automation configuration flexibility
+feat(github): Add usage hint for GitHub bot commands
+
+Add explanatory text below call sign input showing example command syntax and
+context where commands can be used.
+
+- Add hint text with command example ""/giselle report-agent""
+- Style command preview with background highlight
+- Include repository path context
+
+Improves user understanding of bot command usage
+fix(data): Update mock repository name in GitHub integration
+
+Change repository name from 'rou06inc/giselle' to 'giselles-ai/giselle' to
+reflect correct organization name.
+
+This change ensures consistency between the mock data and actual repository
+references throughout the application.
+style(ui): Update select trigger background color
+
+Change select trigger background to translucent blue-gray (hsla(207,43%,91%,0.2))
+for better visual hierarchy in form elements.
+
+Original background: bg-background
+New background: bg-[hsla(207,43%,91%,0.2)]"
+giselles-ai,giselle,108,https://github.com/giselles-ai/giselle/pull/108,MERGED,1,5,4,9,1,"feat: make call sign input controlled and update preview dynamically
+
+Updates the GitHub integration form to use controlled input for the call sign field,
+showing real-time updates in the usage example preview. Previously used uncontrolled
+input with defaultValue."
+giselles-ai,giselle,109,https://github.com/giselles-ai/giselle/pull/109,MERGED,1,163,126,289,1,"refactor(webhook): Extract GitHub workflow logic into separate function
+
+Refactors the GitHub webhook handler to improve maintainability and error
+handling by:
+- Moving core workflow logic into dedicated `run` function
+- Adding proper typing for GitHub next actions
+- Implementing background processing with Vercel's waitUntil
+- Improving installation ID validation
+
+The changes make the code more modular and easier to test while maintaining
+the same functionality. Webhook responses now return immediately while
+processing continues in the background."
+giselles-ai,giselle,138,https://github.com/giselles-ai/giselle/pull/138,MERGED,1,1,1,2,1,hotfix: fallback subscription id
+giselles-ai,giselle,147,https://github.com/giselles-ai/giselle/pull/147,MERGED,24,1921,989,2910,18,"fix(editor): Preserve node state during updates in ReactFlow
+
+Improve node update logic to maintain existing node properties when updating
+the graph state. Add updateNodeInternals call to ensure proper re-rendering
+of node internals.
+
+- Merge existing node properties with updates instead of full replacement
+- Add useUpdateNodeInternals hook for proper node refreshing
+- Update dependency array in useEffect to include new dependencies
+
+Resolves potential issues with node state preservation and rendering
+feat(editor): Add file upload functionality to properties panel
+
+Implement drag-and-drop and click-to-upload file handling in the properties
+panel, with support for file metadata display and state management.
+
+- Add file upload UI with drag-and-drop and manual selection
+- Restructure FileContent type to separate data from metadata
+- Add file upload state handling and preview
+- Include size limit warning (4.5MB per file)
+- Fix typo in uploadedAt field name
+
+Breaking: FileContent type structure changed to separate data field
+feat(files): Add file upload and document parsing functionality
+
+Add support for uploading files and parsing them into structured text:
+- Integrate Vercel Blob storage for file uploads
+- Add Unstructured API integration for document parsing
+- Convert parsed elements to markdown format
+- Track file processing status (uploading/processing/completed)
+- Add file type validation and size limits
+- Store both raw JSON and markdown versions of parsed content
+
+Breaking changes:
+- FileData type now requires status field and additional metadata
+refactor(playground): Update node source IDs with scope prefixes
+
+Add descriptive prefixes to source IDs to improve clarity and maintainability
+by indicating which node type each source belongs to (outline, section1, etc).
+Also fix instruction text in review node to properly reflect its purpose.
+
+All source IDs now follow the pattern: ndh_{nodeType}-source{n}
+refactor(ui): Extract dropdown menu components into separate file
+
+Move dropdown menu related components from properties-panel.tsx to a new
+dedicated file dropdown-menu.tsx for better code organization and reusability.
+The new file contains the following components:
+
+- DropdownMenu
+- DropdownMenuTrigger
+- DropdownMenuContent
+- DropdownMenuLabel
+- DropdownMenuSeparator
+- DropdownMenuRadioItem
+- DropdownMenuCheckboxItem
+
+No functional changes or breaking changes introduced.
+feat(ui): Add alignment and offset props to DropdownMenuContent
+
+Enhance dropdown menu component flexibility by adding customizable alignment
+and offset properties. Also export DropdownMenuCheckboxItem for reuse.
+
+- Add align and sideOffset props to DropdownMenuContent
+- Make DropdownMenuCheckboxItem component exportable
+- Update NodeDropdown implementation with new props
+feat(ui): Add toolbar component with variable selection dropdown
+
+Add bottom toolbar to editor interface featuring variable type selection with
+dropdown menu and tooltips.
+
+- Create new Toolbar component with Radix UI primitives
+- Add bottom-center panel to editor layout for toolbar placement
+- Implement variable type selection (text/file) with icons
+- Update @radix-ui/react-tooltip dependency to 1.1.4
+feat(editor): Add node creation toolbar with preview
+
+Implement visual node creation workflow with mouse follower preview:
+- Add toolbar context to manage node creation tools state
+- Create mouse position tracking for preview placement
+- Show ghosted node preview that follows cursor
+- Disable node/edge interactions while tool is active
+- Add radio group selection for text/file node types
+
+Improves UX by providing visual feedback during node creation and
+prevents accidental interactions with existing nodes while placing
+new ones.
+feat(editor): Add node creation via click-to-place interaction
+
+Implement floating node preview and click-to-place functionality for adding new
+nodes to the graph editor. Changes include:
+
+- Replace MouseFollower with FloatingNodePreview component
+- Add addNode action to graph reducer
+- Update Node component to handle preview rendering mode
+- Hide connection handles when in preview mode
+
+The new interaction allows users to visually preview and place nodes by
+clicking anywhere on the canvas, improving the node creation workflow.
+feat(toolbar): Improve dropdown menu behavior and keyboard interaction
+
+Add escape key handling and prevent focus return when closing the node type
+dropdown menu. This enhances the UX by:
+
+- Clearing tool selection when pressing Escape
+- Preventing focus return to trigger button after closing
+- Ensuring consistent state between dropdown and tool selection
+
+These changes make the toolbar interaction more intuitive and align with
+standard dropdown behavior patterns.
+feat(editor): Add file node type support to node creation
+
+Implement file node type alongside text nodes in the graph editor, including:
+
+- Add separate preview and creation logic for text and file nodes
+- Extract PreviewNode component for better organization
+- Make file data optional in FileContent type
+- Update FloatingNodePreview to handle different node types
+
+This change expands the node creation system to support multiple node types,
+allowing users to add both text and file nodes to their graphs.
+fix(editor): Correct node placement position calculation
+
+Update the onPlaceNode function to properly convert screen
+coordinates to flow coordinates using the reactFlowInstance.
+This change ensures that nodes are placed accurately within
+the editor, improving user experience and preventing layout
+issues.
+
+No breaking changes.
+feat(editor, toolbar): Add text generation node functionality
+
+- Introduce new tool option for adding text generation nodes
+  in the editor, enabling users to create nodes designed
+  for text generation tasks.
+- Update the toolbar context and components to manage the
+  new tool selection and toolbar section visibility more
+  effectively.
+- Replace deprecated `tool` and `open` states with
+  structured state management for active toolbar sections
+  and selected tools.
+
+This change enhances the user interface and usability by
+allowing more dynamic interactions within the editor.
+
+No breaking changes.
+feat(editor): Enhance React Flow editor interactions
+
+- Integrate new interaction features in the editor to
+  improve user experience. This includes enabling panning
+  on scroll and selection on drag, allowing for smoother
+  manipulation of nodes in the canvas.
+- Update the selection mode to Partial, allowing users to
+  select multiple items without dragging over them completely.
+
+These changes aim to enhance the usability of the editor,
+making it more intuitive for users to manage nodes and
+connections.
+
+No breaking changes.
+style(editor): Add custom styles for Giselle Flow
+
+- Introduce a new CSS class, `.giselle-flow`, to
+  customize the appearance and cursor behavior for
+  nodes and edges within the React Flow editor.
+- Update styles to change the cursor to default when
+  hovering over selectable and draggable nodes and edges,
+  enhancing visual feedback during interactions.
+
+This change improves the overall usability of the editor
+by providing clearer visual cues to users.
+
+No breaking changes.
+fix(toolbar, dropdown): Improve dropdown menu behavior
+
+- Enhance the `DropdownMenuContent` component to support
+  `onPointerDownOutside` and `onFocusOutside` event handlers,
+  allowing for better interaction management.
+- Implement callbacks in the Toolbar component to clear tool
+  selections when the user clicks or focuses outside the dropdown,
+  preventing UI confusion and aiding user experience.
+
+These changes ensure a more intuitive interaction with
+dropdown menus, making it clearer when an action has been
+cancelled or a menu has been dismissed.
+
+No breaking changes.
+refactor(toolbar): Revamp toolbar to use toggle group
+
+- Replace dropdown menus in the toolbar with a toggle group for
+  selecting tool types, enhancing usability and providing a cleaner
+  interface.
+- Implement `ToggleGroup` from Radix UI to manage tool selections,
+  allowing single selection mode for cleaner visual feedback.
+- Icons for `addTextNode`, `addFileNode`, and `addTextGenerationNode`
+  are now directly represented in the toolbar for better accessibility.
+
+This change simplifies the tool selection process and improves
+the overall user experience within the toolbar.
+
+No breaking changes.
+refactor(toolbar): Introduce tooltips for toggle group items
+
+- Implement a `ToggleGroupItem` component that wraps each
+  item in the toolbar toggle group with a tooltip for better
+  user guidance.
+- Enhance user experience by providing feedback when hovering
+  over each tool option, clearly indicating their purpose.
+- Reduce code duplication within the toolbar component by
+  encapsulating common functionality related to tooltips.
+
+These changes improve the usability of the toolbar, making it
+easier for users to understand the functionality of each tool.
+
+No breaking changes.
+feat(editor, toolbar): Add move tool and crosshair cursor
+
+- Introduce a new ""Move"" tool in the toolbar to allow users
+  to freely select and move nodes within the editor.
+- Update the state management in the editor to support the
+  new move functionality, enabling switching between tool
+  modes more seamlessly.
+- Change the cursor to a crosshair when a floating node is
+  present, improving the visual feedback for the user
+  during node placement.
+
+These enhancements make the editor more flexible and user-friendly,
+allowing for better manipulation of elements on the canvas.
+
+No breaking changes.
+refactor(editor): Move node creation logic to pane click handler
+
+Simplify node placement by moving creation logic from FloatingNodePreview
+component to the main editor's onPaneClick handler. This improves code
+organization and reduces component coupling.
+
+Technical changes:
+- Remove onPlaceNode prop and logic from FloatingNodePreview
+- Add onPaneClick handler to ReactFlow component
+- Keep node creation logic consistent between components
+refactor(toolbar): Enhance Tool type with category-based structure
+
+Update Tool type from string enum to structured object with category and action
+properties for better type safety and feature organization.
+
+Changes:
+- Convert Tool type to discriminated union with category/action fields
+- Update toolbar context and components to handle new Tool structure
+- Add type definitions for different tool categories (edit/move)
+- Adjust tool selection logic to use category-based filtering
+
+BREAKING: Tool type is now an object instead of string enum
+fix(toolbar): Update toggle state check for new Tool type
+
+Adjust ToggleGroupItem to compare selectedTool.action with value instead of
+direct comparison to support new Tool type structure.
+
+BREAKING: Requires updated Tool type from previous commit
+refactor(toolbar): Remove section visibility management
+
+Simplify toolbar by removing section visibility state management, focusing on
+tool selection only. This reduces complexity and removes unused functionality.
+
+Changes:
+- Remove activeToolbarSection state and related code
+- Remove setToolbarSection method
+- Clean up old toolbar file
+- Simplify ToolbarContext interface
+refactor(editor): Simplify toolbar state management and selection logic
+
+Reorganize toolbar and editor interactions to use a default ""move"" tool state
+instead of undefined values. This improves code clarity and reduces edge cases.
+
+Changes:
+- Replace undefined tool states with explicit ""move"" default
+- Rename clearToolAndSections to reset for better semantics
+- Update node/edge selection logic to check tool category
+- Fix toolbar toggle group controlled state handling"
+giselles-ai,giselle,154,https://github.com/giselles-ai/giselle/pull/154,MERGED,4,88,28,116,2,"refactor(editor): Clean up unused imports in canary editor
+
+Removed unnecessary imports and dependencies from the editor component:
+- Removed ReactFlowProvider as it's now handled at a higher level
+- Removed unused type imports (Graph, Position)
+- Removed provider imports since hooks are used directly
+
+This change improves code cleanliness and reduces bundle size by removing
+dead code. No functional changes or breaking changes.
+feat(editor): Add node removal functionality
+
+Implemented node deletion in the graph editor:
+- Add removeNode action and reducer case to handle node deletion
+- Wire up ReactFlow's node removal events to graph state
+- Maintain graph consistency by filtering out deleted nodes
+
+The change allows users to delete nodes from the graph using standard
+deletion controls, completing the basic node manipulation feature set.
+fix(editor): Remove edge manipulation controls
+
+Remove ability to select and delete edges in the graph editor:
+- Set edge selectable and deletable properties to false
+- Remove onEdgesChange handler and related tool checks
+- Remove unnecessary dependency on selectedTool in useEffect
+
+This change prevents accidental edge manipulation, making the graph
+connections more stable and reducing potential user errors.
+feat(editor): Add cascade delete for nodes and connections
+
+Implement comprehensive node deletion with dependency handling:
+- Remove incoming connections from deleted nodes
+- Update dependent text generation nodes by removing invalid sources
+- Clear requirement references if source node is deleted
+- Maintain graph consistency by cleaning up all related data
+
+This change ensures clean node removal without leaving dangling connections
+or invalid references in dependent nodes, particularly for text generation
+nodes that depend on other nodes as sources."
+giselles-ai,giselle,159,https://github.com/giselles-ai/giselle/pull/159,MERGED,1,47,12,59,3,"feat(ui): Add keyboard shortcuts for toolbar actions
+
+Implement keyboard shortcuts for quick tool selection and enhance tooltip
+display to show available shortcuts.
+
+- Add new KeyboardShortcut component to handle keyboard events
+- Implement shortcuts:
+  - v: Move tool
+  - t: Text node
+  - f: File node
+  - g: Text Generator node
+  - Escape: Reset to move tool
+- Update tooltips to display shortcut hints
+- Improve tooltip styling with better contrast and spacing
+
+This improves workflow efficiency by allowing quick tool switching via
+keyboard commands while maintaining discoverability through visual hints."
+giselles-ai,giselle,162,https://github.com/giselles-ai/giselle/pull/162,MERGED,1,8,0,8,1,"fix(shortcuts): Prevent keyboard shortcuts in form inputs
+
+Add check to ignore keyboard shortcuts when focus is on input elements:
+- Add list of ignored HTML tags (INPUT, TEXTAREA, SELECT)
+- Check active element before triggering shortcuts
+- Prevents unintended tool switching while typing
+
+This fixes potential conflicts between keyboard shortcuts and text input,
+improving usability when editing text fields or forms."
+giselles-ai,giselle,164,https://github.com/giselles-ai/giselle/pull/164,MERGED,3,283,244,527,6,"refactor(agents): Migrate agent list to dedicated v2 route
+
+Move agent list v2 implementation to dedicated route structure:
+- Create new /agents-v2 route with separate layout and page components
+- Add server action for agent creation in layout
+- Simplify agent listing logic in page component
+- Update redirect from legacy agents page
+
+This reorganization improves code structure and separation of concerns while
+preparing for v2 feature parity. The new route structure allows for better
+scalability of the agents management interface.
+feat(ui): Add loading state for agent list
+
+Add Suspense boundary around agent list component to handle loading state:
+- Wrap AgentList in Suspense component
+- Add simple loading fallback text
+- Improve UX by showing feedback during data fetch
+
+This change provides visual feedback while agent data is being loaded,
+improving perceived performance and user experience.
+feat(ui): Enhance agent list with card layout and timestamps
+
+Add styled agent cards with improved visual hierarchy and information:
+- Implement grid layout with gradient-styled cards
+- Add last updated timestamp with relative formatting
+- Move formatTimestamp utility to shared utils
+- Add DataList component for consistent data presentation
+- Improve layout spacing and visual hierarchy
+
+This change enhances the agent list view with a more polished and
+informative presentation while making the timestamp formatting utility
+more reusable across the application."
+giselles-ai,giselle,166,https://github.com/giselles-ai/giselle/pull/166,MERGED,1,123,5,128,1,"feat(ui): Add generate text functionality to properties panel
+
+Add text generation controls and empty state UI with two main actions:
+- Generate text using current prompt
+- Navigate to prompt editor
+
+The update improves UX by providing clear actions when no text is generated
+and streamlines the text generation workflow."
+giselles-ai,giselle,167,https://github.com/giselles-ai/giselle/pull/167,MERGED,1,39,7,46,2,"feat(canary): Add support for file source in actions
+
+- Introduce FileSource type to handle file inputs.
+- Modify resolveSources function to process files and integrate
+  error handling for different file states (uploading, processing).
+- Update prompts to render file content appropriately.
+
+This change allows users to work with file inputs alongside text
+sources, expanding the functionality of the action processing."
+giselles-ai,giselle,170,https://github.com/giselles-ai/giselle/pull/170,MERGED,4,173,23,196,10,"feat(ui): Add toast notification system to playground editor
+
+Implement a reusable toast notification system using Radix UI Toast primitive:
+- Create ToastContext and provider for managing toast state
+- Add Toast component with customizable variants and styling
+- Integrate toast functionality into editor component
+- Support configurable duration, types, and swipe-to-dismiss
+
+Technical notes:
+- Uses Radix UI for accessible toast notifications
+- Toasts auto-dismiss after configured duration (default 3s)
+- Supports info/success/warning/error variants
+- Positioned in bottom-right with z-index to overlay editor
+feat(ui): Style toast notifications and add error variant
+
+Add visual styling and error state to toast notifications:
+- Add CircleXIcon component for error toasts
+- Style toasts with proper typography, spacing and colors
+- Configure error variant with red color scheme and icon
+- Adjust toast viewport positioning and width
+- Add red-50 color to design system
+
+Technical details:
+- Uses clsx for conditional styling based on toast type
+- Viewport width reduced to 320px with 40px padding
+- Error state includes CircleXIcon and red-50 color (#FF5367)
+- Title uses 18px/800 weight, message uses 12px
+chore(deps): Add @radix-ui/react-toast package
+
+Add Radix UI Toast primitive package (v1.2.2) for toast notifications system
+test(ui): Add temporary toast testing shortcut
+
+Add keyboard shortcut 'a' to test error toast notifications:
+- Displays sample error message for visual testing
+- Demonstrates toast context usage and error variant
+- Marked with TODO for future removal"
+giselles-ai,giselle,177,https://github.com/giselles-ai/giselle/pull/177,MERGED,2,104,49,153,4,"feat(ui): Add reusable Tooltip components
+
+Create shared UI components to standardize tooltip functionality
+across the application.
+
+- Create reusable Tooltip component wrapping Radix UI tooltip primitives
+- Refactor toolbar tooltips to use new shared component
+- Add TooltipAndHotkey component for consistent shortcut display
+
+Improves UI consistency and reduces code duplication for commonly used
+interface patterns.
+refactor(ui): Update ClipboardButton with improved tooltip integration
+
+Enhance ClipboardButton component with better UX and more flexible tooltip
+handling.
+
+- Replace Paperclip with FingerprintIcon for better visual alignment
+- Add configurable tooltip text prop with default value
+- Make tooltip offset customizable
+- Integrate ClipboardButton in properties panel for artifact IDs
+- Update Tooltip component to support configurable side offset"
+giselles-ai,giselle,181,https://github.com/giselles-ai/giselle/pull/181,MERGED,1,15,1,16,2,"feat(agents): Add loading state to New Agent button
+
+Add loading state feedback to the New Agent creation button:
+- Create client-side button component with useFormStatus hook
+- Show disabled state while form submission is pending
+- Maintain consistent button styling and layout
+
+This improves UX by providing visual feedback during agent creation and
+preventing duplicate submissions."
+giselles-ai,giselle,186,https://github.com/giselles-ai/giselle/pull/186,MERGED,2,13,3,16,1,"style(properties-panel): Update layout for document icon display
+
+- Modify document icon size for better visibility
+- Improve layout by adding descriptive text ""Click to open""
+- Enhance overall user experience in the properties panel
+feat(properties-panel): Add loading spinner for artifacts
+
+- Introduce SpinnerIcon to indicate loading state for non-generated artifacts
+- Update icon rendering logic based on artifact type
+- Enhance user feedback during artifact loading in the properties panel"
+giselles-ai,giselle,193,https://github.com/giselles-ai/giselle/pull/193,MERGED,4,510,144,654,8,"feat(navigation-panel): Refactor navigation with context and new tab
+
+- Introduce TabValueContext to manage active tab state
+- Add Developer tools tab with graph download feature
+- Simplify content management by creating reusable ContentPanel components
+- Ensure enhanced organization and user experience in navigation
+test(graph): Add unit tests for deriveSubGraphs function
+
+- Implement tests for the deriveSubGraphs function to ensure it correctly processes graph structures.
+- Create a sample graph with various node types and connections to validate outputs.
+- Enhance test coverage for graph context functionalities.
+feat(graph): Implement subgraph derivation and visual mapping
+
+Add logic to detect and organize connected components into subgraphs for
+better visualization and organization of the node graph:
+
+- Add deriveSubGraphs function to identify isolated subgraphs
+- Update tests with visual graph representation and connection validation
+- Add helper functions for subgraph ID generation
+- Add graph versioning and subgraph array to graph structure
+
+The implementation uses depth-first search to identify connected components
+and builds subgraph objects containing related nodes and connections.
+feat(graph): Add versioning and migration system for graphs
+
+Implements graph versioning with automatic migration to latest schema:
+
+- Move graph utility functions to separate file
+- Add version field (""2024-12-09"") to graph schema
+- Create migration system to handle legacy graphs
+- Add version check and auto-migration on graph load
+- Relocate and update related tests
+
+BREAKING CHANGE: Graphs now require version field in schema"
+giselles-ai,giselle,204,https://github.com/giselles-ai/giselle/pull/204,MERGED,1,14,0,14,4,"feat(llm): Add Google Gemini model support
+
+Add Google AI SDK integration and Gemini 1.5 model options to the language
+model selection interface. This enables users to leverage both Gemini 1.5
+Flash and Pro models alongside existing OpenAI and Anthropic options.
+
+- Add @ai-sdk/google dependency
+- Implement Google provider resolution in actions.ts
+- Update model selector UI with Gemini options"
+giselles-ai,giselle,225,https://github.com/giselles-ai/giselle/pull/225,MERGED,1,3,0,3,1,"feat(ui): Add Gemini 2.0 Flash Exp model to LLM selection
+
+Add Google's Gemini 2.0 Flash Exp model as a new option in the language
+model selection dropdown. This experimental model is available for developer
+testing alongside existing Gemini, OpenAI, and Anthropic models.
+
+Note: This model is currently in experimental phase and should be used with
+caution in production environments."
+giselles-ai,giselle,227,https://github.com/giselles-ai/giselle/pull/227,MERGED,1,6,6,12,3,"chore(deps): Upgrade AI SDK packages for compatibility
+
+Update AI SDK packages to their latest versions:
+- @ai-sdk/anthropic: 0.0.56 -> 1.0.5
+- @ai-sdk/google: 1.0.7 -> 1.0.10
+- @ai-sdk/openai: 0.0.72 -> 1.0.8
+- ai: 3.4.33 -> 4.0.16
+
+Adjust stream handling code to maintain compatibility with updated SDKs:
+- Update simulateReadableStream to use 'chunks' instead of 'values'
+- Fix streamObject usage syntax"
+giselles-ai,giselle,232,https://github.com/giselles-ai/giselle/pull/232,MERGED,2,226,16,242,5,"wip
+feat(playground): Add agent duplication feature with file handling
+
+Add functionality to clone agents with their associated files and graphs:
+
+- Create new server action `copyAgentAction` for agent duplication
+- Handle file copying using Vercel Blob storage
+- Generate new IDs for duplicated files and graphs
+- Add UI form component for agent ID input with validation
+- Implement loading and success states for better UX"
+giselles-ai,giselle,235,https://github.com/giselles-ai/giselle/pull/235,MERGED,1,32,2,34,3,"feat(file): Add pathnameToFilename utility for path handling
+
+Add a new utility function to extract filenames from full paths and update
+file copy implementation to preserve original filenames with random suffixes.
+
+- Add pathnameToFilename function to extract file name from path
+- Add comprehensive test cases for different path scenarios
+- Update copyAgentAction to maintain original file names during copy
+- Add random suffix to prevent filename collisions"
+giselles-ai,giselle,239,https://github.com/giselles-ai/giselle/pull/239,MERGED,2,10,1,11,1,"fix(canary): Add error logging to generation tracer
+
+Add error message capture to the generationTracer when text generation fails,
+improving error observability and debugging capabilities in the execution
+workflow.
+
+The change ensures that any errors during step execution are properly
+recorded in the tracing system before being propagated to the stream.
+feat(tracing): Add parent trace updates for text generation steps
+
+Enhance tracing by capturing input prompt and output result at both
+generation and parent trace levels. This provides better visibility into
+the text generation process across different tracing scopes.
+
+The dual-level tracing allows for more comprehensive monitoring and
+debugging of text generation workflows while maintaining detailed
+generation-specific traces."
+giselles-ai,giselle,250,https://github.com/giselles-ai/giselle/pull/250,MERGED,2,219,85,304,3,"feat(types): Add failed and skipped execution states
+
+Add new interface types to support failed and skipped states for Step, Job
+and Execution entities. This enables proper error handling and skipped
+execution flows in the playground.
+
+Changes include:
+- Add FailedStepExecution with error details
+- Add SkippedStepExecution state
+- Add FailedJobExecution and SkippedJobExecution
+- Add FailedExecution state
+- Update union types to include new states
+feat(execution): Implement error handling and status visualization
+
+Add comprehensive error handling and skip logic for execution flow,
+including visual indicators for failed and skipped states.
+
+- Add error handling in step and job execution flows
+- Implement skip logic for subsequent jobs after failure
+- Add visual indicators for failed and skipped states
+- Update execution viewer to display error messages
+- Export execution interface types for broader usage
+
+BREAKING CHANGE: executeStep and executeJob now return specific completion
+types instead of duration numbers"
+giselles-ai,giselle,254,https://github.com/giselles-ai/giselle/pull/254,MERGED,5,460,75,535,8,"refactor(ui): Update button component styling and structure
+
+Reorganize button implementation and update visual design:
+- Move inline button component from header to dedicated file
+- Update button styles with rounded corners and consistent height
+- Adjust shadow and typography properties for better aesthetics
+
+This change maintains functionality while improving design consistency
+across the playground interface.
+feat(execution): Add execution snapshots to store graph state
+
+Create execution snapshots that capture full graph context during execution:
+- Add ExecutionSnapshot type to store complete execution state
+- Include nodes, connections and flow data alongside execution details
+- Modify putExecutionAction to store entire snapshot instead of just execution
+- Add helper function to create snapshots from current graph state
+
+This change enables proper replay and debugging of past executions by
+preserving the complete graph state at execution time.
+prevent remove folded files such as execusion snapshots
+feat(execution): Implement flow retry functionality
+
+Add ability to retry failed flow executions with the following features:
+- Preserve completed step results from original execution
+- Retry only failed steps while maintaining execution context
+- Add retry button in failed step UI
+- Support full graph state restoration from execution snapshots
+
+This change allows users to retry failed flows without recreating the entire
+execution, saving time and maintaining execution history. Failed steps can
+be retried while preserving successful results from previous attempts.
+refactor(execution): Improve execution snapshot creation and retry logic
+
+Clean up execution state management and snapshot handling:
+- Restructure createExecutionSnapshot to use object params for clarity
+- Fix step completion check to preserve completed step results
+- Ensure retry uses original graph state from snapshot
+- Remove unnecessary status filtering in executeJob
+
+This change improves code maintainability and fixes issues with execution
+state preservation during retries."
+giselles-ai,giselle,255,https://github.com/giselles-ai/giselle/pull/255,MERGED,2,73,47,120,2,"feat(execution): Add granular step retry functionality
+
+Enhance flow execution system with ability to retry specific steps while
+maintaining execution context. Key changes:
+
+- Add buildExecutionsFromSnapshot helper to reconstruct execution state
+- Modify retryFlowExecution to accept optional forceRetryStepId parameter
+- Filter artifacts by creator node when retrying steps
+- Preserve completed steps while resetting targeted step and dependencies
+
+This change allows for more efficient debugging and error recovery by
+retrying only failed or specified steps rather than the entire flow.
+
+Breaking changes:
+- retryFlowExecution API now accepts additional forceRetryStepId parameter
+feat(ui): Add retry button for individual execution steps
+
+Add retry button next to generated artifacts that allows users to re-run
+specific steps in the execution flow. This improves debugging workflow by
+enabling targeted retries without rerunning the entire flow.
+
+- Add retry button to execution viewer step content
+- Connect retry action to retryFlowExecution with step ID
+- Maintain consistent styling with existing clipboard controls"
+giselles-ai,giselle,258,https://github.com/giselles-ai/giselle/pull/258,MERGED,9,356,581,937,8,"refactor(execution): Replace stepId with step in ExecutionContext
+
+- Update ExecutionContext to use a Step type instead of StepId
+- Simplify step resolution logic in performFlowExecution and retryStep
+- Improve readability and maintainability of flow execution code
+refactor(execution): Simplify node and artifact resolution
+
+- Extract node and artifact resolution logic into separate functions
+- Pass ExecutionContext directly where needed to streamline resolutions
+- Improve code organization and maintainability
+refactor(execution): Remove unused flowId parameter from execution
+
+- Eliminate the flowId parameter from ExecuteFlowParams and related calls
+- Simplify function signatures by focusing on necessary parameters
+- Enhance code clarity and reduce redundancy
+remove
+feat(execution): Add node execution capability
+
+- Introduce executeNode function to handle execution for a single node
+- Update ExecutionProvider to include executeNode method and related logic
+- Modify PropertiesPanel to call executeNode instead of the previous execute method
+- Implement flow derivation from a node context for cleaner execution handling
+- Enhance graph utilities with a test case for one-node scenarios
+feat(execution): Enhance artifact updates during execution
+
+- Introduce updateArtifact callback to handle live updates of artifacts
+- Refactor executeStep and executeJob to utilize the new callback
+- Improve performance of artifact management during flow execution
+- Ensure consistent state updates across artifact transformations
+refactor(actions): Remove unused action function and imports
+
+- Eliminate the action function and its associated logic, as it is no longer needed
+- Clean up imports in actions, properties panel, and execution contexts to reflect the removal
+- Streamline codebase by removing redundant artifact management logic in execution
+feat(execution): Enhance step and job execution with callbacks
+
+- Refactor executeStep and executeJob to accept callback functions for success and failure handling
+- Introduce onStepFinish and onStepFail callbacks for better integration of execution outcomes
+- Update the ExecutionProvider to manage artifact updates and provide step execution feedback
+- Improve overall artifact management during node processing and execution flow
+feat(execution): Set tab on node execution invocation
+
+- Update executeNode function to set the active tab to ""Result"" when a node is executed
+- Improve user experience by providing immediate feedback in the UI during execution"
+giselles-ai,giselle,288,https://github.com/giselles-ai/giselle/pull/288,MERGED,1,1,1,2,1,"fix(components): Add key prop to text panel TabsContent
+
+Adds missing key prop to TabsContent component in properties panel when
+rendering text node content. This prevents React re-render issues and
+improves component stability when switching between different text nodes."
+giselles-ai,giselle,292,https://github.com/giselles-ai/giselle/pull/292,MERGED,2,16,13,29,3,"fix(agent): Improve agent name handling with null values
+
+Allow empty agent names to be stored as null and ensure consistent default
+naming across the application. This change makes the agent name handling more
+robust and consistent with database schema.
+
+- Update AgentNameProvider to handle null values
+- Standardize ""Unnamed Agent"" as default fallback text
+- Make type signatures more accurate with string | null
+refactor(ui): Extract agent name fallback to constant
+
+Centralize the default agent name into a single constant to improve
+maintainability and consistency across the UI. Change fallback text from
+""Unnamed Agent"" to ""Untitled Agent"" to match design requirements.
+
+- Add fallbackAgentName constant
+- Update references to use the new constant
+- Update default text to ""Untitled Agent"""
+giselles-ai,giselle,323,https://github.com/giselles-ai/giselle/pull/323,MERGED,1,1,1,2,1,print payload name
+giselles-ai,giselle,374,https://github.com/giselles-ai/giselle/pull/374,MERGED,1,30,34,64,3,"chore(deps): Upgrade Turbo from 2.3.3 to 2.4.2
+
+Update Turbo dependency and remove it from catalog version control to use
+explicit versioning. This ensures consistent builds across environments."
+giselles-ai,giselle,457,https://github.com/giselles-ai/giselle/pull/457,MERGED,2,93,24,117,6,"Add output accessors to nodes and update generation flow
+
+The new accessor property on Output connects node outputs with
+generated content types, enabling proper data flow between nodes.
+Also refactors generation output handling to track which output
+produced what data.
+add buildinfo"
+giselles-ai,giselle,462,https://github.com/giselles-ai/giselle/pull/462,MERGED,1,9,34,43,2,Remove feature flag and always use new UI workflow
+giselles-ai,giselle,470,https://github.com/giselles-ai/giselle/pull/470,MERGED,1,2,2,4,1,Update generation file paths to use directory structure
+giselles-ai,giselle,472,https://github.com/giselles-ai/giselle/pull/472,MERGED,3,16,16,32,8,"Switch from ai/react to @ai-sdk/react for useChat import
+Fix Message import to use @ai-sdk/react instead of ai
+Import @ai-sdk/react and update message type import"
+giselles-ai,giselle,477,https://github.com/giselles-ai/giselle/pull/477,MERGED,1,23,0,23,1,Add developer guide with build and style guidelines
+giselles-ai,giselle,583,https://github.com/giselles-ai/giselle/pull/583,MERGED,1,18,34,52,1,Refactor node connection styling using group data attributes
+giselles-ai,giselle,737,https://github.com/giselles-ai/giselle/pull/737,MERGED,3,304,311,615,2,"revert
+revert
+revert"
+giselles-ai,giselle,756,https://github.com/giselles-ai/giselle/pull/756,MERGED,1,50,1,51,1,"Add animated gradient effect to workflow connectors
+
+Co-authored-by: kaochannel154 <kaochannel154@gmail.com>"
+giselles-ai,giselle,757,https://github.com/giselles-ai/giselle/pull/757,MERGED,3,155,108,263,9,"Add TriggerContentReference type
+fix disconnected input, output
+Add Run v2 feature flag"
+giselles-ai,giselle,766,https://github.com/giselles-ai/giselle/pull/766,MERGED,1,129,45,174,12,update
+giselles-ai,giselle,769,https://github.com/giselles-ai/giselle/pull/769,MERGED,4,571,108,679,16,"Refactor image generation to support multiple providers
+Add OpenAI image generation support
+
+Implement OpenAI's image generation model alongside existing FAL
+providers. Refactor image generation code to use provider-based
+discrimination, allowing multiple image generation services to coexist.
+Split image generation model panel by provider
+Add gptImage1 feature flag"
+giselles-ai,giselle,783,https://github.com/giselles-ai/giselle/pull/783,MERGED,2,860,472,1332,8,"Add buildWorkflowFromNode function with tests
+
+This feature allows creating workflows starting from a specific node,
+including only nodes connected to the starting point. Includes both
+unit tests and tests using real workflow data.
+Refactor workflow utils to improve API and organization
+
+Simplify buildWorkflowFromNode to accept arrays instead of maps, extract
+test data to dedicated file, and split functionality into separate files
+with clear responsibilities."
+google,tensorstore,187,https://github.com/google/tensorstore/pull/187,MERGED,1,27,19,46,1,ec2_credential_provider supports IMDSv2
+grapeot,web_agentic_ai,4,https://github.com/grapeot/web_agentic_ai/pull/4,MERGED,2,96,195,291,2,"[Cursor] Add GitHub workflow for automated testing
+
+- Added CI workflow documentation to README.md
+- Created GitHub Actions workflow file that runs unit tests
+- Workflow triggers on PRs and merges to main/master branches
+[Cursor] Simplify README.md for better readability
+
+- Reorganized content into clearer sections
+- Condensed detailed explanations into concise feature list
+- Simplified testing instructions
+- Shortened overall length while preserving essential information"
+haya14busa,action-bumpr,52,https://github.com/haya14busa/action-bumpr/pull/52,MERGED,1,4,4,8,1,fix here string solution again
+honeycombio,honeycomb-mcp,3,https://github.com/honeycombio/honeycomb-mcp/pull/3,MERGED,1,1581,214,1795,6,improve queryspec and validation
+honeycombio,honeycomb-mcp,26,https://github.com/honeycombio/honeycomb-mcp/pull/26,MERGED,1,4,1,5,1,add __all__ to ds schema validator
+julep-ai,julep,375,https://github.com/julep-ai/julep/pull/375,MERGED,2,2981,5172,8153,160,"version(sdks): Version 0.3.4
+
+Signed-off-by: Diwank Tomer <diwank@julep.ai>
+doc: Regenerate docs
+
+Signed-off-by: Diwank Tomer <diwank@julep.ai>"
+kirschbaum-development,commentions,7,https://github.com/kirschbaum-development/commentions/pull/7,MERGED,2,538,83,621,25,"Added test suite
+wip"
+liam-hq,liam,782,https://github.com/liam-hq/liam/pull/782,MERGED,1,1,2,3,1,"Revert ""Fix: Rollup error in initCommand/index.ts"""
+liam-hq,liam,1339,https://github.com/liam-hq/liam/pull/1339,MERGED,1,10,2,12,1,"feat(jobs): Integrate applyOverrides function to enhance schema processing
+
+- Added the applyOverrides function from the db-structure package to apply schema overrides when currentSchemaMeta is present.
+- Updated the processGenerateSchemaMeta function to use the overridden database structure for schema meta generation."
+linkml,linkml-store,14,https://github.com/linkml/linkml-store/pull/14,MERGED,2,576,104,680,4,"updating notebook
+attach"
+lipas-liikuntapaikat,lipas,148,https://github.com/lipas-liikuntapaikat/lipas/pull/148,MERGED,12,3209,363,3572,13,"Fix misplaced map key
+Add ptv org data for pilot municipalities
+
+NOTE: let's check if auth still requires 'special' org-ids:s..
+Add correct ptv auth id's for pilot cities
+WIP
+Add working legacy WFS impl
+Progress
+Add special treatment to :kulkusuunta key
+Add more robust dev env check
+Add geoserver api calls
+Localize enum and enum coll values
+Switch to official geoserver docker build
+
+Also update to latest
+Add wfs migration and refresh utils"
+llun,activities.next,89,https://github.com/llun/activities.next/pull/89,MERGED,1,67,29,96,1,Add get status api
+ltwlf,json-diff-ts,186,https://github.com/ltwlf/json-diff-ts/pull/186,MERGED,5,147,71,218,8,"4.0.2-preview: increase typescript compatibility for before 3.8
+Refactor jsonDiff.ts to handle type changes and undefined values
+
+This commit refactors the jsonDiff.ts file to handle type changes and undefined values. It introduces a flag, treatTypeChangeAsReplace, to determine if a change in type should be treated as a replacement. If the flag is set and the types of the old and new objects are different, the commit removes the old object and adds the new object. However, if the new object is of type 'undefined', it is not added. Additionally, if the new object is 'undefined' and the old object is not, the commit removes the old object. The commit also includes changes to compareArray function to handle cases where the new object is not an array.
+Update package.json version to 4.0.3-preview
+Fix example in README.md
+Bump version to 4.1.0 in package.json"
+ltwlf,json-diff-ts,209,https://github.com/ltwlf/json-diff-ts/pull/209,MERGED,3,399,73,472,7,"fix: remove empty REMOVE operations when diffing from undefined
+
+When diffing from undefined to a value, the diff function was generating an
+empty REMOVE operation that didn't have a value property. This was unnecessary
+since there's nothing to remove when starting from undefined.
+
+Modified the condition in the compare function to only add a REMOVE operation
+if the old object is not undefined.
+
+Fixes #204
+fix: array handling in applyChangeset and revertChangeset
+
+When applying or reverting changes to arrays, the functions applyArrayChange
+and revertArrayChange were returning an array of operation results rather
+than the modified array itself. Although the arrays were being modified
+in-place, this made the code less clear and inconsistent.
+
+Modified the functions to remove the IIFE pattern, directly modify the
+array in-place, return the modified array, and add proper JSDoc comments
+to clarify the behavior.
+
+Fixes #206
+fix: object handling in atomizeChangeset and unatomizeChangeset
+
+When using atomizeChangeset and unatomizeChangeset with object properties,
+the flattening and unflattening process didn't correctly handle the case
+when changing from null to an object value.
+
+- Modified atomizeChangeset to always append the key to the path for
+  object values, ensuring consistent JSON paths
+- Updated unatomizeChangeset to treat all leaf values (including objects)
+  the same way
+- Added tests to verify proper handling of null to object transitions
+
+Fixes #184"
+ltwlf,json-diff-ts,243,https://github.com/ltwlf/json-diff-ts/pull/243,MERGED,1,107,120,227,10,"Add support for nested keys to skip using dotted path notation
+
+This change allows the keysToSkip option to use dotted path notation to skip nested object paths from comparison.
+
+Fixes #242"
+mainframecomputer,orchestra,55,https://github.com/mainframecomputer/orchestra/pull/55,MERGED,1,9,6,15,1,"feat: wrap client instances with BrainTrust wrapper for model tracking
+
+Add model provider identification to BrainTrust logging by wrapping the client instances
+for OpenRouter, Groq, TogetherAI, and Deepseek with the BrainTrust wrapper.
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+making,yavi,433,https://github.com/making/yavi/pull/433,MERGED,1,46,4,50,2,"`unique` constraint should provide duplicate elements in the error message
+
+close gh-432"
+making,yavi,455,https://github.com/making/yavi/pull/455,MERGED,1,1141,5,1146,17,Add last1~lastM methods in ArgumentsN  (M = N - 1)
+mattermost,mattermost,27376,https://github.com/mattermost/mattermost/pull/27376,MERGED,1,0,7,7,1,Remove deprecated LdapSettings.Trace
+mattermost,mattermost,27388,https://github.com/mattermost/mattermost/pull/27388,MERGED,1,90,8,98,2,Allow setting AdvancedLoggingJSON via mmctl
+mattermost,mattermost,27716,https://github.com/mattermost/mattermost/pull/27716,MERGED,1,1,1,2,1,Enable errcheck linter for enterprise/cloud package
+mattermost,mattermost,27957,https://github.com/mattermost/mattermost/pull/27957,MERGED,1,19,54,73,3,Remove deprecated pageSize query parameter
+mattermost,mattermost,28260,https://github.com/mattermost/mattermost/pull/28260,MERGED,2,3,52,55,2,"Don't return config values from plugins that are not installed
+Cleanup tests"
+mattermost,mattermost,29799,https://github.com/mattermost/mattermost/pull/29799,MERGED,1,14,14,28,1,Don't use fmt.Sprintf for constant strings
+mattermost,mattermost,29845,https://github.com/mattermost/mattermost/pull/29845,MERGED,1,2415,731,3146,50,[MM-54288] Support Packet V2 (#29403)
+mattermost,mattermost,30418,https://github.com/mattermost/mattermost/pull/30418,MERGED,1,8,2,10,1,Improve error message for failed file copied
+mattermost,mattermost,30582,https://github.com/mattermost/mattermost/pull/30582,MERGED,1,6,3,9,1,"Only build and package linux
+
+As part of https://github.com/mattermost/mattermost/pull/29932, we
+stopped packaging Windows for releases. Let's go one step further and
+stop building it too (saves build time!). And while we're in here, stop
+doing this for OSX as well.
+
+Both these targets remain buildable on demand, but we don't support
+these platforms for production deployments."
+mattermost,mattermost,30651,https://github.com/mattermost/mattermost/pull/30651,MERGED,1,2,1,3,1,"flaky test: Avoid team names that start with ""A"".
+
+This avoids a non-zero chance we append ""pi"" from the `model.NewId` and
+end up with an invalid prefix ""Api""."
+mattermost,mattermost,30829,https://github.com/mattermost/mattermost/pull/30829,MERGED,1,20,4,24,1,avoid SELECT * in audit store
+mattermost,mattermost,30830,https://github.com/mattermost/mattermost/pull/30830,MERGED,1,21,4,25,1,avoid SELECT * in cluster discovery store
+mattermost,mattermost-developer-documentation,1388,https://github.com/mattermost/mattermost-developer-documentation/pull/1388,MERGED,1,17,4347,4364,66,rm apps framework documentation
+mattgodbolt,jsbeeb,411,https://github.com/mattgodbolt/jsbeeb/pull/411,MERGED,1,218,0,218,2,"Beginnings of disc stuff
+
+With huge thanks to @scarybeasts' beebjit"
+mattgodbolt,jsbeeb,450,https://github.com/mattgodbolt/jsbeeb/pull/450,MERGED,1,3,3,6,5,"More teletext fixes
+
+With thanks to @tom-seddon and his keen eyes, and fixes
+on [b2](https://github.com/tom-seddon/b2/commit/4e6170c855b531e614f1bfb61b32ac8726944f34#diff-cd6b1bb36f14142f723750aca8289ba2a85900e4f2adffd6bf3b262a8c6d85ac)."
+mc-bench,mc-bench-backend,19,https://github.com/mc-bench/mc-bench-backend/pull/19,MERGED,1,3,3,6,1,Deploy Hotfix #2: Fix script name to server-worker-x 🤦
+mc-bench,mc-bench-backend,25,https://github.com/mc-bench/mc-bench-backend/pull/25,MERGED,1,113,14,127,7,Added external_id to artifact table. Fixed bug in js code for setblock. Fixed some other bugs.
+mc-bench,mc-bench-backend,79,https://github.com/mc-bench/mc-bench-backend/pull/79,MERGED,1,156,102,258,6,Added error and retry handler for all run stage tasks. Added to and from file streaming for sample prep.
+mc-bench,mc-bench-backend,98,https://github.com/mc-bench/mc-bench-backend/pull/98,MERGED,1,31,0,31,1,Grant delete on auth_provider_email_hash to api
+mc-bench,mc-bench-backend,122,https://github.com/mc-bench/mc-bench-backend/pull/122,MERGED,1,2706,76,2782,36,Added concept of experimental state. Researcher roles and permissions.
+mc-bench,mc-bench-backend,123,https://github.com/mc-bench/mc-bench-backend/pull/123,MERGED,1,48,0,48,1,"Updated all prompts, templates, models, and samples with experimental state if experimental state was null"
+mc-bench,mc-bench-backend,129,https://github.com/mc-bench/mc-bench-backend/pull/129,MERGED,1,1,1,2,1,Revert task_acks_late change
+mc-bench,mc-bench-frontend,12,https://github.com/mc-bench/mc-bench-frontend/pull/12,MERGED,1,4335,969,5304,43,"Added support and improvements for Templates, Prompts, Models and Generation"
+mc-bench,mc-bench-frontend,33,https://github.com/mc-bench/mc-bench-frontend/pull/33,MERGED,1,6,0,6,1,Deploy Hotfix 10: Update getArtifactUrl function to account for subdomain style object pathing
+mc-bench,mc-bench-frontend,43,https://github.com/mc-bench/mc-bench-frontend/pull/43,MERGED,1,84,36,120,1,Actually implement /api/signup call correctly
+mc-bench,mc-bench-frontend,55,https://github.com/mc-bench/mc-bench-frontend/pull/55,MERGED,1,150,109,259,7,Real model names from voting and other UI improvements
+mc-bench,mc-bench-frontend,72,https://github.com/mc-bench/mc-bench-frontend/pull/72,MERGED,1,218,8,226,2,Display completed and in progress stages in generation view page
+mc-bench,mc-bench-frontend,98,https://github.com/mc-bench/mc-bench-frontend/pull/98,MERGED,1,139,15,154,4,Add prompt size management in prompt creation workflow
+mc-bench,mc-bench-frontend,127,https://github.com/mc-bench/mc-bench-frontend/pull/127,MERGED,2,14,352,366,2,"Revert ""✨ Feat: optimize viewrun.tsx""
+
+This reverts commit 5cfd838d4deb2a5aab730049bb3cc9ce220eb237.
+Revert ""⚡️ Performance: add major GLTF optimizations""
+
+This reverts commit 1305f1145c8cf1da0b84ffd3f39465f8a982caa1."
+mc-bench,mc-bench-frontend,150,https://github.com/mc-bench/mc-bench-frontend/pull/150,MERGED,4,574,866,1440,30,"🔥 Remove: dead code and assets (#141)
+✨ Feat: open graph tag (#149)
+fix: use query parameters for leaderboard data instead of URL-encoded paths
+
+- Refactored API endpoints to use query parameters instead of URL-encoded path segments
+- Updated routing to use dedicated endpoints with query parameters
+- Created new URL structure:
+  - /leaderboard (uses query params for metric/test set)
+  - /leaderboard/model/stats (model statistics)
+  - /leaderboard/model/prompts (prompt performance)
+  - /leaderboard/model/samples (model samples)
+  - /leaderboard/metrics, /test-sets, /tags (metadata endpoints)
+- Updated frontend routes to match new API structure
+- Verified build succeeds with the changes
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+feat: Add screenshot feature to ViewSample, ShareSample, and ViewRun components
+
+- Added screenshot button to 3D model viewers in ViewSample, ShareSample, and ViewRun
+- Added support for displaying EXPERIMENTAL tag on screenshots
+- Modified ScreenshotShare component to accept and display alert messages
+- Updated Sample type to include experimentalState property
+- Fixed API endpoint in MCBench.tsx from '/metric' to '/metrics'
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+metabase,metabase,56391,https://github.com/metabase/metabase/pull/56391,MERGED,1,43,0,43,7,devex: add claude tooling
+modelcontextprotocol,inspector,11,https://github.com/modelcontextprotocol/inspector/pull/11,MERGED,1,92,21,113,8,get tools working
+modelcontextprotocol,servers,370,https://github.com/modelcontextprotocol/servers/pull/370,MERGED,1,36,0,36,1,add completion examples to everything server
+modelcontextprotocol,typescript-sdk,20,https://github.com/modelcontextprotocol/typescript-sdk/pull/20,MERGED,1,2881,568,3449,5,fix schema definitions for RequestSchema
+monarch-initiative,aurelian,58,https://github.com/monarch-initiative/aurelian/pull/58,MERGED,1,4,9,13,1,"Refactor GitHub tools to use async methods
+
+  This commit converts all methods in the GitHub tools module to use
+  asynchronous programming patterns for improved performance in I/O-bound
+  operations.
+
+  Key changes:
+  - Replace subprocess.run with asyncio.create_subprocess_exec for non-blocking
+    command execution
+  - Convert all functions to async/await pattern
+  - Update _run_gh_command and _run_git_command to use async subprocess
+  - Ensure proper error handling in async context
+  - Update tests to use AsyncMock and pytest.mark.asyncio to test async functions
+
+  These changes will allow the GitHub agent to process multiple GitHub API calls
+  concurrently, significantly improving performance when interacting with GitHub
+  repositories."
+muno92,resharper_inspectcode,476,https://github.com/muno92/resharper_inspectcode/pull/476,MERGED,1,2,1,3,1,Fix E2E test failure on ARM Runner
+natolambert,rlhf-book,27,https://github.com/natolambert/rlhf-book/pull/27,MERGED,1,148,75,223,3,enhance navigation
+natolambert,rlhf-book,61,https://github.com/natolambert/rlhf-book/pull/61,MERGED,1,116,4,120,3,init instruction tuning chapter
+nerfstudio-project,viser,229,https://github.com/nerfstudio-project/viser/pull/229,MERGED,2,15,11,26,6,"Fix context forwarding for 3D GUI containers
+eslint"
+nerfstudio-project,viser,244,https://github.com/nerfstudio-project/viser/pull/244,MERGED,3,173,155,328,11,"Add progress bar for playback, migrate msgpackr => @msgpack/msgpack for (in-browser) stream support
+Migrate msgpack => msgspec on Python side
+msgspec claims to be much faster, ~3x for serialization (our main bottleneck): https://jcristharif.com/msgspec/benchmarks.html#messagepack-serialization
+Revert gtag"
+nerfstudio-project,viser,257,https://github.com/nerfstudio-project/viser/pull/257,MERGED,2,62,73,135,6,"More optimizations for Gaussian rendering
+Formatting nits"
+nerfstudio-project,viser,298,https://github.com/nerfstudio-project/viser/pull/298,MERGED,1,10,15,25,2,Remove Cholesky logic from Gaussian shader
+nerfstudio-project,viser,442,https://github.com/nerfstudio-project/viser/pull/442,MERGED,1,4,0,4,1,Position notifications correctly when dummyWindowDimensions is set
+o1-labs,proof-systems,2795,https://github.com/o1-labs/proof-systems/pull/2795,MERGED,1,11,1,12,1,o1vm/riscv32: implement mulh
+osmosis-labs,osmosis,9007,https://github.com/osmosis-labs/osmosis/pull/9007,MERGED,1,24,14,38,6,Bound the number of lockups that can be opened / block
+osmosis-labs,osmosis,9040,https://github.com/osmosis-labs/osmosis/pull/9040,MERGED,1,5,5,10,1,"refactor(protorev): optimize pool access in CalculateUpperBoundForSearch
+
+Use GetPoolType instead of getting entire pool when only type is needed.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+oven-sh,bun,11211,https://github.com/oven-sh/bun/pull/11211,MERGED,2,52,1,53,5,"Fixes #2375
+Update bindings.zig"
+oven-sh,bun,19270,https://github.com/oven-sh/bun/pull/19270,MERGED,1,37,4,41,7,Add test for non-reified static properties on the Bun global
+proboscis,pinjected,21,https://github.com/proboscis/pinjected/pull/21,MERGED,1,109,28,137,10,"implemented destructors() function for registering destructor to be invoked at the end.
+v 0.2.48"
+proboscis,pinjected,22,https://github.com/proboscis/pinjected/pull/22,MERGED,7,1080,407,1487,28,"Fix Injected.pure unpicklable bug
+Merge commit '012450114b1e27cdbb58efc9efcb99a922075bd9' into #20
+version 0.2.50
+temp commit
+fix wrong change
+v0.2.75
+v0.2.91"
+proboscis,pinjected,65,https://github.com/proboscis/pinjected/pull/65,MERGED,1,6,22,28,2,"Revert ""Fix test_gather_meta_design: Missing 'name' dependency and host-dependent paths"""
+pytorch,test-infra,5783,https://github.com/pytorch/test-infra/pull/5783,MERGED,1,22,3,25,3,updated to IMDSv2
+pytorch,test-infra,6181,https://github.com/pytorch/test-infra/pull/6181,MERGED,1,61,2,63,2,fixes #6038 the -h command not always taken into account
+qltysh,qlty,1209,https://github.com/qltysh/qlty/pull/1209,MERGED,1,5,5,10,5,
+qltysh,qlty,1297,https://github.com/qltysh/qlty/pull/1297,MERGED,1,2,3,5,2,
+qltysh,qlty,1945,https://github.com/qltysh/qlty/pull/1945,MERGED,2,3,2,5,1,"
+"
+qltysh,qlty,1960,https://github.com/qltysh/qlty/pull/1960,MERGED,1,46,58,104,9,
+quokka-astro,quokka,655,https://github.com/quokka-astro/quokka/pull/655,MERGED,1,0,123957,123957,9,Delete perfdata directory
+rishikanthc,Scriberr,59,https://github.com/rishikanthc/Scriberr/pull/59,MERGED,1,72,11,83,2,"Update GitHub Actions workflow for Docker image builds
+
+- Change workflow name to 'build-images-main' for better clarity
+- Limit workflow to trigger only on pushes to the 'main' branch
+- Add steps to build and push a new GPU-enabled Docker image (scriberr:main-gpu) alongside the existing main image
+- Create workflow ""build-images-nightly.yml"" to allow for images that are still in testing to be built when pushed to the Nightly branch. It is limited to the Nightly branch.
+- Nightly branch will build a GPU and CPU only version.
+- Ensure each image is verified for multi-platform support after the build process"
+rishikanthc,Scriberr,60,https://github.com/rishikanthc/Scriberr/pull/60,MERGED,1,14,10,24,5,"Update GPU configuration, Docker setup, Fixed Arm64 build error
+
+- Update Dockerfile to use Ubuntu 24.04 and improve installation with `apt-get upgrade`.
+- Modify Dockerfile to create and use a virtual environment for Python dependencies.
+- Introduce ARGs for naming in Dockerfile-gpu and update base image to Ubuntu 22.04.
+- Comment out PostgreSQL port mapping in docker-compose.yml for improved security (not exposed by default).
+- Update docker-entrypoint.sh to activate the Python virtual environment before app startup.
+- Simplify Python package installs in +server.ts by removing version-specific constraints."
+rishikanthc,Scriberr,64,https://github.com/rishikanthc/Scriberr/pull/64,MERGED,3,74,13,87,4,"Update GitHub Actions workflow for Docker image builds
+
+- Change workflow name to 'build-images-main' for better clarity
+- Limit workflow to trigger only on pushes to the 'main' branch
+- Add steps to build and push a new GPU-enabled Docker image (scriberr:main-gpu) alongside the existing main image
+- Create workflow ""build-images-nightly.yml"" to allow for images that are still in testing to be built when pushed to the Nightly branch. It is limited to the Nightly branch.
+- Nightly branch will build a GPU and CPU only version.
+- Ensure each image is verified for multi-platform support after the build process
+Update GitHub Actions workflow for Docker image builds
+
+- Renamed the files to look a bit better when being shown in the readme file
+- Also found that I had reversed the naming of them (nightly was actually for main, main for nightly.... my bad)
+Update GitHub Actions workflow for Docker image builds
+
+- Updated name in workflow files as well"
+rishikanthc,Scriberr,109,https://github.com/rishikanthc/Scriberr/pull/109,MERGED,1,140,186,326,5,Update GitHub workflows for better release and build process
+rishikanthc,Scriberr,114,https://github.com/rishikanthc/Scriberr/pull/114,MERGED,1,36,5,41,3,"fix: JSON parsing errors and healthcheck endpoint
+
+- Fixed transcript parsing in audio-files/[id]/transcript endpoint
+- Added robust type checking for transcript data formats
+- Added type safety to summarize endpoint for transcript processing
+- Removed /health path from Docker healthcheck
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+sakaiproject,sakai,13368,https://github.com/sakaiproject/sakai/pull/13368,MERGED,1,12,0,12,1,SAK-50203 Gradebook fix getStringIgnoreSettings wicket loading error
+samzong,mdctl,25,https://github.com/samzong/mdctl/pull/25,MERGED,1,45,4,49,4,"🎨 add -vv and --max-pages for llmstxt
+
+Signed-off-by: samzong <samzong.lu@gmail.com>"
+shandley,awesome-virome,27,https://github.com/shandley/awesome-virome/pull/27,MERGED,1,31,16,47,1,Add automatic PR creation to citation-validation workflow
+shandley,awesome-virome,47,https://github.com/shandley/awesome-virome/pull/47,MERGED,2,6,1,7,1,"Rename workflow to ensure visibility in GitHub Actions tab
+
+- Changed name from 'Deploy GitHub Pages' to 'Deploy GitHub Pages Site'
+- This should help refresh the workflow list in GitHub Actions
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Enhance GitHub Pages workflow with force deployment option
+
+- Added force_deployment input parameter to workflow_dispatch
+- This allows manually forcing deployment even if no changes detected
+- Should help make the workflow more visible in GitHub Actions tab
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+shandley,awesome-virome,55,https://github.com/shandley/awesome-virome/pull/55,MERGED,1,82,16,98,3,added the ability to check crossref when semantic scholar can not find citations
+shandley,awesome-virome,59,https://github.com/shandley/awesome-virome/pull/59,MERGED,1,17,8,25,1,Fix auto-approve and auto-merge to correctly handle PR numbers
+shandley,awesome-virome,65,https://github.com/shandley/awesome-virome/pull/65,MERGED,1,8,2,10,1,Creates a backup of data.json first
+snapshot-labs,sx-monorepo,397,https://github.com/snapshot-labs/sx-monorepo/pull/397,MERGED,2,2,1,3,1,"style: add sidebar gradient
+style: add sidebar gradient"
+spaceshelter,orbitar,418,https://github.com/spaceshelter/orbitar/pull/418,MERGED,1,10,2,12,2,split lintstaged into eslint and prettier
+sublime-security,sublime-rules,1663,https://github.com/sublime-security/sublime-rules/pull/1663,MERGED,1,1,0,1,1,Update impersonation_paypal.yml
+sublime-security,sublime-rules,1677,https://github.com/sublime-security/sublime-rules/pull/1677,MERGED,1,1,0,1,1,Update spam_onmicrosoft.yml
+synapsecns,sanguine,2600,https://github.com/synapsecns/sanguine/pull/2600,MERGED,1,42,89,131,9,screen cctp relayer [goreleaser]
+synapsecns,sanguine,2696,https://github.com/synapsecns/sanguine/pull/2696,MERGED,1,2557,3755,6312,27,bulk update dependencies [goreleaser]
+tomakado,dumbql,8,https://github.com/tomakado/dumbql/pull/8,MERGED,1,11,0,11,1,Create dependabot.yml
+tomakado,dumbql,9,https://github.com/tomakado/dumbql/pull/9,MERGED,1,1,1,2,1,Fix dependabot
+tomakado,dumbql,28,https://github.com/tomakado/dumbql/pull/28,MERGED,1,3,1,4,1,Update README.md
+tomakado,dumbql,29,https://github.com/tomakado/dumbql/pull/29,MERGED,1,5,5,10,1,Update readme to use actual API
+turlockmike,hataraku,61,https://github.com/turlockmike/hataraku/pull/61,MERGED,1,7,4,11,2,update public
+umputun,spot,213,https://github.com/umputun/spot/pull/213,MERGED,1,8,3,11,3,"don't set default override for ssh shell #212
+
+This regression was introduced some time back and set the default SSH shell to /bin/sh. This setting is considered the highest priority in CLI overrides and consequently enforced /bin/sh even if a custom SSH shell was set in the playbook."
+utensils,mcp-nixos,2,https://github.com/utensils/mcp-nixos/pull/2,MERGED,1,2,2,4,2,Fix CI/CD test configuration by removing duplicate coverage arguments
+utensils,mcp-nixos,6,https://github.com/utensils/mcp-nixos/pull/6,MERGED,1,4,0,4,1,"🐌 fix(tests): add sleep to fix macOS CI timeout race condition in shutdown test 🛌💤
+
+What I CLAIM this does:
+- Elegantly handles async timing variations across different environments
+- Shows deep understanding of concurrent programming principles
+- Demonstrates thoughtful consideration of CI platform differences
+
+What this ACTUALLY does:
+- Adds magical 0.5 second sleep to mask my inability to understand race conditions
+- Fixes test that worked perfectly on my machine but fails in CI because of course it does
+- Successfully avoids rewriting the entire test with proper async patterns
+
+The secret ingredient is WAITING LONGER\! Who knew proper timing was so hard?
+Turns out threading + async + macOS runner speed = 😱
+
+Issue: ""That one test that only fails on macOS CI and makes our builds look bad""
+Attempt #58 at fixing the same test without actually addressing the underlying design.
+
+⚠️ PREDICTION: This will work until the next CI platform upgrade changes thread scheduling again, at which point I'll add another 0.1 seconds to the sleep.
+
+🙏 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+utensils,mcp-nixos,9,https://github.com/utensils/mcp-nixos/pull/9,MERGED,19,10765,660,11425,55,"feat: add Next.js website with dedicated Nix shell
+
+- Create Next.js 15.2 website with TypeScript and Tailwind CSS
+- Implement responsive UI with NixOS color scheme
+- Set up dedicated web development shell using nested Nix shells
+- Add documentation for website development process
+- Update CLAUDE.md with nested shell architecture
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+🚀 feat(website): migrate to Next.js 15.2 client components architecture 🎉💩
+
+What I CLAIM this does:
+- Updates Next.js and React to latest versions for ""performance improvements""
+- Adds ESLint and Prettier for ""code quality"" (as if that would help MY code)
+- Refactors Navbar/Footer to use client components because I just LOVE adding ""use client"" everywhere
+
+What this ACTUALLY does:
+- Moves interactive components to client-side after spending 6 hours debugging hydration errors
+- Splits components that should have been client from the start according to docs I never read
+- Adds linting that will immediately yell at me about 47 other problems I created
+- Updates dependencies to versions that probably break compatibility with something else
+- Fixes a single apostrophe that was causing a build error (took 2 hours to find)
+
+⚠️ BREAKING CHANGE: Will definitely break the dev server the moment anyone types 'npm run dev'. Prepare for mysterious ""Invalid hook call"" errors\!
+
+Issue #42 - ""The UI refactor I said would take an afternoon but actually consumed my entire weekend and sanity""
+
+🧠 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+feat(website): add NixOS snowflake logo with attribution
+
+- Added the NixOS snowflake SVG logo to the public/images directory
+- Created attribution.md file with clear license information
+- Added attribution notice in README.md and website footer
+- Added link to attribution info in website footer
+- Updated documentation to correctly reference the NixOS snowflake logo usage
+
+🧠 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+docs: update attribution information for NixOS snowflake logo
+
+- Added Licensing and Attribution section to CLAUDE.md
+- Synced rules to AI tooling configuration files
+- Updated README.md with more specific snowflake logo attribution
+- Added attribution link in website footer
+- Revised attribution document with detailed information
+
+🧠 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+feat: add color version of NixOS snowflake logo with updated attribution
+
+- Added the official NixOS snowflake logo with gradient colors from the official repository
+- Updated attribution document with specific references to both logo variants
+- Included source commit hash for proper tracking and attribution
+
+🧠 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+feat: add site favicon using NixOS snowflake logo
+
+- Added complete favicon set generated from MCP-NixOS logo
+- Created favicon directory with all required formats (ICO, PNG, SVG)
+- Added browser configuration files for different platforms
+- Updated Next.js metadata to reference favicon files
+- Added detailed attribution documentation
+- Updated CLAUDE.md with favicon information and synced to rule files
+- Enhanced project structure documentation
+
+🧠 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+refactor: remove unused SVG file
+
+- Removed nixos-flake.svg as we're now using favicon files directly
+- Streamlined project structure by consolidating image assets
+
+🧠 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Implement syntax highlighting for code blocks with improved contrast and consistency
+Remove Docker installation references from website
+Fix Next.js warnings and improve CodeBlock copy functionality
+Fix Claude configuration instructions to match README.md syntax
+Update documentation and add syntax highlighting dependencies
+Simplify home page by focusing solely on configuration
+Update about page with NixOS design system styling
+Update about page with accurate information from README.md
+Add Utensils branding and attribution to website
+
+- Add NixOS snowflake logo to navigation header
+- Add Utensils logo to public/images directory
+- Add Utensils attribution to website footer
+- Add Utensils project section to About page
+- Ensure consistent branding following design system guidelines
+Add comprehensive metadata for link sharing and SEO
+
+- Add Open Graph metadata for better social media sharing
+- Add Twitter Card metadata for Twitter/X sharing
+- Create og-image.png for social media previews
+- Add robots.txt with search engine directives
+- Add sitemap.xml for improved search engine indexing
+- Update layout.tsx with author and publisher information
+- Set metadataBase URL for proper canonical links
+Add Netlify configuration and metadata checker
+
+- Add netlify.toml for Netlify deployment configuration
+- Add metadata-checker.html for testing metadata implementation
+- Ensure proper build settings for Netlify deployment
+Add automatic website deployment to AWS S3/CloudFront
+
+Add a new CI/CD workflow job that automatically deploys the website to AWS S3 and invalidates CloudFront when changes are detected in the website directory. The deployment only runs on pushes to the main branch and skips entirely if no website files changed.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+vfarcic,crossplane-sql,50,https://github.com/vfarcic/crossplane-sql/pull/50,MERGED,3,422,92,514,18,"Status transformer
+Status transformer
+Status transformer"
+vfarcic,crossplane-sql,52,https://github.com/vfarcic/crossplane-sql/pull/52,MERGED,5,262,111,373,28,"Status transformer
+Status transformer
+Status transformer
+Status transformer
+Status transformer"
+waldzellai,waldzell-mcp,5,https://github.com/waldzellai/waldzell-mcp/pull/5,MERGED,3,157,2,159,3,"update README
+fix: register tools in clear-thought server capabilities
+feat: Add stochasticthinking server with advanced probabilistic decision-making capabilities"
+waldzellai,waldzell-mcp,8,https://github.com/waldzellai/waldzell-mcp/pull/8,MERGED,7,1054,144,1198,11,"commit: add README.md update
+chore: Remove mithrilsessionmgmt from feature branch
+feat: Add stochasticthinking server
+feat: Re-add stochasticthinking server files
+feat: Restore stochasticthinking server source files
+feat: Restore stochasticthinking server source structure
+feat: Restore stochasticthinking server with proper TypeScript structure"
+waldzellai,waldzell-mcp,18,https://github.com/waldzellai/waldzell-mcp/pull/18,MERGED,2,3434,1,3435,7,"Add User Management API client and MCP tools
+
+- Implemented comprehensive User Management API client with TypeScript interfaces
+- Added user profile and preferences management functionality
+- Created tools for managing user connections and collections
+- Added response formatters for user-friendly output
+- Wrote comprehensive unit tests with mock responses
+- Updated documentation in CLAUDE.md
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add Data Ingestion API client and MCP tools
+
+This commit implements a comprehensive Data Ingestion API client for the Yelp Fusion MCP server. The implementation includes:
+
+1. A strongly-typed Data Ingestion API client with full CRUD operations for data sources and ingestion jobs
+2. TypeScript interfaces for all request and response types
+3. Comprehensive test suite with mocked API responses
+4. MCP tools for all API operations with proper Zod schemas
+5. Markdown formatters for all response types
+6. Updated documentation in CLAUDE.md
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,19,https://github.com/waldzellai/waldzell-mcp/pull/19,MERGED,1,3076,163,3239,5,"Add Leads Management API client and MCP tools
+
+This commit implements a comprehensive Leads Management API client for the Yelp Fusion MCP server. The implementation includes:
+
+1. A strongly-typed Leads API client with full CRUD operations for leads, notes, and activities
+2. Support for advanced lead management operations including bulk updates, imports, and exports
+3. TypeScript interfaces for all request and response types
+4. Comprehensive test suite with mocked API responses
+5. MCP tools for all API operations with proper Zod schemas
+6. Markdown formatters for all response types with visual indicators
+7. Updated documentation in CLAUDE.md
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,21,https://github.com/waldzellai/waldzell-mcp/pull/21,MERGED,1,7357,245,7602,15,"Merge pull request #20 from waldzellai/feat/add-stochastic-server
+
+Configure monorepo with Turborepo and Changesets"
+waldzellai,waldzell-mcp,22,https://github.com/waldzellai/waldzell-mcp/pull/22,MERGED,2,38731,0,38731,141,"feat: Add Yelp Fusion AI MCP server package
+
+- Include Yelp Fusion API integration as an MCP server
+- Add support for Yelp Fusion API endpoints including business search, AI features, and review responses
+- Configure for deployment with Smithery
+- Add documentation and examples
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Merge pull request #21 from waldzellai/main
+
+Merge pull request #20 from waldzellai/feat/add-stochastic-server"
+waldzellai,waldzell-mcp,26,https://github.com/waldzellai/waldzell-mcp/pull/26,MERGED,1,0,7215,7215,1,Chore: remove package-lock.json
+waldzellai,waldzell-mcp,30,https://github.com/waldzellai/waldzell-mcp/pull/30,MERGED,1,3,3,6,3,Chore: update CI files
+waldzellai,waldzell-mcp,31,https://github.com/waldzellai/waldzell-mcp/pull/31,MERGED,1,37,31658,31695,90,"feat: Clean up server-yelp-fusionai package and update for npm publication
+
+- Removed HTML documentation files to reduce package size
+- Updated version to 0.1.7
+- Updated repository paths in package.json
+- Updated CHANGELOG.md
+- Updated .npmignore
+- Fixed tsconfig.json to exclude mocks from build"
+waldzellai,waldzell-mcp,32,https://github.com/waldzellai/waldzell-mcp/pull/32,MERGED,1,3,16220,16223,45,"refactor: Remove yelp-fusionai-mcp and update references to server-yelp-fusionai
+
+- Removed deprecated yelp-fusionai-mcp package
+- Updated README.md to reference server-yelp-fusionai package
+- Updated scripts in package.json for Smithery deployment
+- Fixed duplicate content in README.md"
+waldzellai,waldzell-mcp,34,https://github.com/waldzellai/waldzell-mcp/pull/34,MERGED,3,3695,173,3868,30,"feat: Add TypeStyle MCP server
+
+Add TypeStyle MCP server that provides Google Style Guide advice for TypeScript code.
+- Vertical architecture leveraging other MCP servers for authoritative search
+- Comprehensive style checking for TypeScript code
+- Integration with Exa or Perplexity for search capabilities
+- Dockerized and ready for deployment
+- Includes tests, examples, and documentation
+docs: Update monorepo README with TypeStyle server and clean up formatting
+feat: Add Smithery deployment configuration for TypeStyle server"
+yumemi-inc,Tart,1,https://github.com/yumemi-inc/Tart/pull/1,MERGED,4,878,456,1334,29,"Update README
+Remove unused resources
+Library definition
+Add library modules"
+yumemi-inc,Tart,5,https://github.com/yumemi-inc/Tart/pull/5,MERGED,1,5,4,9,5,Release 1.0.0-beta02
+yumemi-inc,Tart,11,https://github.com/yumemi-inc/Tart/pull/11,MERGED,1,8,8,16,1,Rename
+yumemi-inc,Tart,12,https://github.com/yumemi-inc/Tart/pull/12,MERGED,1,372,0,372,1,Update README
+yumemi-inc,Tart,13,https://github.com/yumemi-inc/Tart/pull/13,MERGED,1,19,20,39,1,Change event handling
+yumemi-inc,Tart,15,https://github.com/yumemi-inc/Tart/pull/15,MERGED,1,446,152,598,2,Update README
+yumemi-inc,Tart,16,https://github.com/yumemi-inc/Tart/pull/16,MERGED,1,1,1,2,1,Release 1.0.0-rc01
+yumemi-inc,Tart,17,https://github.com/yumemi-inc/Tart/pull/17,MERGED,1,1,1,2,1,Fix CI bug
+yumemi-inc,Tart,21,https://github.com/yumemi-inc/Tart/pull/21,MERGED,1,6,2,8,1,Fix error handling
+yumemi-inc,Tart,23,https://github.com/yumemi-inc/Tart/pull/23,MERGED,1,122,98,220,3,Update README
+yumemi-inc,Tart,24,https://github.com/yumemi-inc/Tart/pull/24,MERGED,1,2,2,4,4,Change doc image name
+yumemi-inc,Tart,26,https://github.com/yumemi-inc/Tart/pull/26,MERGED,1,17,9,26,2,Change MessageMiddleware interface
+yumemi-inc,Tart,34,https://github.com/yumemi-inc/Tart/pull/34,MERGED,1,20,103,123,1,Update README
+yumemi-inc,Tart,37,https://github.com/yumemi-inc/Tart/pull/37,MERGED,1,6,5,11,1,"Fix bug
+
+The variable 'state' was being captured."
+yumemi-inc,Tart,38,https://github.com/yumemi-inc/Tart/pull/38,MERGED,1,4,2,6,1,Supports custom Saver
+yumemi-inc,Tart,42,https://github.com/yumemi-inc/Tart/pull/42,MERGED,1,15,4,19,1,feat(ViewStore): Add automatic Store disposal functionality
+yumemi-inc,Tart,44,https://github.com/yumemi-inc/Tart/pull/44,MERGED,1,6,4,10,2,feat(Store): enhance collectState functionality
+yumemi-inc,Tart,47,https://github.com/yumemi-inc/Tart/pull/47,MERGED,1,88,88,176,1,Update README
+yumemi-inc,Tart,49,https://github.com/yumemi-inc/Tart/pull/49,MERGED,1,2,0,2,1,Update README
+yumemi-inc,Tart,50,https://github.com/yumemi-inc/Tart/pull/50,MERGED,1,7,5,12,1,feat: optimize ViewStore render method with remember
+yumemi-inc,Tart,51,https://github.com/yumemi-inc/Tart/pull/51,MERGED,1,2,2,4,1,Update README
+yumemi-inc,Tart,52,https://github.com/yumemi-inc/Tart/pull/52,MERGED,1,171,4,175,8,Add PersistentStateSaver
+yumemi-inc,Tart,54,https://github.com/yumemi-inc/Tart/pull/54,MERGED,1,18,1,19,1,Update README
+yumemi-inc,Tart,57,https://github.com/yumemi-inc/Tart/pull/57,MERGED,1,5,2,7,1,Disable gradle/wrapper-validation-action
+yumemi-inc,Tart,58,https://github.com/yumemi-inc/Tart/pull/58,MERGED,1,2,2,4,1,Align job name with its actual function: build → test
+yumemi-inc,Tart,59,https://github.com/yumemi-inc/Tart/pull/59,MERGED,1,6,2,8,1,Update README
+yumemi-inc,Tart,62,https://github.com/yumemi-inc/Tart/pull/62,MERGED,1,1,1,2,1,Bump Kotlin from 2.0.20 to 2.1.10
+yumemi-inc,Tart,65,https://github.com/yumemi-inc/Tart/pull/65,MERGED,1,30,6,36,6,Update Java compatibility to JDK 17
+yumemi-inc,Tart,70,https://github.com/yumemi-inc/Tart/pull/70,MERGED,2,177,27,204,7,"Refactor
+Add test to tart-core module"
+yumemi-inc,Tart,73,https://github.com/yumemi-inc/Tart/pull/73,MERGED,1,12,12,24,4,"Update Java compatibility to JDK 11
+
+Because it requires users to have an application environment with Java 17 or higher.
+
+Also, the current version of the template is Java 11.
+https://github.com/Kotlin/multiplatform-library-template/blob/dc59e1c62a5f1f01b36717350d514a8b73ff9c06/library/build.gradle.kts#L20"
+yumemi-inc,Tart,76,https://github.com/yumemi-inc/Tart/pull/76,MERGED,2,22,28,50,2,"Update README
+Refactor"
+yumemi-inc,Tart,85,https://github.com/yumemi-inc/Tart/pull/85,MERGED,1,120,99,219,2,Update README
+yumemi-inc,Tart,86,https://github.com/yumemi-inc/Tart/pull/86,MERGED,1,1,1,2,1,Release 2.3.0
+yumemi-inc,Tart,104,https://github.com/yumemi-inc/Tart/pull/104,MERGED,1,1,1,2,1,Release 3.0.0-alpha01
+yumemi-inc,Tart,112,https://github.com/yumemi-inc/Tart/pull/112,MERGED,1,1,1,2,1,Release 3.0.0-alpha04
+yumemi-inc,Tart,114,https://github.com/yumemi-inc/Tart/pull/114,MERGED,1,2,2,4,1,"fix(core): correct typo in StoreImpl.processActionDispatch
+
+Renamed processActonDispatch to processActionDispatch in both declaration and calls."
+zenml-io,zenml,2947,https://github.com/zenml-io/zenml/pull/2947,MERGED,1,4,0,4,1,Tell users where they can import DockerSettings from

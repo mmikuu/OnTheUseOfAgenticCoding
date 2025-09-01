@@ -1,0 +1,2995 @@
+owner,repo_name,pull_number,url,state,initial_commit,initial_total_additions,initial_total_deletions,initial_change_lines,initial_file_change,text
+84codes,crystal-packages,30,https://github.com/84codes/crystal-packages/pull/30,MERGED,1,49,20,69,2,"Extract 'Upload to Packagecloud' step to reusable script
+
+Create a unified script for uploading packages to Packagecloud from all
+jobs in the workflow, removing duplication and making future maintenance easier.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+C-Loftus,talon-ai-tools,173,https://github.com/C-Loftus/talon-ai-tools/pull/173,MERGED,1,32,9,41,2,"Fix Cursorless integration with AI model commands
+
+This fixes an issue with the cursorless commands not working properly due to changes in function return types. The fix:
+1. Adds a dedicated gpt_apply_prompt_for_cursorless function for Cursorless integration
+2. Updates gpt_push_context and gpt_push_thread to handle both string and list inputs
+3. Updates all Cursorless commands to use cursorless_get_text_list consistently
+4. Fixes command format by removing unnecessary apostrophe
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+INCATools,ontology-access-kit,832,https://github.com/INCATools/ontology-access-kit/pull/832,MERGED,1,211,0,211,2,"Added enrichment guide page to OAK documentation
+
+This commit adds a comprehensive guide on Enrichment/Over-Representation Analysis
+to the OAK documentation. The guide covers:
+- Statistical methods and concepts for enrichment analysis
+- How predicates affect enrichment calculation during roll-up
+- Using the command line for enrichment analysis
+- Using the Python API for programmatic enrichment analysis
+- Redundancy filtering and results interpretation
+
+The guide is linked to the main guide index and includes references to
+related guide sections on associations and ontology graphs.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+MaiM-with-u,MaiBot,495,https://github.com/MaiM-with-u/MaiBot/pull/495,MERGED,2,3164,2787,5951,53,"修复异常处理链：在except块中使用from语法保留原始异常
+
+- 使用`raise ... from e`语法保留异常链
+- 确保异常追踪包含原始错误信息
+- 符合Ruff B904规则要求
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+优化代码格式和异常处理
+
+- 修复异常处理链，使用from语法保留原始异常
+- 格式化代码以符合项目规范
+- 优化导入模块的顺序
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+MinBZK,poc-machine-law,33,https://github.com/MinBZK/poc-machine-law/pull/33,MERGED,1,27,0,27,1,"Update README met complete lijst van geïmplementeerde wetten
+
+Toevoegingen:
+- Huurtoeslag
+- Participatiewet/Bijstand
+- Bestuursrecht (AWB)
+- Kieswet
+- Diverse overige wetten (o.a. Handelsregisterwet, Vreemdelingenwet)
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+MinBZK,poc-machine-law,36,https://github.com/MinBZK/poc-machine-law/pull/36,MERGED,1,289,12,301,6,Nicer form for missing values
+MinBZK,poc-machine-law,37,https://github.com/MinBZK/poc-machine-law/pull/37,MERGED,1,188,177,365,12,"Improve sidepanel UX with shared panel, fixed header, and ESC key support
+
+- Convert to single shared sidepanel instead of one per law
+- Make header stay fixed when scrolling
+- Add ESC key support for closing the panel
+- Ensure panel closes after form submission"
+MinBZK,poc-machine-law,38,https://github.com/MinBZK/poc-machine-law/pull/38,MERGED,8,304,167,471,6,"Fix edit popup positioning in application panel
+
+- Added higher z-index (z-[100]) to edit modal and container
+- Ensures edit popup appears on top of application panel header
+- Maintains existing modal styling and functionality
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>
+Improve edit form to handle type information from data context
+
+- Pass type details from node context to edit form to better handle specific data types
+- Add special handling for eurocent amounts, displaying them as euros with proper formatting
+- Enhance empty value handling to use type information when available
+- Improve number parsing in form submissions
+- Add support for amount type selection when adding new values
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>
+Improve rendering of eurocent amounts
+
+- Update render_path.html to display eurocent amounts with euro symbol and decimal formatting
+- Fix edit form to properly initialize and display eurocent values
+- Add x-init handler to ensure proper display formatting for eurocent values
+- Improve code organization and readability
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>
+Apply formatting changes from pre-commit hooks
+Update CLAUDE.md with Git workflow guidelines
+Apply formatting changes from pre-commit hooks (2)
+Improve form visual grouping with colored box
+
+- Wrap form elements in a cohesive blue-tinted container
+- Add consistent internal borders between form sections
+- Enhance visual hierarchy for the application flow
+- Improve spacing and structure of the form elements
+- Make the form submission process more intuitive
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>
+Improve form UX: add autofocus to first field and clickable checkbox
+
+- Add autofocus attribute to the first input field in the ""Benodigde gegevens invullen"" form
+- Make the entire declaration box clickable to toggle the checkbox
+- Add visual cursor-pointer to make it clear the declaration box is clickable
+- Add autofocus to the declaration checkbox when no other forms are present
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+MinBZK,poc-machine-law,70,https://github.com/MinBZK/poc-machine-law/pull/70,MERGED,1,6,0,6,1,"feat: add 'In ontwikkeling' banner to website
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+MinBZK,poc-machine-law,75,https://github.com/MinBZK/poc-machine-law/pull/75,MERGED,2,54,6,60,2,"fix copy
+Verbeter bijstandstegel van Amsterdam met gedetailleerde specificatie
+
+Deze wijziging voegt een gedetailleerde specificatie toe aan de bijstandstegel van Amsterdam, vergelijkbaar met wat al bestond voor de inkomstenbelastingtegel. De specificatie toont:
+- Basisbedrag met kostendelersnorm
+- Woonkostentoeslag (indien van toepassing)
+- ZZP vrijlating (indien van toepassing)
+- Eenmalig bedrijfskapitaal (indien van toepassing)
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+Nayshins,ummon,26,https://github.com/Nayshins/ummon/pull/26,MERGED,1,742,227,969,6,"Enhance SQLite database module for performance & maintainability
+
+- Implement connection pooling with r2d2 & r2d2_sqlite
+- Refactor entity serialization using trait methods
+- Streamline schema initialization with single transaction
+- Add detailed error messages and logging
+- Expand test coverage with concurrency and transaction tests
+
+Implements #25
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+Nayshins,ummon,59,https://github.com/Nayshins/ummon/pull/59,MERGED,1,14,2,16,1,"docs: add relevance agent information to README
+
+Update README.md with details about the relevance agent functionality:
+- Add as core feature
+- Include usage example
+- Add to architecture components
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+OpenPipe,ART,10,https://github.com/OpenPipe/ART/pull/10,MERGED,1,23,0,23,1,feat: Add reward standard deviation reporting in unsloth API
+PipedreamHQ,pipedream,15814,https://github.com/PipedreamHQ/pipedream/pull/15814,MERGED,1,22,11,33,8,"Fix Confluence cursor handling for pagination
+
+The previous implementation used the full URL link as a cursor value instead of extracting just the cursor parameter. This caused an ""INVALID_REQUEST_PARAMETER"" error when users tried to use ""Load More"" when searching for Space IDs.
+
+- Added a new method _extractCursorFromLink() to extract only the cursor parameter from the URL
+- Fixed cursor handling in the paginate method and propDefinitions
+- Updated package and component versions
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+Shopify,app_profiler,166,https://github.com/Shopify/app_profiler/pull/166,MERGED,1,34,30,64,5,"Add duration tracking to profile objects
+
+Profiles now track the duration of the block being profiled using Process.clock_gettime.
+This allows accessing how long the profiled code took to execute via profile.duration.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+Tiberriver256,mcp-server-azure-devops,168,https://github.com/Tiberriver256/mcp-server-azure-devops/pull/168,MERGED,1,561,2,563,10,"feat(pipelines): implement trigger-pipeline functionality
+
+- Add trigger-pipeline feature to run Azure DevOps pipelines
+- Support specifying branch and variables for pipeline runs
+- Add comprehensive documentation with examples
+- Add unit and integration tests
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+airbytehq,airbyte,55756,https://github.com/airbytehq/airbyte/pull/55756,MERGED,1,8,8,16,2,"Fix reversed assertions in MySQL source tests
+
+- Fixed 5 instances in MySqlSourceCursorBasedIntegrationTest where assertEquals had actual.size as the first parameter
+- Fixed 2 instances of reversed assertions in MySqlSourceCdcIntegrationTest
+- All assertions now follow assertEquals(expected, actual) pattern
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+aklinker1,bunv,17,https://github.com/aklinker1/bunv/pull/17,MERGED,1,4,0,4,1,"feat: Display message when no versions are installed
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+aklinker1,bunv,19,https://github.com/aklinker1/bunv/pull/19,MERGED,1,17,8,25,1,fix: handle non-interactive terminals when prompting for version installation
+aklinker1,bunv,20,https://github.com/aklinker1/bunv/pull/20,MERGED,1,12,2,14,3,fix: gracefully handle UserAborted errors
+aklinker1,bunv,22,https://github.com/aklinker1/bunv/pull/22,MERGED,1,3,0,3,1,fix: create parent directories before installation
+alexfedosov,move-tool,4,https://github.com/alexfedosov/move-tool/pull/4,MERGED,1,8,0,8,2,"Remove move-tool binary from repository
+
+- Removed the binary file 'move-tool' from Git tracking
+- Updated .gitignore to prevent committing Go binaries and shared objects
+- Added specific rule for 'move-tool' binary
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+anthropics,anthropic-quickstarts,261,https://github.com/anthropics/anthropic-quickstarts/pull/261,MERGED,1,11,2,13,1,"fix: respect user-selected tool version in computer use demo
+
+Ensure the tool version selected via the radio button is properly used
+in API calls instead of defaulting to the model config value. This
+allows custom model strings to specify the computer use beta version
+they require.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+anthropics,claude-code,794,https://github.com/anthropics/claude-code/pull/794,MERGED,1,246,0,246,3,"Add GitHub workflow for issue triage with available labels
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+anthropics,devcontainer-features,6,https://github.com/anthropics/devcontainer-features/pull/6,MERGED,2,3,2,5,2,"Bump Claude Code CLI version to 1.0.1
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+Make Claude Code feature container public
+
+Added features-visibility: ""public"" to the workflow config to make the published package publicly accessible.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+artsy,eigen,11672,https://github.com/artsy/eigen/pull/11672,MERGED,1,142,146,288,1,"refactor(BidButton): convert class component to functional component
+
+Refactored BidButton from a class component to a functional component using modern React practices:
+- Replace @track decorator with useTracking hook
+- Convert class methods to functional component functions
+- Use proper tracking patterns
+- Simplified component structure
+
+All tests passing, no functionality changes.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+Co-Authored-By: George <g.kartalis7@gmail.com>"
+artsy,force,15294,https://github.com/artsy/force/pull/15294,MERGED,3,105,81,186,2,"test: convert ArtistNationalityFilter test from Enzyme to RTL
+
+Migrates the ArtistNationalityFilter.jest.enzyme.tsx test to use React Testing Library instead of Enzyme, following the pattern used by other modern tests in the ArtworkFilters directory.
+
+This is part of the ongoing effort to modernize the test suite by moving away from Enzyme.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+test: add assertion about component title
+chore: remove obsolete Enzyme test for ArtistNationalityFilter
+
+Removes the Enzyme version of the ArtistNationalityFilter test since it's been
+replaced with the React Testing Library version in the previous commit.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+ascorbic,unpic-img,782,https://github.com/ascorbic/unpic-img/pull/782,MERGED,1,5,0,5,1,chore: add changeset for react deps update
+ascorbic,unpic-img,784,https://github.com/ascorbic/unpic-img/pull/784,MERGED,1,21,0,21,1,"docs: add CLAUDE.md with development guide
+
+Add a reference guide for agents with build commands and code style conventions.
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+axelclark,ex338,1355,https://github.com/axelclark/ex338/pull/1355,MERGED,1,14,29,43,6,"Upgrade to Elixir 1.18.3 and Erlang 27.3
+
+- Update Elixir from 1.17.2 to 1.18.3 and Erlang from 27.0.1 to 27.3
+- Update GitHub Actions workflow with latest versions
+- Remove unused functions in FantasyTeamAuthorizer
+- Fix test to be order independent
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+bcpeinhardt,learn_otp_with_gleam,4,https://github.com/bcpeinhardt/learn_otp_with_gleam/pull/4,MERGED,1,4,4,8,4,"Fix typos in Gleam code files
+
+- Fix possessive ""its"" in pantry.gleam
+- Correct ""advantages"" spelling in concurrency_primitives.gleam
+- Fix ""gets"" apostrophe in a_shit_actor.gleam
+- Change ""Sidenote"" to ""Side note"" in tasks.gleam
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+beatrix-ha,beatrix,23,https://github.com/beatrix-ha/beatrix/pull/23,MERGED,1,7,7,14,3,"Rename project to Beatrix
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+beekeeper-studio,beekeeper-studio,2859,https://github.com/beekeeper-studio/beekeeper-studio/pull/2859,MERGED,3,108,126,234,5,"updating docs
+Merge pull request #2730 from beekeeper-studio/docs-update-for-new-pricing
+
+updating docs
+Fix DuckDB client issues
+
+- Fixed getTableReferences method to use parameters instead of hardcoded values
+- Removed debugging console.log statements from createUpsertSQL method
+- Added tests for getTableReferences and createUpsertSQL methods
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+brentyi,tyro,270,https://github.com/brentyi/tyro/pull/270,MERGED,1,400,326,726,5,"Refactor struct rules into separate files
+
+This PR reorganizes the struct rule implementation by moving extension-specific
+code from _struct_spec.py into separate files:
+
+- _struct_spec_dataclass.py: Dataclass-specific code and utilities
+- _struct_spec_attrs.py: Attrs-related code
+- _struct_spec_pydantic.py: Pydantic models support
+- _struct_spec_flax.py: Flax-specific utilities
+
+The main _struct_spec.py file now focuses on core registry functionality and
+registers rules from the extension modules. This makes the codebase more
+maintainable and easier to extend with new rules.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+chairemobilite,transition,1267,https://github.com/chairemobilite/transition/pull/1267,MERGED,1,141,104,245,6,"fix: move map layers config from preferences to dedicated config
+
+Problem:
+Currently map layer visibility settings are stored in user preferences, making
+it impossible for new layers to be visible to existing users, as the app copies
+the defaults into user preferences which are then never updated.
+
+Solution:
+- Move layer visibility configurations from defaultPreferences.config.ts to
+  a dedicated sectionLayers export in layers.config.ts
+- Update TransitionMainMap to use this configuration first, with fallback to
+  user preferences for backward compatibility
+- Remove layer configuration from default preferences
+- Add unit tests to validate the changes
+
+This change ensures new layers will be visible to all users while maintaining
+backward compatibility.
+
+closes #1265
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+cloudflare,workerd,3819,https://github.com/cloudflare/workerd/pull/3819,MERGED,1,50,0,50,1,"Add daily release GitHub workflow
+
+This workflow automatically updates supported-compatibility-date.txt every day at 00:30 UTC,
+triggering a new release with that day's date.
+
+Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+cloudflare,workerd,3893,https://github.com/cloudflare/workerd/pull/3893,MERGED,1,107,48,155,7,"Add platform-agnostic formatter targets
+
+Create a simplified bazel setup for code formatters that:
+1. Adds platform-agnostic formatter targets under build/deps/formatters
+2. Updates the format.py script to use the new targets
+3. Adds VS Code integration for the formatters in settings.json
+4. Uses copy_file to create physical files in bazel-bin
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+codeforjapan,mapprint,530,https://github.com/codeforjapan/mapprint/pull/530,MERGED,1,455,9,464,5,"Implement and test KML file support for Nuxt 3
+
+- Add robust KML parsing tests
+- Improve PrintableMap component to handle local KML files
+- Add fallback paths for development environment
+- Add better error handling for KML parsing
+- Create a local KML test configuration
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+codefriar,sf-mcp,1,https://github.com/codefriar/sf-mcp/pull/1,MERGED,2,501,46,547,7,"feat: add Salesforce project directory handling for contextual command execution
+feat: add contextual execution with project directory detection
+
+Add project directory management for commands that require a Salesforce project context. Includes better error handling for command execution and improved error reporting.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+coder,coder,17292,https://github.com/coder/coder/pull/17292,MERGED,1,84,113,197,1,"fix: simplify docs-preview workflow
+
+- Replace composite action with inline Bash steps
+- Simplify file analysis algorithm to avoid dependency on accurate git history
+- Fix error with document structure analysis
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+commontoolsinc,labs,839,https://github.com/commontoolsinc/labs/pull/839,MERGED,1,13,2,15,1,"Fix mentions to appear immediately after typing @ (#808)
+
+The mention suggestions previously required typing at least one character after
+the @ symbol to appear. This change allows the dropdown to appear immediately
+when @ is typed.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+cpunion,axum-params,27,https://github.com/cpunion/axum-params/pull/27,MERGED,1,1,38,39,2,"ci: pin codecov action version and remove release workflow
+
+• Update codecov-action to use specific version v5.0.5
+• Remove release.yml workflow
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+danmayer,coverband,583,https://github.com/danmayer/coverband/pull/583,MERGED,1,92,0,92,2,"Add Coverband.track_key method
+
+This adds a top-level method for manually tracking keys with supported trackers.
+It addresses GitHub issue #549 by providing a public API to track translation keys.
+
+- Adds Coverband.track_key(tracker_type, key) method
+- Validates tracker type (view_tracker, translations_tracker, routes_tracker)
+- Includes comprehensive test coverage
+- Handles error conditions gracefully
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+daytonaio,docs,286,https://github.com/daytonaio/docs/pull/286,MERGED,1,1,1,2,1,"update: Replace demo link with new contact URL
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Signed-off-by: nkkko <nikola.balic@gmail.com>"
+dbieber,GoNoteGo,93,https://github.com/dbieber/GoNoteGo/pull/93,MERGED,1,197,197,394,4,"Update indentation in server.py to use 2 spaces and remove trailing whitespace
+
+- Changed indentation in server.py to use 2 spaces with 4 space hanging indentation to match codebase style
+- Removed trailing whitespace from all files in the codebase
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+dbieber,GoNoteGo,101,https://github.com/dbieber/GoNoteGo/pull/101,MERGED,1,18,26,44,1,"Fix note taking system selection values in settings UI
+
+Update the settings UI to send lowercase system values to the backend when selecting from the dropdown. This ensures consistency between the UI labels and the values expected by the backend system.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+dbieber,GoNoteGo,102,https://github.com/dbieber/GoNoteGo/pull/102,MERGED,1,27,3,30,1,"Convert Blob Storage System to dropdown with Dropbox option
+
+Update the Blob Storage System field in the settings UI to be a dropdown with Dropbox as an option.
+This ensures that when selected, it sets the value to 'dropbox' as expected by the backend.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+dbieber,GoNoteGo,111,https://github.com/dbieber/GoNoteGo/pull/111,MERGED,1,2,0,2,1,"Add US keyboard layout configuration to build workflow
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+defog-ai,introspect,426,https://github.com/defog-ai/introspect/pull/426,MERGED,1,105,28,133,1,"Improve date parsing in export_df_to_postgres function
+
+- Add function to detect date-related column names
+- Enhance date detection with explicit regex patterns
+- Better handle MM/DD/YYYY format dates
+- Preserve original column names for better type inference
+- Consider column names when deciding on date columns
+- Lower threshold for date detection when column name suggests date
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+defog-ai,introspect,431,https://github.com/defog-ai/introspect/pull/431,MERGED,1,71,12,83,2,"Enhance data type detection and Excel file handling
+
+- Improved column type detection by adding numeric term recognition
+- Added special handling for year columns with intelligent detection
+- Enhanced numeric detection with adaptive thresholds for columns with numeric terms
+- Fixed Excel file parsing to properly handle sheets
+- Added handling to drop empty rows and columns in CSV and Excel uploads
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+defog-ai,introspect,458,https://github.com/defog-ai/introspect/pull/458,MERGED,3,474,43,517,10,"Add PDF file management with delete functionality
+
+- Create backend API for deleting PDF files from projects
+- Add a new ProjectFiles component for managing PDF files
+- Implement file deletion with confirmation dialog
+- Simplify UI with direct action buttons
+- Remove local library links from package.json
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+forgot to commit
+bump lib to 1.7.0"
+defog-ai,introspect,465,https://github.com/defog-ai/introspect/pull/465,MERGED,1,39,0,39,1,"Add get_tables_and_files route to integration_routes.py
+
+Added a new route that returns all tables in a database and all PDF files associated with it, enabling clients to get complete database resources in a single API call.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+devondragon,SpringUserFramework,163,https://github.com/devondragon/SpringUserFramework/pull/163,MERGED,1,37,33,70,3,"Fix inaccurate Javadoc on confirmRegistration method and improve other Javadoc comments
+
+- Fixed incorrect description in UserActionController.confirmRegistration
+- Fixed parameter name in UserVerificationService.getVerificationToken
+- Updated return type description in UserVerificationService.validateVerificationToken
+- Removed duplicate class-level Javadoc in UserService
+- Enhanced Javadoc for key methods with more thorough descriptions
+- Added security warning to authWithoutPassword method
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+devondragon,SpringUserFramework,165,https://github.com/devondragon/SpringUserFramework/pull/165,MERGED,1,92,2,94,5,"Add update password API endpoint and functionality
+
+- Add new updatePassword endpoint to the UserAPI class
+- Implement password update logic with proper validation and error handling
+- Add localized messages for password update success and failure
+- Add unit tests for both API and service level functionality
+- Validate old password before allowing password updates
+- Audit password change events
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+devondragon,workers-users,26,https://github.com/devondragon/workers-users/pull/26,MERGED,1,374,0,374,3,"docs: Add README files for all three packages
+
+Add detailed documentation for session-state, user-mgmt, and account-pages modules,
+explaining their purpose, features, configuration, and integration details.
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+ditto-assistant,ditto-app,422,https://github.com/ditto-assistant/ditto-app/pull/422,MERGED,1,187,12,199,7,"fix(ui): implement avatar cache to prevent 429 errors
+
+- Created useUserAvatar hook for intelligent avatar caching
+- Integrated with service worker for persistent caching
+- Updated ChatMessage component to use cached avatars
+- Fixed Ditto description in CLAUDE.md to better reflect its purpose
+- Released version 0.11.66
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+dominikszopa,fundraising-website,86,https://github.com/dominikszopa/fundraising-website/pull/86,MERGED,2,201,28,229,12,"Initial automatic changes by Claude Code
+Fix paragraph spacing"
+doobidoo,mcp-memory-service,8,https://github.com/doobidoo/mcp-memory-service/pull/8,MERGED,1,139,63,202,5,"Fix PyTorch installation for macOS Intel x86_64
+
+- Fix platform detection in memory_wrapper.py to correctly identify macOS
+- Update install.py to use the correct PyTorch versions for macOS Intel (1.13.1/0.14.1/0.13.1)
+- Update documentation to clearly explain macOS Intel requirements
+- Add additional patterns to .gitignore
+
+This fix prevents the script from mistakenly trying to use Windows-specific installation scripts on macOS.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+douvy,btc-tooling,25,https://github.com/douvy/btc-tooling/pull/25,MERGED,1,397,105,502,4,"Implement mobile optimization for OrderBook with touch events and responsive UI
+
+- Add touch event support for mobile devices with gesture handling
+- Create mobile-specific layout with optimized display elements
+- Enhance OrderBookTooltip for better mobile experience
+- Fix TypeScript errors in the orderbook API
+- Add fadeIn animation to Tailwind configuration
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+etalab,admin_api_entreprise,1835,https://github.com/etalab/admin_api_entreprise/pull/1835,MERGED,1,34,1,35,2,"Fix: Handle empty provider_uids when editing users
+
+- Fix bug when removing all providers from a user
+- Refactor logic into a user_update_params method
+- Add test to verify removing all providers works correctly
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+evmts,tevm-monorepo,1587,https://github.com/evmts/tevm-monorepo/pull/1587,MERGED,1,58,0,58,1,"📝 docs: add Claude commit command with emoji and conventional commit guidelines
+
+The commit command helps create well-formatted commits with emoji conventional format.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+expectedparrot,edsl,1726,https://github.com/expectedparrot/edsl/pull/1726,MERGED,1,55,57,112,19,"Fix imports to use relative paths within the edsl package
+
+This commit fixes import patterns throughout the codebase to ensure:
+1. All imports within the edsl package use relative imports
+2. Deep imports that bypass __init__.py are removed or fixed
+3. Circular imports are eliminated
+
+These changes improve code maintainability and make the codebase more
+modular and easier to reason about.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+expectedparrot,edsl,1728,https://github.com/expectedparrot/edsl/pull/1728,MERGED,1,155,5,160,4,"Fix file key extraction in template references
+
+- Renames question_file_keys property to file_keys_from_question to fix naming conflict
+- Enhances template variable detection to support both formats:
+  - Direct references: {{ file_key }}
+  - Scenario-prefixed references: {{ scenario.file_key }}
+- Adds comprehensive test coverage for both formats
+- Fixes potential issue when accessing FileStore objects with Python keyword names
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+expectedparrot,edsl,1730,https://github.com/expectedparrot/edsl/pull/1730,MERGED,1,37,0,37,1,"Add documentation for using HTML/XML tags in question text
+
+Document the ability to use HTML and XML tags within question text, with examples
+showing usage with language specification and formatting.
+
+Closes #1721
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+expectedparrot,edsl,1731,https://github.com/expectedparrot/edsl/pull/1731,MERGED,1,1913,1801,3714,10,"Restructure base and config into proper modules
+
+- Create dedicated modules for base and config functionality
+- Move enums and data_transfer_models into the base module
+- Maintain backward compatibility with wrapper modules
+- Improve code organization while ensuring no API breakage
+- Add proper imports and exports in __init__.py files
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+expectedparrot,edsl,1768,https://github.com/expectedparrot/edsl/pull/1768,MERGED,1,58,3,61,3,"Add dynamic doc URL generation to BaseException
+
+- Added get_doc_url() method to BaseException to generate documentation URLs
+- Added doc_page and doc_anchor attributes to replace hardcoded URLs
+- Updated SurveyError and SurveyCreationError to use new attributes
+- Added test to verify URL generation works correctly
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+expectedparrot,edsl,1783,https://github.com/expectedparrot/edsl/pull/1783,MERGED,1,76,4,80,3,"Fix ScenarioList.from_csv() to handle non-UTF-8 encoding
+
+- Added encoding fallback mechanism to try multiple encodings
+- Added error handling for file opening and reading
+- Added unit test with a test CSV file containing non-UTF-8 characters
+- Resolves #1781"
+expectedparrot,edsl,1799,https://github.com/expectedparrot/edsl/pull/1799,MERGED,1,71,22,93,4,"Modify ScenarioList.from_directory() to wrap files in Scenarios
+
+- Add key_name parameter to ScenarioList.from_directory() method
+- Each FileStore is now wrapped in a Scenario with key_name as the key (defaults to ""content"")
+- Update unit tests to check for Scenario objects and access FileStore objects
+- Add test for custom key_name parameter
+- Update documentation in scenarios.rst and filestore.rst
+
+Resolves #1798
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+expectedparrot,edsl,1802,https://github.com/expectedparrot/edsl/pull/1802,MERGED,5,1057,351,1408,5,"Convert Results module docstrings to Google style and add doctests
+Improved handling of QuestionMatrix
+Fix trailing space issue
+Trailing whitespace improvements
+Enhance multiple choice answer validation with tests
+
+Improves the MultipleChoiceResponseValidator to properly handle:
+- Answers with trailing whitespace
+- Partial matching of answer options
+- Answers with missing punctuation
+- None value handling
+- Ambiguous option resolution
+
+Added comprehensive test suite covering various edge cases to ensure
+robust validation behavior and prevent regression.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+expectedparrot,edsl,1845,https://github.com/expectedparrot/edsl/pull/1845,MERGED,95,22188,10700,32888,158,"Refactor job running to be simpler
+Move chunking to helper function
+Use context managers
+Removing references
+Clean up context for job-running
+Refactoring job-running for simplicity
+Simpler exeptions handling
+Clarifying job-running logic
+Memory-related work
+Add reference-breaking in TaskHistory to prevent memory leaks
+
+Modified TaskHistory.add_interview to create lightweight InterviewReference objects that
+break strong references to Interview objects, allowing them to be garbage collected
+when no longer needed elsewhere. Added test_no_strong_reference() to verify this behavior.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Memory Debugger
+fetch invigialtor now uses weak references
+Weak references in question-answering
+Fixing strong references
+Factor our the Dataclass that was holding a reference
+Preventing hard reference from result object
+Fix memory leak in interview handling
+
+- Added clear_references method to Interview class
+- Modified Result.from_interview to avoid reference cycles
+- Enhanced AsyncInterviewRunner to properly clean up references
+- Added explicit reference clearing in jobs_runner_asyncio
+- Added clear_references to InterviewTaskManager
+
+Memory tests show proper garbage collection with per-interview memory usage
+decreasing as job size increases (0.10MB to 0.01MB).
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Fix memory leak
+Implement lazy loading to improve import time
+
+- Reduces import time from ~2.6s to ~113ms (96% improvement)
+- Adds lazy import utilities (LazyModule, LazyCallable)
+- Updates __init__.py to use lazy loading for all modules
+- Defers exception hook installation
+- Adds support for common classes via lazy callables
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Update depdency
+Update poetry.lock file
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Implement SQLList integration in Results class
+
+Refactored Results class to use SQLList for data storage instead of UserList,
+adding better memory efficiency for large datasets with automatic SQLite offloading.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Implement object serialization for SQLList in Results
+
+Enhanced SQLList to handle complex objects like Result by:
+1. Adding automatic serialization via to_dict() method
+2. Adding object reconstruction on deserialization
+3. Setting a very low default memory threshold for testing
+4. Passing memory_threshold parameter through Jobs to Results
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Use Sqlite DB backend
+Refactor sqlist to use DB
+Add referenced untracked files for lazy loading and SQLList implementation
+
+- Add lazy loading implementation files (__init__lazy.py, __init__original.py)
+- Add SQLList module implementation (db_list/__init__.py, orm.py, exceptions.py)
+- Add lazy loading test utilities (lazy_edsl.py, lazy_edsl_init.py)
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Dealing with job component constructor
+Working through doctests
+Fix doctests
+Forget lazy import
+Test performance
+Add more tests
+Fix memory leak in Cache and SQLList classes
+
+This commit addresses memory leaks related to SQLAlchemy resources not being properly released. Key changes:
+
+1. Added close() method to Cache class to properly dispose of SQLAlchemy engines
+2. Added __del__ method to Cache for resource cleanup during garbage collection
+3. Modified Cache.__exit__ to call close() for proper context manager cleanup
+4. Added close() and __del__ methods to SQLiteDict for engine disposal
+5. Improved SQLList.__cleanup() to properly dispose engines and remove circular refs
+6. Modified profiling script to use context managers for reliable cleanup
+
+The fixes ensure SQLAlchemy resources are properly released between runs,
+preventing memory leaks when running multiple jobs in sequence.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Fix memory leaks associated with Pricing and Language Model registry
+Reverting SQL-based stuff
+Back to regular list
+Keep token buckets from loading matplotlib
+Fix JobsRunnerStatus initialization and access to models attribute
+
+- Fixed JobsRunnerStatus accessing jobs attribute which doesn't exist
+- Fixed ProgressBarManager to properly handle existing JobsRunnerStatus instances
+- All tests are now passing
+Remove jobs_runner_asyncio.py and integrate its functionality into Jobs class
+
+- Removed the separate JobsRunnerAsyncio class
+- Integrated runner functionality directly into the Jobs._execute_with_remote_cache method
+- Updated tests to work without the removed file
+- Simplified code flow and reduced unnecessary indirection
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Clean up garbage collection
+Remove lazy import system
+
+- Removed __init__lazy.py
+- Removed lazy_import.py utility
+- Removed lazy_edsl.py and lazy_edsl_init.py
+- Added lazy_import_reversion.md documenting the removal process
+- Verified that tests pass after removal
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Clean up doctests
+Probable junk directory
+Results back-end based on sqlite
+Missing imports
+Doesn't quite work but gives you the idea
+basic fix for test_draw. Order by iteration. Still I think this should be done at results level
+sort data based on iteration
+Ordering results
+Fix results ordering by maintaining original indices during async processing
+
+- Modified AsyncInterviewRunner.run() to include original index in returned tuples
+- Updated process_interviews() to set order attribute on each result based on its original index
+- Enhanced Results class to respect order attribute during initialization and operations
+- Improved serialization/deserialization to preserve order attributes
+- Fixed Results.example() to use natural ordering from Jobs.example() without manipulation
+
+This fixes the failures in report generation by ensuring consistent ordering
+of results throughout the processing pipeline.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Supposedly passing all tests...
+add new test for memory usage
+add memory_profile dependency
+add local test scripts
+add local scripts
+Rename test_image.png to test_img.png
+update path
+update file path
+Refactoring to not over-write list methods
+Move to mutable sequence approach
+Keep filter from growing memory
+SQL-ite based list
+Version of Results object that does not load into memory
+Filter error throwing off starter tutorial test
+Fix some issues
+Move SQL-basd table to db_list
+Partial work on ScenarioList to sqlite backend - failing tests
+Scenario List working
+Working on sql-based list
+Memory efficient scenario list
+More refactoring to be memory efficient
+Move to not using shelf for intermediate results now that data has a sql backend
+From/to disk
+Refactor Results serialization and SQLite handling - Move ResultsSQLList to results.py, remove redundant sqlite_list.py, fix SQLiteList initialization in Results.__add__, improve serialization in to_disk/from_disk methods, add copy_from for efficient database copying
+Add ScenarioSource class to centralize creation of ScenarioList objects
+
+- Created a new internal ScenarioSource class that centralizes ScenarioList creation from various sources
+- Kept existing ScenarioList.from_X methods for backward compatibility
+- Added unified ScenarioList.from_source() method as a single entry point
+- Refactored directory scanner to handle new source methods
+- All tests pass, maintaining backward compatibility
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+More ScenarioList from methods
+Memory work
+fix merge conflicts
+Refactor ScenarioList sources into Source classes
+
+- Add Source base class and initial implementations (URLSource, ListSource, DirectorySource)
+- Create ScenarioSource factory class to create ScenarioList objects
+- Add refactoring checklist to track remaining source types
+- Add test for ScenarioSource class
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add TuplesSource class for list_of_tuples source type
+
+- Implement TuplesSource class for handling ScenarioList creation from tuples
+- Fix circular import issue between scenario_list.py and scenario_source.py
+- Update ScenarioSource._from_list_of_tuples to use the TuplesSource class
+- Add deprecated classmethod in ScenarioList for from_list_of_tuples
+- Update tests to use proper imports
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add SQLiteSource class for sqlite source type
+
+- Implement SQLiteSource class for handling ScenarioList creation from SQLite databases
+- Update ScenarioSource._from_sqlite to use the SQLiteSource class
+- Add deprecated classmethod in ScenarioList for from_sqlite
+- Update refactoring checklist to mark 'sqlite' as completed
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add LaTeXSource class for latex source type
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add GoogleDocSource class for google_doc source type
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add PandasSource class for pandas source type
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add StataSource class for dta source type
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add WikipediaSource class for wikipedia source type
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add ExcelSource class for excel source type
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add GoogleSheetSource class for google_sheet source type
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add DelimitedFileSource class for delimited_file source type
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add CSVSource and TSVSource classes for csv and tsv source types
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add ParquetSource class for parquet source type
+Add PDFSource and PDFImageSource classes for pdf and pdf_to_image source types
+Working on scenario list refactor
+Refactor scenario list and add AgentList integration
+
+- Add AgentList.from_scenario_list method for enhanced integration
+- Refactor ScenarioList.to_agent_list to use the new method
+- Improve error handling in key_lookup_builder for connection issues
+- Update docstrings with comprehensive examples
+- Remove deprecated from_urls method
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add video file handlers (MP4 and WebM) for issue #1829
+
+This commit adds video file support to the ScenarioList system:
+- Added new handler classes: Mp4Methods and WebmMethods
+- Updated FileStore to support video detection and metadata extraction
+- Added MIME type registration for MP4 and WebM formats
+- Created a test script to verify functionality
+- Implements proper file handling in both system and notebook environments
+
+Fixes #1829"
+geneontology,go-ontology,30207,https://github.com/geneontology/go-ontology/pull/30207,MERGED,1,3,2,5,1,"Fix GO:0036402 proteasome-activating activity term relationships
+
+- Removed logical definition (intersection_of) that had incorrect part_of GO:1901800
+- Added relationship: has_part to GO:0016887 (ATP hydrolysis activity)
+- Added relationship: part_of to GO:0010498 (proteasomal protein catabolic process)
+- Added issue tracker reference to term
+
+Fixes #30183
+
+Signed-off-by: Chris Mungall <cjm@berkeleybop.org>"
+gianlucamazza,solana-mmaker,4,https://github.com/gianlucamazza/solana-mmaker/pull/4,MERGED,1,95,35,130,2,"docs: improve documentation and add CLAUDE.md
+
+- Enhanced README with detailed features, configuration options, and usage instructions
+- Added section on customizing trading pairs
+- Replaced token-specific references with generic SPL token terminology
+- Added CLAUDE.md for agentic coding assistants with project guidelines
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,501,https://github.com/giselles-ai/giselle/pull/501,MERGED,1,168,0,168,3,"Add vibe cording guide documents
+
+- Add docs for vibe corders explaining Giselle project usage with AI assistants
+- Create Node.js installation guide with NVM and pnpm setup
+- Update introduction with current vibe coding concepts
+- Document playground setup with environment variables
+- Add vibe cording documentation section to README
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,513,https://github.com/giselles-ai/giselle/pull/513,MERGED,1,54,25,79,3,"Add Builder/Preview toggle button to header
+
+- Implemented toggle button in application header to switch between Builder and Preview modes
+- Added conditional rendering of Editor/Viewer components based on view state
+- Used the existing ViewState from the workflow designer context
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,541,https://github.com/giselles-ai/giselle/pull/541,MERGED,1,75,0,75,1,"docs: add guide for vibe coders to create clean PRs
+
+- Provides best practices for vibe coders making design-focused PRs
+- Outlines what types of changes to avoid when making UI improvements
+- Explains how to check for and remove unrelated changes
+- Offers a design-first workflow approach
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,544,https://github.com/giselles-ai/giselle/pull/544,MERGED,1,0,1,1,1,"fix(giselle-engine): remove console.log from generate-text function
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,545,https://github.com/giselles-ai/giselle/pull/545,MERGED,11,28,11,39,5,"fix(giselle-engine): remove console.log from generate-text function
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Update test script to use `vitest run` command
+Add unstorage memory driver for tests
+Update Node.js version to 22.14.0 in CI workflow
+Limit CI workflow to run on main branch and PRs
+for testing
+Fix CI workflow: install pnpm before setting up Node.js
+Remove coverage flag from test command in CI workflow
+Add test script to package.json
+Add SDK build step to CI workflow
+Run CI on main branch and pull requests only"
+giselles-ai,giselle,552,https://github.com/giselles-ai/giselle/pull/552,MERGED,1,16,4,20,3,"Remove hardcoded dev server port
+
+- Remove hardcoded port 6180 from playground package.json to use Next.js default (3000)
+- Update documentation to explain how to change port using PORT environment variable
+- Update localhost URLs in documentation to reflect the default port
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,556,https://github.com/giselles-ai/giselle/pull/556,MERGED,1,2,0,2,1,"feat(text-generation): enable multi-step reasoning with ai-sdk
+
+Added maxSteps and experimental_continueSteps options to streamText to enable multi-step reasoning capabilities for text generation.
+See: https://sdk.vercel.ai/docs/ai-sdk-core/generating-text#generating-long-text
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,566,https://github.com/giselles-ai/giselle/pull/566,MERGED,1,7,7,14,1,"Improve header view toggle button styling
+
+- Update toggle button design with rounded corners and border
+- Adjust padding, font size, and font weight for better readability
+- Update background and text colors for better contrast and visual hierarchy
+- Add clearer active state with primary color border
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,567,https://github.com/giselles-ai/giselle/pull/567,MERGED,1,6,1,7,1,"Add language support guidelines to CLAUDE.md
+
+Add a new section to instruct on handling content from non-native English speakers. The guidelines ensure proper grammar correction in commit messages, code comments and PR comments.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,574,https://github.com/giselles-ai/giselle/pull/574,MERGED,1,45,45,90,3,Fix handling of multiple responses in webhook and API results
+giselles-ai,giselle,578,https://github.com/giselles-ai/giselle/pull/578,MERGED,4,209,22,231,8,"Add error handling for API calls in React module
+
+- Create ReactError base class with instance checking
+- Implement APICallError with detailed request/response info
+- Update useGiselleEngine to throw typed errors
+Add file upload error handling with feedback
+Add error toast notification for file upload failures
+Fix status code in error handling to use actual response status"
+giselles-ai,giselle,580,https://github.com/giselles-ai/giselle/pull/580,MERGED,1,2,2,4,1,"Fix ""accesor"" typo in textGenerationNode outputs"
+giselles-ai,giselle,587,https://github.com/giselles-ai/giselle/pull/587,MERGED,1,249,185,434,7,"Add override nodes support to run data
+
+Implements the ability to override node content during workflow execution by adding overrideNodes array to run data schemas and moving override functionality from run-api to add-run.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,594,https://github.com/giselles-ai/giselle/pull/594,MERGED,1,5,1,6,2,Set maxDuration and extend timeout to 800 seconds
+giselles-ai,giselle,595,https://github.com/giselles-ai/giselle/pull/595,MERGED,2,32,7,39,1,"Refactor stopHandlers from useState to useRef
+
+- Replace stopHandlers useState with useRef
+- Update all functions to use stopHandlersRef.current
+- Remove stopHandlers from dependency arrays
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Implement proper generation timeout handling
+
+- Add timeout detection mechanism in waitForGeneration
+- Create a failedGeneration object with appropriate error state
+- Update UI state with failed generation instead of throwing error
+- Gracefully cancel the generation on timeout
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,596,https://github.com/giselles-ai/giselle/pull/596,MERGED,5,218,90,308,5,"Add support for overrideNodes in workflow runs
+Add dropdown button to Run action
+Add  popover to Run button dropdown
+Add run-with-override-params form to workflow viewer
+Implement form submission handler for override params form
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,597,https://github.com/giselles-ai/giselle/pull/597,MERGED,1,227,5,232,3,"Fix font inconsistency between studio and playground apps
+
+This fixes the font configuration in the studio app to properly apply Geist and Hubot fonts across all components, resolving issue #568. The fix ensures visual consistency between the studio and playground applications.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,600,https://github.com/giselles-ai/giselle/pull/600,MERGED,1,1,1,2,1,"Fix node layout scrolling issue
+
+Fixed layout issue where connected nodes appeared outside the viewport and users couldn't scroll to see them.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,601,https://github.com/giselles-ai/giselle/pull/601,MERGED,1,15,2,17,1,"Fix useNodeGenerations hook returning incorrect origin generations
+
+- Added chronological sorting to ensure generations are properly ordered
+- Improved documentation to reflect filtering by origin
+- Added comment explaining origin-specific generation filtering
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,604,https://github.com/giselles-ai/giselle/pull/604,MERGED,1,30,0,30,1,"Add download-workspace script for importing workspaces
+
+Add a shell script to easily download and import workspaces from vercel blob storage.
+- Extract workspace ID from URL
+- Download workspace JSON file
+- Store in local storage directory
+- Display local workspace URL
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,609,https://github.com/giselles-ai/giselle/pull/609,MERGED,1,94,1,95,2,"Add naming conventions guide
+
+- Add detailed naming guide for .cursor/rules with examples
+- Update CLAUDE.md with clear naming conventions section
+- Include boolean function naming conventions based on PR #598
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,611,https://github.com/giselles-ai/giselle/pull/611,MERGED,1,2,2,4,2,"Improve error handling in parseAndMod functions
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,612,https://github.com/giselles-ai/giselle/pull/612,MERGED,1,1,0,1,1,"Create PR command to branch, commit and create pull request"
+giselles-ai,giselle,613,https://github.com/giselles-ai/giselle/pull/613,MERGED,1,6,1,7,1,Reduce file upload limit to 4.5MB due to Vercel constraints
+giselles-ai,giselle,615,https://github.com/giselles-ai/giselle/pull/615,MERGED,1,0,9,9,1,"Remove unused Agent Details tab
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,617,https://github.com/giselles-ai/giselle/pull/617,MERGED,1,1,1,2,1,"fix: add cursor-pointer to create new button
+
+Adds cursor-pointer class to the 'Create new' button to visually indicate
+it's clickable, improving user experience.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,624,https://github.com/giselles-ai/giselle/pull/624,MERGED,2,493,32,525,3,"Fix duplicate connection counting in job map creation
+Add tests for complex workflow scenarios with multiple connections
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,627,https://github.com/giselles-ai/giselle/pull/627,MERGED,2,67,58,125,1,"Add useCallback to handleConnect with proper dependencies
+Improve connection validation to check by handle ID
+
+Previously, we only checked if nodes were connected, but this didn't
+account for multiple inputs/outputs between the same nodes. Now we
+validate connections by tracking specific handle IDs instead."
+giselles-ai,giselle,628,https://github.com/giselles-ai/giselle/pull/628,MERGED,2,67,58,125,1,"Add useCallback to handleConnect with proper dependencies
+Improve connection validation logic in workflow designer
+
+The validation now checks for duplicate connections at the handle level
+rather than just node level, preventing multiple connections between
+the same input and output handles."
+giselles-ai,giselle,629,https://github.com/giselles-ai/giselle/pull/629,MERGED,1,1150,1464,2614,3,Update Next.js to 15.2
+giselles-ai,giselle,630,https://github.com/giselles-ai/giselle/pull/630,MERGED,1,7,2,9,1,"Improve canvas trackpad gestures for better UX
+
+- Change default trackpad behavior to match standard web apps and Figma:
+  - Single click now selects node and opens properties panel
+  - Double click now only focuses viewport on node
+  - Two-finger trackpad scroll now pans canvas instead of zooming
+  - Pinch gestures still handle zooming
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,645,https://github.com/giselles-ai/giselle/pull/645,MERGED,2,276,54,330,1,"Rewrite background using WebGL for better performance
+Fix WebGL transparency and type issues in background grid
+
+- Added WebGL blending for better transparency handling
+- Fixed TypeScript null reference errors
+- Improved rendering of grid points and lines"
+giselles-ai,giselle,647,https://github.com/giselles-ai/giselle/pull/647,MERGED,1,4,1,5,1,"Fix: Update repository selection to use defaultValue
+
+Using defaultValue instead of value for Select component to fix controlled component warnings and ensure proper initialization.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,648,https://github.com/giselles-ai/giselle/pull/648,MERGED,3,13,13,26,3,"Remove the background in reactflow
+fix layout as same as builer, preview
+use backgorund component instead of image"
+giselles-ai,giselle,650,https://github.com/giselles-ai/giselle/pull/650,MERGED,1,1,1,2,1,"Add explicit background color to workflow designer background
+
+The background component was missing an explicit background color, causing inconsistent appearance. This adds a dark background color (#141414) to ensure consistent rendering across browsers.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,652,https://github.com/giselles-ai/giselle/pull/652,MERGED,3,16,92,108,2,"Replace ContentTypeIcon with NodeIcon component
+Add data-content-type-icon attribute to node icons
+fix: support both white and colored Google icons based on context
+
+Due to Gemini icon guidelines only allowing white or colored icons without fill
+modification, implement a workaround that displays the white icon when className
+contains ""text-white"" and the colored icon otherwise.
+
+See: https://about.google/brand-resource-center/brand-elements/
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,653,https://github.com/giselles-ai/giselle/pull/653,MERGED,3,40,3,43,3,"docs: improve create-pr command documentation
+feat: hide sample agent creation button
+feat: automatically create sample app during account initialization"
+giselles-ai,giselle,655,https://github.com/giselles-ai/giselle/pull/655,MERGED,1,1,1,2,1,Add overflow-y-hidden to run params form container
+giselles-ai,giselle,659,https://github.com/giselles-ai/giselle/pull/659,MERGED,5,1044,1496,2540,6,"Refactor WorkspaceTour component for improved maintainability
+
+- Extract TourCard component for reusability
+- Create consistent style constants
+- Remove debug console logs
+- Improve component structure
+- Optimize conditional rendering logic
+- Add proper TypeScript typing
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Refactor WorkspaceTour component with proper component extraction
+
+- Extract NavigationFooter, TourOverlay, and TourCard components
+- Parameterize GlobalStyles component with animation style
+- Add proper TypeScript typing for event handlers
+- Remove redundant component renderings
+- Fix animation style references
+- Improve code organization and maintainability
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Refactor to inline NavigationFooter components
+
+- Remove pre-created tourNavigationFooter constant
+- Directly use NavigationFooter in each step for clearer component instance boundaries
+- This makes each step more self-contained with explicit props
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Refactor WorkspaceTour into individual step components
+
+- Extract each step into its own component
+- Create common props interface for step components
+- Use a switch statement in main component for better control flow
+- Rename GlobalStyles to TourGlobalStyles for clarity
+- Simplify TourOverlay component interface
+- Add descriptive comments for each component
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Improve asset handling in WorkspaceTour component
+
+- Use proper Next.js static asset imports for GIFs and images
+- Update component to use StaticImageData type for better type safety
+- Remove unused imports and simplify import structure
+- Fix image rendering to use .src property from imported assets
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,660,https://github.com/giselles-ai/giselle/pull/660,MERGED,1,2,2,4,1,"fix: reduce app card height and remove thumbnail placeholder
+
+Reduces the app card height from 354px to 160px and comments out the thumbnail placeholder to improve the UI density and focus on essential information.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,667,https://github.com/giselles-ai/giselle/pull/667,MERGED,1,1,1,2,1,"fix: update giselle engine import path from next-internal to next
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,670,https://github.com/giselles-ai/giselle/pull/670,MERGED,1,66,13,79,2,"feat: add retry logic for workflow fetching
+
+Refactor workflow fetching into a centralized utility function with exponential backoff retry mechanism to handle transient failures. This improves reliability by automatically retrying failed workflow fetches with increasing delays.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,685,https://github.com/giselles-ai/giselle/pull/685,MERGED,1,23,0,23,1,"Add MCP server configuration
+
+Added configuration for GitHub and Supabase MCP servers to support development workflows.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,686,https://github.com/giselles-ai/giselle/pull/686,MERGED,1,78,13,91,1,"Improve issue association GitHub workflow
+
+- Add comment marker to uniquely identify workflow-generated comments
+- Implement comment update/delete to avoid duplicate warnings
+- Batch warning messages into a single comment
+- Fix issues with cross-repo PR-issue associations
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,692,https://github.com/giselles-ai/giselle/pull/692,MERGED,1,0,1,1,1,"fix: remove error dump from text generation error object
+
+Removes unnecessary error dump from the error object in text generation failures for improved error logging and reduced payload size.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,719,https://github.com/giselles-ai/giselle/pull/719,MERGED,1,0,49,49,2,"Remove legacy deployment scripts
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,720,https://github.com/giselles-ai/giselle/pull/720,MERGED,1,123,83,206,1,"Add upgrade dialog for pro language models
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,722,https://github.com/giselles-ai/giselle/pull/722,MERGED,1,236,30,266,2,"Implement additional GitHub tools
+
+- Add addPullRequestReviewComment tool for adding PR comments
+- Add getCommit tool for retrieving commit details
+- Add listBranches tool for listing repository branches
+- Add updatePullRequest tool for updating PR properties
+- Update UI to include new GitHub tools in appropriate categories
+- Fix type safety for addPullRequestReviewComment"
+giselles-ai,giselle,724,https://github.com/giselles-ai/giselle/pull/724,MERGED,1,213,0,213,3,Add design mode and setup documentation
+giselles-ai,giselle,726,https://github.com/giselles-ai/giselle/pull/726,MERGED,6,240,134,374,3,"Export useGiselleEngine explicitly instead of wildcard
+Restructure Design Mode setup with detailed steps
+Revise and clarify Design Mode setup instructions
+Clarify and expand Vercel CLI installation instructions
+Add procedural checklist for starting Design Mode
+Revise and clarify design mode setup instructions"
+giselles-ai,giselle,728,https://github.com/giselles-ai/giselle/pull/728,MERGED,1,3,0,3,1,"fix: skip non-uploaded files in copyFiles function
+
+The copyFiles function now skips files that don't have 'uploaded' status, preventing errors when trying to copy non-existent files.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,732,https://github.com/giselles-ai/giselle/pull/732,MERGED,1,10,0,10,1,"fix: prevent duplicate file attachments in message generation
+
+Tracks attached file node IDs to ensure each file is only attached once in a message, preventing duplicate file attachments that could cause issues with LLM providers.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,742,https://github.com/giselles-ai/giselle/pull/742,MERGED,1,110,1,111,4,"Add GitHub app installation flow
+
+Implement popup-based GitHub app installation with:
+- New completion page that communicates back to parent window
+- Installation URL in not-installed state
+- UI component for triggering and handling installation process"
+giselles-ai,giselle,787,https://github.com/giselles-ai/giselle/pull/787,MERGED,1,6,3,9,1,"Fix language model toolbar positioning
+
+Improved the positioning of the language model toolbar popover by:
+1. Adding relative class to the toggle group item
+2. Fixing the calculation for left positioning of the detail panel
+3. Removing the end alignment to center the popover correctly
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,788,https://github.com/giselles-ai/giselle/pull/788,MERGED,1,33,5,38,1,"Add animated completion status to workflow nodes
+
+Enhance node completion visualization by replacing static ""Completed"" label with animated version that fades out after displaying for 2 seconds when a node transitions from ""running"" to ""completed"" state.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+giselles-ai,giselle,789,https://github.com/giselles-ai/giselle/pull/789,MERGED,2,62,52,114,5,"Add SWR dependency for data fetching
+
+Added SWR to the codebase to enable more efficient data fetching
+with built-in caching, revalidation, and error handling.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Refactor node generation fetching with SWR
+
+Replaced custom fetching implementation with SWR for better data management:
+- Moved node generation fetching logic from context to hook
+- Added SWR for more efficient data fetching and caching
+- Exposed setGenerations in context for better state management
+- Updated types to support the new implementation
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+grafana,loki,16510,https://github.com/grafana/loki/pull/16510,MERGED,1,35,0,35,1,"chore: add CLAUDE.md with development guide
+
+This adds a CLAUDE.md file with build commands, code style guidelines,
+and documentation standards for agentic tools working with the Loki codebase.
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+grapeot,web_agentic_ai,27,https://github.com/grapeot/web_agentic_ai/pull/27,MERGED,1,94,31,125,3,"[Cursor] Update documentation with detailed frontend and backend info
+
+- Added CLAUDE.md with command references and coding guidelines
+- Updated app/README.md with correct API endpoints and features
+- Enhanced frontend/README.md with security and UI details
+- Added documentation section with cross-references between files
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+honeycombio,honeycomb-mcp,49,https://github.com/honeycombio/honeycomb-mcp/pull/49,MERGED,1,123,6,129,1,"Enhance GitHub Pages workflow to preserve evaluation report history
+
+This change modifies the GitHub Pages deployment workflow to download
+existing reports from the live site before deploying new ones, ensuring
+that historical evaluation reports are preserved between deployments.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+liam-hq,liam,1481,https://github.com/liam-hq/liam/pull/1481,MERGED,1,277,17,294,6,"feat: add organization member removal feature
+
+- Add remove member functionality with confirmation modal
+- Create separate component for invitation items
+- Implement self-removal (leave organization)
+- Add server action for member removal
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+lipas-liikuntapaikat,lipas,146,https://github.com/lipas-liikuntapaikat/lipas/pull/146,MERGED,1,210,188,398,1,"Refactor login views from reagent to uix
+
+- Convert all components from defn to defui
+- Replace reagent vector notation with JSX-style $ syntax
+- Use uix hooks (use-subscribe) instead of re-frame subscriptions
+- Keep lui/text-field components wrapped in r/as-element since they're still reagent components
+- Maintain all existing functionality
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+llun,activities.next,98,https://github.com/llun/activities.next/pull/98,MERGED,3,303,512,815,3,"Move more tests to it own types spec
+fix: Remove unused imports and variables in database test
+test: Add like database tests
+
+Add comprehensive tests for like database functionality covering:
+- isActorLikedStatus
+- getLikeCount
+- createLike
+- deleteLike
+
+Tests work against both SQL and Firestore implementations and include
+edge cases like non-existent statuses and duplicate likes.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+llun,activities.next,102,https://github.com/llun/activities.next/pull/102,MERGED,4,286,206,492,7,"Refactor createNoteFromUserInput to use sendNoteJob for network requests
+Modify sendNoteJob to fetch inboxes internally instead of receiving them as parameters
+Clean up createNote
+Fix tests"
+llun,activities.next,104,https://github.com/llun/activities.next/pull/104,MERGED,1,6,6,12,2,Update schema fixing mentions and tags missing from Mastodon status
+llun,feeds,503,https://github.com/llun/feeds/pull/503,MERGED,5,115,54,169,8,"Remove conflict stylesheet
+Bump version for minor fixes
+Fix long site name for mobile
+Anchor scroll element to header
+Make ThemeToggle smaller for mobile view"
+ltwlf,json-diff-ts,207,https://github.com/ltwlf/json-diff-ts/pull/207,MERGED,1,76,6,82,3,"fix: properly apply null values in applyChangeset
+
+When changing a property from a non-null value to null, the applyChangeset
+function did not correctly apply the change. The issue was in the conditional
+check that determines if a change should be applied as a leaf change or a
+branch change. Modified the condition to explicitly handle null values with
+ADD operations as leaf changes.
+
+Fixes #198
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+ltwlf,json-diff-ts,217,https://github.com/ltwlf/json-diff-ts/pull/217,MERGED,1,1,1,2,1,"Update version from beta to stable release 4.2.0
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+ltwlf,json-diff-ts,222,https://github.com/ltwlf/json-diff-ts/pull/222,MERGED,3,27,2,29,3,"Fix issue #221: Remove unnecessary undefined assignment in removeKey function
+
+This change removes the line that sets a property to undefined before deleting it, which was causing issues when using json-diff-ts with Automerge.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add unit test for issue #221 fix
+
+Tests that the removeKey function correctly deletes properties without the unnecessary undefined assignment.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Bump version to 4.2.1 for bugfix release
+
+Updates version for the fix of issue #221.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+making,yavi,463,https://github.com/making/yavi/pull/463,MERGED,1,252,20,272,1,"Enhance ConstraintViolation with JavaDoc and add MessageFormatter parameter
+
+- Added comprehensive JavaDoc documentation to the ConstraintViolation class
+- Added message(MessageFormatter) method to allow runtime formatter switching
+- Added detail(MessageFormatter) method to customize violation details
+- Applied spring-javaformat for consistent code style
+- Improved code documentation with examples and detailed explanations
+- New methods marked with @since 0.16.0 tag
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mattermost,mattermost,30423,https://github.com/mattermost/mattermost/pull/30423,MERGED,2,36,28,64,2,"MM-62160: Avoid SELECT * in user_terms_of_service.go
+
+- Added userTermsOfServiceSelectQuery in the constructor
+- Replaced raw SQL query with query builder pattern
+- Used explicit column selection instead of SELECT *
+- Made the implementation more resilient to schema changes
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+MM-62160: Also avoid SELECT * in terms_of_service_store.go
+
+- Added termsOfServiceSelectQuery field to store struct
+- Replaced SELECT * with explicit column selection
+- Updated GetLatest and Get methods to use the query builder pattern
+- Made the implementation more resilient to schema changes
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mattermost,mattermost,30581,https://github.com/mattermost/mattermost/pull/30581,MERGED,1,5,1,6,1,"[MM-63586] Fix Jump to recents dismiss icon visibility
+
+- Fixed dismiss icon color in the Jump to recents toast by changing the fill from button-bg-rgb to button-color-rgb
+- Added hover state for dismiss icon to increase visibility when hovered
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mattermost,mattermost,30607,https://github.com/mattermost/mattermost/pull/30607,MERGED,1,6,4,10,2,"MM-60797: Fix errcheck issues in support_packet_test.go
+
+Fixes https://github.com/mattermost/mattermost/issues/29102
+
+- Fix error handling in fileutils.FindDir() call by properly checking the returned boolean value
+- Add proper error handling for SetPhase2PermissionsMigrationStatus calls
+- Remove channels/app/support_packet_test.go from the errcheck exception list in .golangci.yml
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mattermost,mattermost,30608,https://github.com/mattermost/mattermost/pull/30608,MERGED,1,2,2,4,2,Fix errcheck error in plugin_test.go by properly handling error from th.App.ch.RemovePlugin
+mattermost,mattermost,30610,https://github.com/mattermost/mattermost/pull/30610,MERGED,1,6,4,10,2,"MM-29092 Fix error handling in auto_environment.go
+
+- Removed file from errcheck linter exception list
+- Fixed unchecked error from client.LoginById call
+- Fixed incorrect error returns that were returning nil instead of the error
+
+Fixes https://github.com/mattermost/mattermost/issues/29092
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mattermost,mattermost,30613,https://github.com/mattermost/mattermost/pull/30613,MERGED,1,13,4,17,2,"MM-28765: Fix errcheck issues in server/channels/manualtesting/manual_testing.go
+
+1. Fixed hasher.Write() to check error return
+2. Fixed VerifyEmail() to check error return
+3. Fixed SaveMember() to check error return
+4. Added typecheck exclusion for testAutoLink in .golangci.yml
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mattermost,mattermost,30624,https://github.com/mattermost/mattermost/pull/30624,MERGED,1,4,2,6,2,"[MM-28761] Fix errcheck linter issues in hosted_purchase_screening worker
+
+- Removed the exception for the file from .golangci.yml
+- Added proper error handling for PermanentDeleteByName method
+
+Fixes https://github.com/mattermost/mattermost/issues/28761"
+mattermost,mattermost,30708,https://github.com/mattermost/mattermost/pull/30708,MERGED,1,4,2,6,2,"[MM-28762] Fix errcheck issues in jobs.go
+
+- Remove file exception in .golangci.yml
+- Handle error from pprof.Lookup(\goroutine\).WriteTo() in HandleJobPanic
+- Add appropriate logging for the error case
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mattermost,mattermost-developer-documentation,1440,https://github.com/mattermost/mattermost-developer-documentation/pull/1440,MERGED,1,0,1,1,1,"Clarify bot account permissions for slash commands
+
+Fix for MM-63391 - update bot documentation to remove the incorrect statement that bots cannot manage slash commands. Like any other user, bots can manage integrations for teams to which they are added.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mattgodbolt,jsbeeb,476,https://github.com/mattgodbolt/jsbeeb/pull/476,MERGED,1,6,2,8,2,"Fix ES module import issue in test-utils.js
+
+Replace require() with dynamic import() for ES modules compatibility.
+Also add git workflow guideline to CLAUDE.md.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-backend,136,https://github.com/mc-bench/mc-bench-backend/pull/136,MERGED,1,8,13,21,5,"Fix worker deployment configuration
+
+Standardize worker naming configuration by moving command arguments to Dockerfiles and using WORKER_NAME environment variable. This allows for consistent worker naming across local development and production deployments.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-backend,137,https://github.com/mc-bench/mc-bench-backend/pull/137,MERGED,1,16,24,40,4,"Move worker command args to Dockerfiles
+
+Replace command-line Celery arguments with environment variables for worker configuration, allowing consistent entrypoint usage across deployment scripts.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-backend,138,https://github.com/mc-bench/mc-bench-backend/pull/138,MERGED,1,845,45,890,9,"Add observational notes and pending proposal counts to models, prompts, and templates
+
+- Add filtering by observational notes and pending proposals in list endpoints
+- Optimize queries to prevent N+1 problems when fetching counts
+- Add fields to response schema for consistent API
+- Add SQL ignore rules to ruff config to handle raw SQL comparisons
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-backend,139,https://github.com/mc-bench/mc-bench-backend/pull/139,MERGED,1,3874,180,4054,45,"Add leaderboard system with ELO rating for models, prompts, and samples
+
+- Implement ELO rating calculation system with proper win/loss tracking
+- Add test sets to organize samples for voting and comparisons
+- Create session and identification tracking for anonymous and authenticated users
+- Add prepared SQL statements for optimized comparison batch queries
+- Update API endpoints to support leaderboard displays and filtering
+- Add unit tests for ELO calculation utilities
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-backend,141,https://github.com/mc-bench/mc-bench-backend/pull/141,MERGED,1,1446,433,1879,15,"Filter leaderboard tags to unique used tags, add timed cache
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+Add database indexes for comparison query optimization
+
+- Add indexes for sample, comparison, and leaderboard tables
+- Create partial index for active approved samples
+- Optimize joins for artifact and run tables
+- Enhance query performance for leaderboard endpoints
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+Fix duplicate win/loss counts in prompt leaderboard API
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+Use names/slugs in leaderboard API endpoints instead of UUIDs
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+Fix leaderboard bugs and improve API response models
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+Add sample statistics endpoint for leaderboard
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-backend,143,https://github.com/mc-bench/mc-bench-backend/pull/143,MERGED,1,188,11,199,4,"Fix rendering biome tinting and add technical documentation
+
+- Fix biome tinting for dark colors by preserving brightness
+- Add luminance-based tinting to maintain texture detail
+- Improve water rendering by limiting tint application
+- Pass logging interval parameters from worker settings
+- Add detailed technical documentation on biome tinting process
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-backend,144,https://github.com/mc-bench/mc-bench-backend/pull/144,MERGED,1,80,2,82,2,"Fix admin API permissions and service account
+
+- Add missing DELETE permissions for admin API (tag, model, provider, prompt, template)
+- Add missing UPDATE permissions for admin API
+- Fix service account credentials in docker-compose
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-backend,145,https://github.com/mc-bench/mc-bench-backend/pull/145,MERGED,1,21,13,34,7,"Fix task queue routing for worker processes
+
+- Split admin worker tasks into specialized queues (generation, prompt, parse, validate, post_process, prepare)
+- Update Dockerfile to listen on all specialized queues
+- Update task signatures to route to appropriate queues
+- Improve celery task routing for better load distribution
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-backend,163,https://github.com/mc-bench/mc-bench-backend/pull/163,MERGED,1,151,117,268,1,"refactor: migrate leaderboard API endpoints to query parameters
+
+- Add new endpoints using query parameters instead of path segments
+- Standardize metadata endpoints to use plural nouns
+- Comment out deprecated endpoints to resolve API errors
+- Improve API documentation for all endpoints
+
+This migration improves reliability by avoiding URL encoding issues
+while maintaining a clean API structure that follows RESTful practices.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-frontend,99,https://github.com/mc-bench/mc-bench-frontend/pull/99,MERGED,1,104,8,112,2,"Update Infra.tsx to support enhanced worker identification
+
+This commit enhances the infrastructure management UI to leverage the improved worker identification in the backend:
+
+1. Updated the Worker interface to include new fields:
+   - displayName: formatted worker name (container@hostname)
+   - containerName: container part of the worker name
+   - nodeName: node/hostname part of the worker name
+
+2. Enhanced the UI to display and utilize the new fields:
+   - Added dedicated columns for Node and Container in the workers table
+   - Added Worker Info section in the expanded view showing container and node details
+   - Updated worker display to use displayName when available
+
+3. Added new sorting and filtering capabilities:
+   - Sort workers by node or container
+   - Search by node name or container name
+
+4. Fixed field naming to consistently use camelCase throughout the component
+
+These changes align with backend improvements that enhance worker identification by using
+a standardized naming format (CONTAINER@HOSTNAME) to improve observability and management.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-frontend,104,https://github.com/mc-bench/mc-bench-frontend/pull/104,MERGED,1,3513,1483,4996,30,"✨ Dark mode for Generations UI components
+
+- Added dark mode styling to the Generations screens (Create, List, View)
+- Updated SearchSelect and SimpleSearchSelect components with dark mode compatibility
+- Enhanced UI elements with appropriate dark/light mode text and background colors
+- Fixed styling for experimental state badges and filters in search components
+- Added URL state synchronization for filter selections in SearchSelect component
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-frontend,105,https://github.com/mc-bench/mc-bench-frontend/pull/105,MERGED,1,3513,1483,4996,30,"✨ Dark mode for Generations UI components
+
+- Added dark mode styling to the Generations screens (Create, List, View)
+- Updated SearchSelect and SimpleSearchSelect components with dark mode compatibility
+- Enhanced UI elements with appropriate dark/light mode text and background colors
+- Fixed styling for experimental state badges and filters in search components
+- Added URL state synchronization for filter selections in SearchSelect component
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-frontend,106,https://github.com/mc-bench/mc-bench-frontend/pull/106,MERGED,1,460,65,525,6,"✨ Feat: add ""Propose Release"" action to list views
+
+- Create reusable ProposeExperimentalModal component
+- Add ""Propose Release"" option to prompt, model, and template list actions
+- Maintain UI consistency between detail and list views
+- Update proposal count without page reload
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-frontend,109,https://github.com/mc-bench/mc-bench-frontend/pull/109,MERGED,1,5054,882,5936,42,"✨ Feat: Implement leaderboard with model performance visualization
+
+- Add API client for leaderboard data fetching
+- Create visualization components for model performance (bucket/quartile charts)
+- Add session tracking to maintain user identity across leaderboard interactions
+- Update navigation with improved dropdown menus
+- Implement sample sharing functionality with public view
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-frontend,112,https://github.com/mc-bench/mc-bench-frontend/pull/112,MERGED,1,1499,795,2294,17,"🔄 Change: Update proposal action button labels from Accept/Reject to Adopt/Discard
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+🔄 Improve leaderboard mobile layout with vertical data display
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+🔄 Improve leaderboard distribution chart with better mobile layout
+
+🧩 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+📱 Update ModelDetail top samples with consistent mobile layout
+
+🧩 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+🔄 Fix ModelDetail to always show top samples section
+
+- Make top samples section always visible in ModelDetail regardless of active tab
+- Remove ""Last Updated"" column from PromptLeaderboard to focus on performance metrics
+- Improve mobile layout of PromptLeaderboard with consistent styling
+
+🦾 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+🔄 Standardize loading spinners across app
+
+🔍 Implement persistent tag filtering across leaderboard views
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+🔄 Refactor leaderboard API for name-based routing and improved error handling
+
+- Update API endpoints to use name parameters instead of IDs
+- Standardize error handling across API client functions
+- Fix URL parameter handling to use consistent naming conventions
+- Update route in App.tsx to use model slugs instead of IDs
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+✨ Add model samples endpoint and view with better prompt performance UX
+
+- Added API endpoint for getting samples by model/prompt
+- Created ModelSamplesList component for viewing samples
+- Improved UX by making prompt rows clickable
+- Removed admin links from leaderboard views
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-frontend,113,https://github.com/mc-bench/mc-bench-frontend/pull/113,MERGED,1,183,25,208,7,"✨ Add automatic test set assignment to sample workflow
+
+- Add test set selection to generation creation workflow
+- Store default test set in generation data
+- Display default test set in generation view
+- Auto-approve samples with pre-assigned test sets
+- Improve model viewer with better pan controls
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-frontend,121,https://github.com/mc-bench/mc-bench-frontend/pull/121,MERGED,1,101,12,113,1,"🔧 Improve: optimize pagination display in ListSamples
+
+- Limit pagination to show at most a dozen pages
+- Show first 3, last 3, and 5 pages around current page
+- Add ""jump"" buttons to navigate 5 pages at a time
+- Use ellipsis to indicate page gaps
+- Prevents pagination from overflowing screen on large page counts
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-frontend,122,https://github.com/mc-bench/mc-bench-frontend/pull/122,MERGED,1,124,0,124,1,"✨ Feat: add authentication nudges to voting page
+
+Add periodic login prompts after every 10-15 votes to encourage users to create accounts. Authentication provides access to more builds and allows tracking of voting history.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+mc-bench,mc-bench-frontend,128,https://github.com/mc-bench/mc-bench-frontend/pull/128,MERGED,1,178,7,185,2,"✨ Feat: implement advanced mesh instancing in ModelUtils
+
+This commit adds efficient object instancing to the frontend renderer that matches the backend approach:
+- Creates unique mesh keys based on geometry, materials, and UVs
+- Implements an instance cache to reuse identical geometries
+- Optimizes memory usage by sharing geometry between duplicate meshes
+- Adds detailed instancing statistics and proper cleanup handling
+- Exposes enableInstancing prop to toggle the feature
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+modelcontextprotocol,inspector,158,https://github.com/modelcontextprotocol/inspector/pull/158,MERGED,1,33,0,33,1,"docs: add CLAUDE.md for development guidance
+
+Created a CLAUDE.md file containing build commands, code style guidelines, and project organization information for future development work.
+
+🤖 Generated with [Claude Code](https://docs.anthropic.com/s/claude-code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+modelcontextprotocol,servers,1197,https://github.com/modelcontextprotocol/servers/pull/1197,MERGED,1,168,36,204,3,"Add resource reference support to MCP server
+
+- Add new tool 'getResourceReference' that returns embedded resources
+- Add new prompt 'resource_prompt' demonstrating embedded resources in prompts
+- Update documentation with new tool and prompt details
+- Create CLAUDE.md with development guidelines
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+modelcontextprotocol,typescript-sdk,163,https://github.com/modelcontextprotocol/typescript-sdk/pull/163,MERGED,1,25,0,25,1,"Add CLAUDE.md with SDK development guide
+
+🤖 Generated with [Claude Code](https://docs.anthropic.com/s/claude-code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+monarch-initiative,aurelian,22,https://github.com/monarch-initiative/aurelian/pull/22,MERGED,1,235,1,236,5,"Add MCP implementation for diagnosis agent
+
+- Create MCP server for diagnosis agent to expose disease diagnosis capabilities
+- Update configuration generator to support diagnosis agent type
+- Add MCP discovery tool to list available MCP agents and tools
+- Update documentation to mention diagnosis agent MCP server
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+monarch-initiative,aurelian,27,https://github.com/monarch-initiative/aurelian/pull/27,MERGED,1,1,1,2,1,"fix: update GitHub Actions test command to use poetry run pytest
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+natolambert,rlhf-book,70,https://github.com/natolambert/rlhf-book/pull/70,MERGED,1,8,9,17,4,"Fix typos across repository
+
+- Fix ""Non-Commerical"" to ""Non-Commercial"" in README.md
+- Fix ""al alternative"" to ""an alternative"" in README.md
+- Fix ""ion case"" to ""in case"" in README.md
+- Fix ""PreFT,where"" to ""PreFT, where"" in 01-introduction.md
+- Remove meta-text ""Here's a markdown table..."" in 06-preference-data.md
+- Replace ""TODO BT model"" with ""the Bradley-Terry model section"" in 12-direct-alignment.md
+- Fix missing space after equation in 12-direct-alignment.md
+- Fix equation tag from {#eq:eq:dpo_loss_deriv0} to {#eq:dpo_loss_deriv0}
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+natolambert,rlhf-book,91,https://github.com/natolambert/rlhf-book/pull/91,MERGED,1,107,37,144,5,"Fix dark mode toggle functionality
+
+- Changed button selection from class to ID for more reliable targeting
+- Updated dark-mode.js to target buttons by ID
+- Ensures Makefile copies dark-mode.js to build directories
+- Adds code to dynamically apply dark-mode class to buttons
+- Improves button text updates to toggle between Dark/Light Mode
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+natolambert,rlhf-book,112,https://github.com/natolambert/rlhf-book/pull/112,MERGED,1,7,7,14,5,"Fix various typos across book chapters
+
+- Fix duplicate ""the the"" in chapters 14 and 17
+- Add space in mathematical notation in chapter 4
+- Fix capitalization in ""George W. Bush"", ""Jeb Bush"", and ""Arizona"" in chapter 1
+- Fix grammar in chapter 17
+- Fix ""a industrialized"" to ""an industrialized"" in chapter 16
+- Add proper hyphenation for ""community-driven"" and ""third-party"" in chapter 16
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+nerfstudio-project,viser,421,https://github.com/nerfstudio-project/viser/pull/421,MERGED,1,371,337,708,28,Convert documentation from Markdown to RST
+nerfstudio-project,viser,424,https://github.com/nerfstudio-project/viser/pull/424,MERGED,1,7,5,12,2,"Fix logo path and improve HTTP headers
+
+- Use relative path for logo to fix display in various hosting scenarios
+- Add Content-Length header and always include Content-Encoding for better HTTP compliance
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+nerfstudio-project,viser,425,https://github.com/nerfstudio-project/viser/pull/425,MERGED,1,1,1,2,1,"Update @react-three/drei to ^10.0.5
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+nerfstudio-project,viser,428,https://github.com/nerfstudio-project/viser/pull/428,MERGED,1,20,12,32,7,"Rename set_environment_map to configure_environment_map
+
+- Renames method for consistency with configure_theme, configure_default_lights
+- Adds backward compatibility shim with deprecation warning
+- Updates docstrings and example usages
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+nerfstudio-project,viser,440,https://github.com/nerfstudio-project/viser/pull/440,MERGED,1,4,1,5,1,"Suppress key error when flushing disconnected clients
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+obophenotype,uberon,3508,https://github.com/obophenotype/uberon/pull/3508,MERGED,2,2,2,4,1,"Remove incorrect 'part_of conus arteriosus' relationship from uterine tube structures
+
+Removed the incorrect relationship 'part_of UBERON:0003983 \! conus arteriosus' from:
+- UBERON:0007181 (serosa of infundibulum of uterine tube)
+- UBERON:0007182 (muscle layer of infundibulum of uterine tube)
+
+These uterine tube structures were incorrectly related to the heart structure, which has now been fixed.
+
+Signed-off-by: Chris Mungall <cjm@berkeleybop.org>
+Fixed issue #2911: removed erroneous part_of relationships between conus arteriosus and uterine tube structures
+
+The terms UBERON:0007181 (serosa of infundibulum of uterine tube) and UBERON:0007182 (muscle layer of infundibulum of uterine tube) incorrectly had part_of relationships to UBERON:0003983 (conus arteriosus), which is a cardiac structure. This commit removes these incorrect relationships.
+
+Signed-off-by: @dragon-ai-agent"
+oven-sh,bun,17832,https://github.com/oven-sh/bun/pull/17832,MERGED,1,2,2,4,1,"Fix incorrect string indexing in Git config parsing
+
+Fixed bug where the code was using ""sshCommand"".len instead of the correct ""core.askpass"".len and ""core.sshCommand"".len when indexing into config lines.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+proboscis,pinjected,86,https://github.com/proboscis/pinjected/pull/86,MERGED,1,37,19,56,4,"Add optional control for implicit bindings to improve testability
+
+- Add use_implicit_bindings flag to DIGraphHelper, DIGraph and AsyncResolver
+- Rename validate_provision to a_check_resolution
+- Improve error handling and diagnostics
+- Fix tests to control implicit bindings
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+qltysh,qlty,1587,https://github.com/qltysh/qlty/pull/1587,MERGED,2,131,44,175,2,"Fix panic-prone unwraps in plugin.rs
+
+Updated PluginPlanner to use proper error handling instead of unwraps to avoid potential panics. Added error context to improve debugging and made all relevant code propagate errors properly.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Format code and fix linting issues
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+qltysh,qlty,1589,https://github.com/qltysh/qlty/pull/1589,MERGED,1,26,19,45,8,"Fix panic in extract_zip and install_tarxz functions
+
+Update extract_zip and install_tarxz in download.rs to return proper Errors instead of using unwrap() which can cause panics. Also fixed update_hash methods to properly propagate errors using the ? operator.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+quokka-astro,quokka,910,https://github.com/quokka-astro/quokka/pull/910,MERGED,1,19,0,19,1,"Add CLAUDE.md with build instructions and coding guidelines
+
+Add a reference file containing build/test commands and code style
+guidelines for use with agentic coding tools like Claude Code.
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+radio-t,radio-t-site,466,https://github.com/radio-t/radio-t-site/pull/466,MERGED,1,1,0,1,1,"Add open-pull-requests-limit to NPM dependabot config
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+rishikanthc,Scriberr,70,https://github.com/rishikanthc/Scriberr/pull/70,MERGED,1,605,327,932,6,"fix: improve authentication with token refresh and expiry handling
+
+- Add token refresh mechanism to automatically renew tokens before expiry
+- Improve error handling for unauthorized API requests
+- Add proper redirect to login page when token expires
+- Implement client-side token validation on app initialization
+- Add consistent session expiration tracking in localStorage
+- Create new token refresh API endpoint
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+rishikanthc,Scriberr,71,https://github.com/rishikanthc/Scriberr/pull/71,MERGED,1,1182,1117,2299,7,"feat: enhance audio quality for playback
+
+Store and serve original audio files alongside WAV transcription versions. This improves playback quality while maintaining transcription accuracy.
+
+- Add schema fields for original file name and type
+- Update upload process to preserve original files
+- Modify audio API to serve either original or WAV files
+- Update UI components to utilize high-quality audio when available
+- Maintain optimized WAV format for transcription purposes
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+rishikanthc,Scriberr,88,https://github.com/rishikanthc/Scriberr/pull/88,MERGED,1,132,84,216,6,"feat: Update GitHub workflows for automated releases and versioning
+
+- Add versioning workflow that automatically creates new releases when PRs are merged to main
+- Update main Docker workflows to create versioned and latest tags when releases are published
+- Update nightly workflows to build containers only when PRs are merged to nightly branch
+- Ensure all workflows are independent to avoid failures affecting each other
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+rishikanthc,Scriberr,89,https://github.com/rishikanthc/Scriberr/pull/89,MERGED,1,35,9,44,2,"fix: Add fallback from float16 to float32 for GPUs without efficient float16 support
+
+- Add try/catch to transcribe.py to gracefully fall back to float32 when float16 fails
+- Add WHISPER_COMPUTE_TYPE environment variable support in transcription.ts
+- Improve logging for compute type selection"
+rishikanthc,Scriberr,90,https://github.com/rishikanthc/Scriberr/pull/90,MERGED,1,49,0,49,2,"fix: Improve CUDA memory management for diarization
+
+- Add memory cleanup before and after diarization to prevent OOM errors
+- Set PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True for better memory management
+- Properly unload models when switching from transcription to diarization
+- Add explicit garbage collection to free memory between operations"
+rishikanthc,Scriberr,91,https://github.com/rishikanthc/Scriberr/pull/91,MERGED,1,887,396,1283,5,"fix: UI enhancements
+
+- Implement side-by-side layout for better usability
+- Improve navigation with descriptive labels
+- Convert upload panel to floating modal
+- Optimize for large screens with better width constraints
+- Fix scrolling issues for long transcriptions
+- Replace summarization button icon with star for better clarity
+- Add warning about HF_API_KEY environment variable requirement in setup page
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+rishikanthc,Scriberr,92,https://github.com/rishikanthc/Scriberr/pull/92,MERGED,5,1235,573,1808,14,"feat: Update GitHub workflows for automated releases and versioning
+
+- Add versioning workflow that automatically creates new releases when PRs are merged to main
+- Update main Docker workflows to create versioned and latest tags when releases are published
+- Update nightly workflows to build containers only when PRs are merged to nightly branch
+- Ensure all workflows are independent to avoid failures affecting each other
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>
+Merge pull request #88 from rishikanthc/fix/github-workflows-and-versioning
+
+feat: Update GitHub workflows for automated releases and versioning
+fix: Add fallback from float16 to float32 for GPUs without efficient float16 support
+
+- Add try/catch to transcribe.py to gracefully fall back to float32 when float16 fails
+- Add WHISPER_COMPUTE_TYPE environment variable support in transcription.ts
+- Improve logging for compute type selection
+fix: Improve CUDA memory management for diarization
+
+- Add memory cleanup before and after diarization to prevent OOM errors
+- Set PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True for better memory management
+- Properly unload models when switching from transcription to diarization
+- Add explicit garbage collection to free memory between operations
+fix: UI enhancements
+
+- Implement side-by-side layout for better usability
+- Improve navigation with descriptive labels
+- Convert upload panel to floating modal
+- Optimize for large screens with better width constraints
+- Fix scrolling issues for long transcriptions
+- Replace summarization button icon with star for better clarity
+- Add warning about HF_API_KEY environment variable requirement in setup page
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+sakaiproject,sakai,13513,https://github.com/sakaiproject/sakai/pull/13513,MERGED,1,0,1,1,1,"SAK-46662 Fix constraint violation during site copy of assignments
+
+Fix a constraint violation error that occurs during site copy operations when copying assignments
+with AllPurposeItem supplements. The error occurred because the AssignmentAllPurposeItem was being
+saved to the database before its required assignmentId field was set.
+
+This fix removes the premature save operation and ensures the entity is only saved after all required
+fields are properly initialized.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+sakaiproject,sakai,13538,https://github.com/sakaiproject/sakai/pull/13538,MERGED,1,10,1,11,1,"SAK-51281 Assignment tool fix TransientPropertyValueException in transferCopyEntities
+
+Fixed Hibernate error by ensuring parent AssignmentAllPurposeItem is persisted before creating and saving related AssignmentAllPurposeItemAccess objects, preventing the ""transient instance must be saved before current operation"" exception.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+shandley,awesome-virome,42,https://github.com/shandley/awesome-virome/pull/42,MERGED,1,98,0,98,1,"Add missing functions to enhance_metadata.py for incremental updates
+
+This commit adds the missing extract_tool_metadata and get_repo_metadata functions
+to the enhance_metadata.py module, which are required by the incremental_metadata_update.py
+script. These functions handle repository metadata extraction and integration with
+academic_impact.py for citation data collection.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+shandley,awesome-virome,43,https://github.com/shandley/awesome-virome/pull/43,MERGED,1,55,3,58,1,"Update incremental-updates workflow to use PR creation
+
+Modified the incremental metadata updates workflow to create pull requests
+instead of pushing directly to the main branch. This aligns with repository
+branch protection rules requiring changes to be made through pull requests.
+
+Key changes:
+- Added required permissions: contents write and pull-requests write
+- Replaced direct commit and push with a prepare step and PR creation
+- Added peter-evans/create-pull-request action configuration
+- Added error handling and fallback mechanisms for PR creation
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+shandley,awesome-virome,45,https://github.com/shandley/awesome-virome/pull/45,MERGED,1,5,5,10,1,"Update GitHub Actions in github-pages workflow to latest versions
+
+- Update actions/checkout from v3 to v4
+- Update actions/configure-pages from v3 to v4
+- Update actions/upload-pages-artifact from v1 to v3
+- Update actions/deploy-pages from v2 to v4
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+shandley,awesome-virome,46,https://github.com/shandley/awesome-virome/pull/46,MERGED,1,58,58,116,1,"Fix EOF delimiter in here-document of github-pages workflow
+
+- Fix syntax error in the here-document by placing EOF delimiter at the beginning of the line
+- Add single quotes to prevent variable expansion in the here-document
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+spaceshelter,orbitar,434,https://github.com/spaceshelter/orbitar/pull/434,MERGED,1,1,1,2,1,"Fix vote list username styling in RatingSwitch
+
+Increased specificity of username selector in the vote list to prevent style override from parent components. This ensures consistent username styling in both post and comment vote lists.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+sublime-security,sublime-rules,2435,https://github.com/sublime-security/sublime-rules/pull/2435,MERGED,1,3,3,6,1,"Enhance spam_attendee_list_solicitation.yml to detect grocery store list solicitations
+
+- Add ""Store|Grocer"" to entity types to detect grocery store list solicitations
+- Expand pattern to detect phrases like ""provide samples"", ""counts"", and ""pricing""
+- These changes help detect emails offering lists of grocery stores and similar entities
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+synapsecns,sanguine,3595,https://github.com/synapsecns/sanguine/pull/3595,MERGED,1,48,41,89,3,"fix: replace vulnerable tj-actions actions with dorny/paths-filter
+
+Replace all tj-actions actions (changed-files, verify-changed-files, branch-names) with
+secure alternatives to mitigate the security vulnerability. Used dorny/paths-filter for
+file checking and bash scripts for branch name detection.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+thefrontside,effection,992,https://github.com/thefrontside/effection/pull/992,MERGED,1,12,12,24,4,"docs: fix spelling mistakes in documentation
+
+- Fixed typos in context.mdx: ""evironment"" → ""environment"", ""explicitely"" → ""explicitly"", ""appropriatelly"" → ""appropriately""
+- Added missing ""the"" in several places
+- Fixed ""embeded"" → ""embedded"", ""anwser"" → ""answer"", ""seemlessly"" → ""seamlessly""
+- Improved awkward phrasing in processes.mdx
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+tomakado,dumbql,21,https://github.com/tomakado/dumbql/pull/21,MERGED,1,0,18,18,1,"Remove redundant test file
+
+Removes dumbql_sql_test.go since its functionality is already covered by query/sql_test.go
+and query/sql_direct_test.go which provide more comprehensive testing.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+Co-Authored-By: Claude <noreply@anthropic.com>"
+tomakado,dumbql,31,https://github.com/tomakado/dumbql/pull/31,MERGED,1,25,0,25,1,Add documentation for field presence operator
+umputun,spot,258,https://github.com/umputun/spot/pull/258,MERGED,1,331256,312167,643423,95,"Upgrade to Go 1.24 and update dependencies
+
+- Update Go version from 1.23 to 1.24 in go.mod
+- Update Go version in CI workflows
+- Update dependencies with go get -u ./...
+- Fix non-constant format string in logger_test.go
+- Revendor dependencies
+
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <noreply@anthropic.com>"
+umputun,tg-spam,260,https://github.com/umputun/tg-spam/pull/260,MERGED,1,119,3,122,2,"Fix Issue #223: Preserve telegram profile links in callbacks
+
+When pressing inline buttons in admin chat (like 'info' or 'keep it banned'),
+messages with usernames containing underscores would lose their telegram profile
+links (tg://user?id=) due to markdown parsing errors. Now the send() function
+tries HTML mode as an intermediate fallback before resorting to plain text.
+
+- Added HTML mode as fallback when markdown fails for messages with profile links
+- Added test case that reproduces and verifies the fix
+- Improved handling of messages with special characters in usernames"
+utensils,mcp-nixos,3,https://github.com/utensils/mcp-nixos/pull/3,MERGED,1,178,4,182,7,"feat(docker): add pre-cache feature for faster startup
+
+- Add --pre-cache command-line option to populate cache and exit
+- Update Dockerfile to automatically pre-cache during build
+- Document pre-cache feature in CLAUDE.md
+- Synced rule files with updated documentation
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+utensils,mcp-nixos,4,https://github.com/utensils/mcp-nixos/pull/4,MERGED,1,18,2,20,1,"fix(docker): ensure container exits instantly without hanging
+
+- Add tini as init system for proper signal forwarding and zombie reaping
+- Use mcp_nixos.run wrapper for aggressive process termination
+- Set low timeout values via environment variables
+- Enable cleanup of orphan processes
+- Add explicit STOPSIGNAL for Docker to use
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+utensils,mcp-nixos,10,https://github.com/utensils/mcp-nixos/pull/10,MERGED,1,9,14,23,5,"Fix S3 bucket name and CloudFront distribution ID
+
+Updated the deployment settings with the correct S3 bucket name (urandom-mcp-nixos) and CloudFront distribution ID (E1QS1G7FYYJ6TL) for the website deployment job.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+utensils,mcp-nixos,11,https://github.com/utensils/mcp-nixos/pull/11,MERGED,1,1,1,2,1,"Remove unnecessary build dependency from website deployment
+
+Make website deployment independent of Nix flake build since they use separate build systems and don't have a direct dependency. This allows the website deployment to run in parallel rather than waiting for the flake build to complete.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+utensils,mcp-nixos,12,https://github.com/utensils/mcp-nixos/pull/12,MERGED,1,1,1,2,1,"Update website README with deployment information
+
+Add information about automatic deployment to AWS S3 and CloudFront in the website README to trigger the new CI/CD website deployment process.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+utensils,mcp-nixos,13,https://github.com/utensils/mcp-nixos/pull/13,MERGED,1,5,5,10,3,"bump: update version from 0.2.3 to 0.3.0
+
+This release includes significant functional improvements:
+1. Pre-cache Feature: Added --pre-cache option for populating cache data during setup
+2. State Persistence: New module for maintaining state across server restarts
+3. Request Gating: Added checks to verify server readiness before processing requests
+4. Improved Windows Compatibility: Enhanced cache directory detection and signal handling
+5. Server Lifecycle Management: Better startup/shutdown sequence and resource cleanup
+6. Better Error Handling: More robust imports and circular dependency resolution
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+utensils,mcp-nixos,14,https://github.com/utensils/mcp-nixos/pull/14,MERGED,3,133,47,180,11,"Implement global anchor heading functionality across website
+
+- Enhanced AnchorHeading component with smooth scrolling behavior
+- Applied AnchorHeading component to all pages (home, about, docs, test-code-block)
+- Ensured consistent navigation experience throughout the site
+- Fixed missing AnchorHeading in Features section of about page
+Linting yo
+bump: update version from 0.3.0 to 0.3.1
+
+- Fix Home Manager context handling in MCP interface
+- Implement proper type checking for string contexts from MCP
+- Fix cascading failures in tool registration
+- Add RELEASE_NOTES.md with detailed explanation of fixes
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+utensils,mcp-nixos,15,https://github.com/utensils/mcp-nixos/pull/15,MERGED,2,26,17,43,2,"Enhance About page with improved Utensils branding
+
+- Increased Utensils logo size to 64x64 pixels for better visibility
+- Updated wording from 'Utensils Project' to 'A Utensils Creation'
+- Redesigned the Utensils section with gradient background and improved typography
+- Moved the Utensils section to the top of Project Overview for better prominence
+- Improved responsive layout for both mobile and desktop displays
+Remove anchor functionality from home page hero title
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+vfarcic,crossplane-sql,144,https://github.com/vfarcic/crossplane-sql/pull/144,MERGED,1,132,101,233,6,Claude
+vfarcic,crossplane-sql,145,https://github.com/vfarcic/crossplane-sql/pull/145,MERGED,1,286,79,365,16,Claude
+waldzellai,waldzell-mcp,14,https://github.com/waldzellai/waldzell-mcp/pull/14,MERGED,1,2250,15,2265,9,"Add business subscriptions API and enhance businesses API clients
+
+- Added BusinessSubscriptionsClient with full API implementation
+- Enhanced BusinessClient with comprehensive type definitions
+- Improved BusinessAiClient with better interface and continueChat method
+- Added test files for all new and enhanced API clients
+- Updated MCP server with business subscriptions tools
+- Updated documentation in CLAUDE.md
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,15,https://github.com/waldzellai/waldzell-mcp/pull/15,MERGED,3,2361,9,2370,7,"Enhance categories API client with improved implementation
+
+- Enhanced CategoriesClient with proper interfaces and types
+- Added searchCategories method for category search by term
+- Added comprehensive test coverage for all methods
+- Implemented MCP tools for categories API functionality
+- Updated documentation in CLAUDE.md
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add Events API tools to MCP server
+
+- Added events API tools (yelpEventsSearch, yelpEventDetails, yelpFeaturedEvent)
+- Updated CLAUDE.md documentation to include events API tools
+
+Note: The implementation already had the Events API client and tests in place
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+Add Checkout API client and MCP tools
+
+- Implemented Checkout API client with TypeScript interfaces
+- Added payment methods, invoices, and payments management
+- Created MCP tools for all Checkout API endpoints
+- Added response formatters for user-friendly output
+- Wrote comprehensive unit tests
+- Updated documentation
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,16,https://github.com/waldzellai/waldzell-mcp/pull/16,MERGED,1,930,0,930,5,"Add Claim Business API client and MCP tools
+
+- Implemented Claim Business API client with comprehensive TypeScript interfaces
+- Added business claim eligibility checking and claim submission
+- Created verification methods for different verification paths
+- Created MCP tools for all Claim Business endpoints
+- Added response formatters for user-friendly output
+- Wrote comprehensive unit tests with mock responses
+- Updated documentation in CLAUDE.md
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,17,https://github.com/waldzellai/waldzell-mcp/pull/17,MERGED,1,1875,0,1875,5,"Add User Management API client and MCP tools
+
+- Implemented comprehensive User Management API client with TypeScript interfaces
+- Added user profile and preferences management functionality
+- Created tools for managing user connections and collections
+- Added response formatters for user-friendly output
+- Wrote comprehensive unit tests with mock responses
+- Updated documentation in CLAUDE.md
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,20,https://github.com/waldzellai/waldzell-mcp/pull/20,MERGED,1,7327,369,7696,15,"feat: Configure monorepo with Turborepo and Changesets
+
+- Add turbo.json for build and CI pipeline configuration
+- Add Changesets for versioning and publishing
+- Add GitHub Actions workflows for CI, publishing, and Smithery deployment
+- Update package.json with monorepo scripts
+- Configure smithery.yaml for StochasticThinking server deployment
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,23,https://github.com/waldzellai/waldzell-mcp/pull/23,MERGED,1,11,38841,38852,135,"fix: Clean up duplicated files in monorepo root
+
+- Remove duplicate files from the root that belong in packages/server-yelp-fusionai
+- Restore monorepo package.json configuration
+- Clean up src directory that should be in the package, not the root
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,24,https://github.com/waldzellai/waldzell-mcp/pull/24,MERGED,1,38731,0,38731,141,"feat: Add server-yelp-fusionai package to monorepo
+
+Add the Yelp Fusion AI API implementation to the monorepo structure, providing a TypeScript wrapper around the Yelp API with complete type definitions.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,25,https://github.com/waldzellai/waldzell-mcp/pull/25,MERGED,1,10,1,11,1,"chore: Update .gitignore to exclude unnecessary scripts and HTML documentation
+
+Added patterns to ignore utility scripts and HTML documentation files to keep the repository cleaner and focused on the core source code.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,27,https://github.com/waldzellai/waldzell-mcp/pull/27,MERGED,1,6078,5,6083,4,"chore: Add yarn.lock and standardize package.json formatting
+
+Added a central yarn.lock file for better dependency management and standardized formatting in package.json files.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,28,https://github.com/waldzellai/waldzell-mcp/pull/28,MERGED,1,38,50,88,3,"fix: Update GitHub workflows to use Yarn instead of npm
+
+- Changed all workflows to use Yarn with proper caching
+- Fixed malformed publish.yml workflow
+- Added server-yelp-fusionai to Smithery deployment options
+- Added corepack enable step to all workflows for Yarn 4 support
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+waldzellai,waldzell-mcp,29,https://github.com/waldzellai/waldzell-mcp/pull/29,MERGED,1,43,4,47,3,"fix: Update GitHub Actions workflows to properly handle Yarn 4
+
+- Removed built-in cache: 'yarn' which doesn't work with Yarn 4
+- Added explicit corepack prepare yarn@4.6.0 --activate step to set correct version
+- Implemented proper cache configuration with actions/cache@v3
+- Fixed Smithery CLI installation to use npm for global installs
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+yumemi-inc,Tart,80,https://github.com/yumemi-inc/Tart/pull/80,MERGED,1,127,98,225,13,"Add specialized context interfaces for action handlers
+
+- Introduce Context interfaces for different lifecycle stages:
+  - EnterContext: For state entry handlers
+  - ExitContext: For state exit handlers
+  - DispatchContext: For action dispatch handlers
+  - ErrorContext: For error handlers
+- Update DSL API for more consistent receiver-based context access
+- Remove excess parameters in favor of context properties
+- Update all tests to use the new context interfaces
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+yumemi-inc,Tart,81,https://github.com/yumemi-inc/Tart/pull/81,MERGED,1,12,14,26,5,"Refactor middleware contexts to improve type safety and API consistency
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+yumemi-inc,Tart,83,https://github.com/yumemi-inc/Tart/pull/83,MERGED,1,18,42,60,2,"Update tests to use automatic context transition mechanism
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+yumemi-inc,Tart,84,https://github.com/yumemi-inc/Tart/pull/84,MERGED,1,271,28,299,2,"Add Counter application example to demonstrate Tart Store DSL usage
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+yumemi-inc,Tart,87,https://github.com/yumemi-inc/Tart/pull/87,MERGED,1,59,59,118,2,"refactor: improve internal API visibility and code organization
+
+Make DSL annotations internal and reorganize StoreBuilder class structure for better readability and maintainability.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+yumemi-inc,Tart,88,https://github.com/yumemi-inc/Tart/pull/88,MERGED,2,410,30,440,3,"test: Add TodoUseCaseTest to demonstrate Tart usage with a Todo application
+docs: Improve state transition diagrams in test files"
+yumemi-inc,Tart,89,https://github.com/yumemi-inc/Tart/pull/89,MERGED,1,1,1,2,1,fix: make ExperimentalTartApi annotation public
+yumemi-inc,Tart,90,https://github.com/yumemi-inc/Tart/pull/90,MERGED,1,43,0,43,1,docs: add CLAUDE.md with build commands and code style guidelines
+yumemi-inc,Tart,94,https://github.com/yumemi-inc/Tart/pull/94,MERGED,1,2,1,3,1,"fix: isolate middleware context from parent coroutineScope
+
+Prevent parent scope cancellation by adding explicit Job() to middleware context's coroutineContext. This ensures that cancellations and errors in middleware execution don't propagate to the parent scope, improving stability and isolation between components.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+yumemi-inc,Tart,95,https://github.com/yumemi-inc/Tart/pull/95,MERGED,1,1,1,2,1,Release 2.4.0
+yumemi-inc,Tart,96,https://github.com/yumemi-inc/Tart/pull/96,MERGED,3,108,85,193,10,"[tart-core] Refactor EnterContext to use state.update() pattern
+[tart-core] Refactor ErrorContext to use state.update() pattern
+[tart-core] Refactor ActionContext to use state.update() pattern"
+yumemi-inc,Tart,98,https://github.com/yumemi-inc/Tart/pull/98,MERGED,2,33,46,79,2,"docs: clarify action dispatch in MiddlewareContext KDoc
+docs: update README to adopt state() event() message() specs syntax"
+yumemi-inc,Tart,99,https://github.com/yumemi-inc/Tart/pull/99,MERGED,2,41,19,60,2,"fix: add error handling and state checks in launch scope
+fix: restrict dispatch method to only be callable within launch blocks"
+yumemi-inc,Tart,100,https://github.com/yumemi-inc/Tart/pull/100,MERGED,1,28,28,56,7,"refactor: remove unused generic type parameters in MiddlewareContext, ExitScope and ErrorScope"
+yumemi-inc,Tart,101,https://github.com/yumemi-inc/Tart/pull/101,MERGED,1,27,8,35,3,feat: add event emission capability to LaunchScope
+yumemi-inc,Tart,102,https://github.com/yumemi-inc/Tart/pull/102,MERGED,2,88,32,120,3,"Allow specifying thread for launch in EnterScope via coroutineDispatcher parameter
+Add support for specifying coroutineDispatchers in Tart's DSL handler blocks"
+yumemi-inc,Tart,105,https://github.com/yumemi-inc/Tart/pull/105,MERGED,1,9,0,9,2,Add isActive property to LaunchScope interface to improve scope management
+yumemi-inc,Tart,108,https://github.com/yumemi-inc/Tart/pull/108,MERGED,1,152,0,152,1,Add test for service wrapper pattern in Tart core module
+yumemi-inc,Tart,109,https://github.com/yumemi-inc/Tart/pull/109,MERGED,1,62,62,124,12,"Rename newState() and newStateBy() to nextState() and nextStateBy()
+
+This commit renames the StoreScope methods for better clarity:
+- newState() -> nextState()
+- newStateBy() -> nextStateBy()
+
+The rename was applied to:
+- StoreScope interface definitions
+- StoreImpl implementations
+- All test files
+- README examples
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+yumemi-inc,Tart,110,https://github.com/yumemi-inc/Tart/pull/110,MERGED,1,9,9,18,1,docs: update terminology from Container to Builder in README examples
+yumemi-inc,Tart,113,https://github.com/yumemi-inc/Tart/pull/113,MERGED,1,151,0,151,1,test: add concurrent processing tests for Store
+yumemi-inc,Tart,115,https://github.com/yumemi-inc/Tart/pull/115,MERGED,2,34,82,116,3,"Refactor state handlers to use generic StateHandler pattern
+Refactor StateHandler implementation to improve type safety and consistency"
+yumemi-inc,Tart,116,https://github.com/yumemi-inc/Tart/pull/116,MERGED,1,50,43,93,7,"refactor: replace MiddlewareContext with MiddlewareScope for better coroutine management
+
+- Rename MiddlewareContext to MiddlewareScope to better reflect its purpose
+- Add launch() method to allow middlewares to start coroutines within store lifecycle
+- Remove direct coroutineContext exposure in favor of structured concurrency
+- Update middleware implementations to use the new scope-based approach
+- Improve documentation with comprehensive KDocs
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+yumemi-inc,Tart,118,https://github.com/yumemi-inc/Tart/pull/118,MERGED,1,97,9,106,5,refactor: enhance middleware lifecycle with store alignment and factory function
+yumemi-inc,Tart,119,https://github.com/yumemi-inc/Tart/pull/119,MERGED,1,97,0,97,1,test: add middleware integration test with external data source
+yumemi-inc,Tart,121,https://github.com/yumemi-inc/Tart/pull/121,MERGED,1,1,1,2,1,Release 3.0.0-alpha05
+zenml-io,zenml,3487,https://github.com/zenml-io/zenml/pull/3487,MERGED,1,889,5,894,6,"Add two mini-tutorials (pipeline scheduling and organization with tags/projects) (#3485)
+
+* Add ""Testing"" section to the Table of Contents in user guide (#3481)
+
+* Updated the Table of Contents to include a new entry for ""Testing"", linking to the README.md file. This enhances navigation for users seeking information on testing within the documentation.
+
+This change improves the overall structure and accessibility of the user guide.
+
+* Add ""Tutorials"" section to the Table of Contents and introduce a new guide on managing scheduled pipelines (#3482)
+
+* Updated the Table of Contents to include a new entry for ""Tutorials"", linking to the managing-scheduled-pipelines.md file. This enhances navigation for users seeking information on scheduling within the documentation.
+
+* Added a comprehensive guide on managing scheduled pipeline executions in ZenML, covering topics such as creating, managing, and troubleshooting schedules across different orchestrators.
+
+This change improves the overall structure and accessibility of the user guide, providing valuable resources for users interested in pipeline scheduling.
+
+* Update ""Tutorials"" section in Table of Contents and create README for tutorials (#3483)
+
+* Modified the Table of Contents to link the ""Tutorials"" section to the new README.md file, enhancing user navigation for tutorial resources.
+* Introduced a README.md file in the tutorials directory, which will serve as an overview for available tutorials, including a link to the guide on managing scheduled pipelines.
+
+This change improves the documentation structure and accessibility for users seeking tutorial information.
+
+* section instead of dropdown
+
+* Complete section 1
+
+* docs: Complete sections 1 and 2 of scheduled pipelines guide
+
+- Added detailed explanation of how scheduling works in ZenML
+- Created comprehensive orchestrator support comparison table
+- Added advanced scheduling patterns and code examples
+- Added orchestrator-specific implementation details
+- Improved schedule naming and management best practices
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* docs: Complete section 3 of scheduled pipelines guide
+
+- Added comprehensive guidance on viewing and monitoring schedules
+- Detailed the workflow for updating schedules across orchestrators
+- Provided orchestrator-specific schedule management code examples
+- Added complete instructions for schedule deletion and cleanup
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* docs: Complete scheduled pipelines guide
+
+- Consolidated sections 3-5 into a more coherent structure
+- Completed section 3 with detailed orchestrator-specific management
+- Added comprehensive orphaned schedule cleanup implementation
+- Added complete best practices section with code examples
+- Added alternative scheduling approaches through external systems
+- Added troubleshooting guide with common issues and resolutions
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Update schedule limitations column
+
+* Refine scheduling limitations in orchestrator comparison table
+
+- Updated the limitations for Airflow, Databricks, HyperAI, Kubernetes, SageMaker, and Vertex AI to clarify requirements for schedule changes and management.
+- Added a note regarding ZenML's current inability to update or delete orchestrator schedules directly through its API, emphasising the need for native tools.
+
+This change enhances the clarity and accuracy of the documentation for users managing scheduled pipelines.
+
+* Enhance scheduled pipelines documentation with updated alerter setup
+
+- Revised the section on setting up monitoring for scheduled pipeline runs to include the use of hooks for success and failure notifications.
+- Updated code examples to reflect the new approach using `alerter_success_hook` and `alerter_failure_hook`, improving clarity and usability for users implementing monitoring in their pipelines.
+
+This change aims to provide clearer guidance on integrating monitoring within scheduled pipelines, ensuring users can effectively manage alerts.
+
+* Enhance pipeline scheduling guide with improved examples
+
+- Improve limitations table in section 1.2 with technical details for each orchestrator
+- Fix alerter hooks example code in sections 3.1 and 4.2
+- Expand section 5 with comprehensive alternative scheduling implementations
+- Add detailed script examples for using cloud provider services
+- Add robust CI/CD scheduling examples with environment handling
+- Expand section 6 with in-depth diagnostic tools and scripts
+- Add systematic schedule validation approach
+- Add orchestrator-specific diagnostic commands
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Fix missing imports in code examples
+
+* Fix pipeline triggering code to use correct ZenML API
+
+* Try alternative version as cookbook
+
+* Enhance scheduled pipelines documentation with troubleshooting guidance
+
+- Updated the troubleshooting section to include practical fixes for common issues encountered with scheduled pipelines.
+- Added code examples for verifying cron expressions and checking service account permissions.
+- Included a new section on cleaning up orphaned schedules in Vertex AI and finding failing scheduled runs.
+
+This change aims to provide users with clearer guidance and actionable steps to resolve issues related to scheduled pipelines, improving overall usability and effectiveness.
+
+* Add tutorial on organizing pipelines and models
+
+- Introduced a new tutorial titled ""Organizing Pipelines and Models"" to the user guide, providing a comprehensive step-by-step approach to effectively manage ML assets in ZenML.
+- Updated the table of contents to include a link to the new tutorial, enhancing navigation for users seeking guidance on organization strategies.
+
+This addition aims to improve user understanding of asset management within ZenML, facilitating better project organization and collaboration.
+
+* Update scheduled pipelines documentation to reflect tutorial changes
+
+- Renamed the tutorial on managing scheduled pipelines to ""Managing Scheduled Pipelines in ZenML: A Cookbook"" for clarity and consistency.
+- Updated the table of contents to link to the revised tutorial, ensuring users can easily navigate to the new content.
+- Removed the outdated tutorial file ""managing-scheduled-pipelines-v2.md"" to streamline the documentation.
+
+This update aims to enhance user understanding of scheduled pipelines in ZenML by providing a more focused and practical guide, improving overall usability and accessibility of the documentation.
+
+* Update .gitignore to include design directory and CLAUDE.md
+
+- Added the 'design/' directory to the .gitignore file to prevent tracking of design documents.
+- Included 'CLAUDE.md' in the .gitignore to exclude it from version control.
+
+This update aims to streamline the repository by ensuring that unnecessary files are not tracked, improving overall project organisation.
+
+* Enhance scheduled pipelines documentation with additional reference information
+
+- Added a hint section to the tutorial on managing scheduled pipelines, directing users to the full reference documentation on schedules.
+- Improved the readability of the text by breaking a long sentence into two.
+
+This update aims to provide users with better guidance and resources for understanding and implementing scheduled pipelines in ZenML, enhancing the overall usability of the documentation.
+
+* Add links
+
+* v3
+
+* add central links
+
+* Update user guide tutorial on organizing pipelines and models
+
+- Added a hyperlink to the ZenML Pro account for clarity and ease of access.
+- Revised the list of follow-up actions to include ""Ways to trigger pipelines"" instead of ""Creating dashboards and visualizations based on your tags.""
+
+This update aims to enhance the user experience by providing direct links and updated content, ensuring users have the most relevant information for managing their ML workflows in ZenML.
+
+* Fix line formatting
+
+* Fix code formatting
+
+* Fix Model import in tagging docs
+
+* Fix tagging docs errors
+
+* Check and test the organization tutorial
+
+* Fix link
+
+* Apply suggestions from code review
+
+Co-authored-by: Hamza Tahir <hamza@zenml.io>
+
+* Testing inline note
+
+* Trying different style
+
+* Update managing-scheduled-pipelines tutorial to clarify pipeline scheduling
+
+- Added a note explaining that running the pipeline creates a schedule in the ZenML metadata store and a scheduled run in the orchestrator.
+- Emphasised the importance of using descriptive schedule names for better organisation.
+
+This update aims to improve user understanding of scheduled pipelines and best practices in ZenML.
+
+* Enhance managing-scheduled-pipelines tutorial with GCP verification steps
+
+- Added a new section to verify the creation of schedules in Vertex AI using the Google Cloud SDK.
+- Included example code for listing Vertex schedules and checking their details.
+- Added a warning hint to remind users to replace the region with their actual Vertex AI region.
+
+This update aims to provide users with a clearer understanding of how to confirm their scheduled pipelines in GCP.
+
+* Add CLI output
+
+* Enhance managing-scheduled-pipelines tutorial with additional instructions
+
+- Added a note to rerun the pipeline after creating a new schedule, including a command example for clarity.
+- This update aims to improve user guidance on managing scheduled pipelines effectively.
+
+* Update managing-scheduled-pipelines tutorial to include a hyperlink for alerter registration
+
+- Enhanced the note regarding alerter registration by adding a hyperlink to the relevant documentation.
+- This update aims to provide users with direct access to information on registering alerters, improving the overall clarity and usability of the tutorial.
+
+* Use an enum
+
+* Add instructions for deleting schedules on GCP in managing-scheduled-pipelines tutorial
+
+- Introduced a new section detailing the process for deleting schedules from Vertex AI using the Google Cloud SDK.
+- Included example code for listing Vertex schedules and deleting a specific schedule based on its display name.
+- This update aims to enhance user guidance on managing scheduled pipelines effectively in GCP.
+
+* add missing section back!
+
+* Add timezone section
+
+- Clarified the behaviour of ZenML regarding timezone-aware and naive datetime inputs for scheduled runs.
+- Added detailed examples demonstrating how to set schedules using local and UTC timezones.
+- Included reminders about the interpretation of cron expressions in relation to system timezones.
+
+This update aims to help users avoid confusion with scheduled pipeline timings, ensuring they understand how to manage timezones effectively.
+
+* Add links in the next steps sections
+
+* Add screenshot
+
+* Enhance scheduled pipelines tutorial with clarified cleanup instructions
+
+Improve the managed-scheduled-pipelines tutorial with:
+- Added comprehensive section on timezone handling to help users avoid timezone confusion
+- Restructured the cleanup sections to clearly emphasize the need for dual deletion (both ZenML and orchestrator)
+- Added warning hints and verification steps to ensure users properly clean up orchestrator schedules
+- Improved section on updating schedules with cross-references between sections
+- Added more details on Vertex AI schedule management specifically
+
+* Improve structure consistency in scheduled pipelines tutorial
+
+- Reorganize the sections with proper sub-sections to maintain consistent structure
+- Fixed inconsistency with Step 3.1, renaming it to Step 3.2 and adding a proper Step 3.1
+- Added proper subsections to Step 4 and improved descriptions for each part of the process
+- Enhanced explanations in Step 6
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>
+Co-authored-by: Hamza Tahir <hamza@zenml.io>
+(cherry picked from commit d2803aba0fe0604c2229f9746cd25bdb94d64a65)"
+zenml-io,zenml,3527,https://github.com/zenml-io/zenml/pull/3527,MERGED,1,820,0,820,3,"Add triggering pipelines mini-tutorial (#3495)
+
+* WIP v1
+
+* Update user guide tutorial on triggering pipelines from external systems
+
+- Corrected the formatting of the instructions for setting up GitHub Secrets, ensuring clarity in the steps provided.
+- Improved the readability of the follow-up actions section by breaking a long sentence into two and ensuring proper line endings.
+
+This update aims to enhance user understanding and navigation within the tutorial, providing clearer guidance on integrating external systems with ZenML pipelines.
+
+* WIP Add tutorial on Continuous Integration and Deployment for ML Pipelines
+
+- Introduced a comprehensive tutorial detailing the setup of CI/CD workflows for ML pipelines using ZenML and GitHub Actions. This includes steps for creating development and production stacks, setting up authentication, and configuring GitHub Actions for both CI and CD.
+- Updated the Table of Contents to include a new entry for ""Continuous Integration and Deployment,"" enhancing navigation for users seeking guidance on CI/CD practices within ZenML.
+
+This addition aims to provide users with a structured approach to automating testing and deployment, ensuring high-quality models are delivered to production while maintaining reproducibility across environments.
+
+* Update headers
+
+* docs: improve tutorial header styles for consistency
+
+This commit updates the headers in the trigger-pipelines-from-external-systems.md
+tutorial to follow a more descriptive, action-oriented style consistent with
+other tutorials. Headers now focus on what each section accomplishes rather than
+using generic step numbers.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* docs: simplify trigger pipelines tutorial
+
+This commit simplifies the pipeline example in the trigger-pipelines-from-external-systems.md tutorial by:
+1. Removing the redundant save_results step since ZenML already handles artifact serialization
+2. Updating the train_model step to return the model directly instead of a dictionary
+3. Updating the evaluate step to accept the model directly
+4. Removing the output_path parameter from the pipeline function
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* docs: update run template usage in pipeline trigger tutorial
+
+This commit updates the trigger-pipelines-from-external-systems.md tutorial with
+corrections for the Run Template section, based on verified working code:
+
+1. Improve template creation code to use proper Pipeline ID and run sorting
+2. Add detailed example for programmatic template triggering using Python client
+3. Clarify that step parameters must be set at the step level in Python client
+4. Add note about REST API parameter mapping to step parameters
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* docs: fix REST API template payload in pipeline trigger tutorial
+
+This commit updates the REST API example in the trigger-pipelines-from-external-systems.md tutorial
+to use the correct payload format for triggering templates:
+
+1. Changed from using ""pipeline_parameters"" to using step-level parameters
+2. Updated the note to clarify that parameters must be specified at the step level
+3. Aligned the example with the existing use-templates-rest-api.md documentation
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Updates to triggers section
+
+* docs: add run template support to custom API tutorial
+
+- Add run template endpoint to Method 2 custom API example
+- Update documentation to show both direct pipeline and template execution
+- Add advantages of using templates in production
+- Keep consistent parameter handling between methods
+
+* add links
+
+* Fix CLI docs formatting
+
+* Remove the continuous integration and deployment tutorial from the user guide. This deletion includes all sections related to setting up CI/CD for ML pipelines using ZenML and GitHub Actions, along with example code and best practices. The content was deemed redundant or outdated.
+
+* docs: enhance trigger pipelines tutorial with run template details
+
+- Added information on creating run templates from existing pipeline runs.
+- Included examples for passing configuration files and specifying stacks when using the `create-run-template` command.
+- Emphasised best practices for tagging run templates and maintaining parameter stability when triggering pipelines externally.
+- Updated security best practices section to include API key usage.
+
+This update aims to improve clarity and usability for users integrating external systems with ZenML pipelines.
+
+* Updates following review
+
+* Expand Method 2 section in pipeline triggering tutorial with detailed implementation steps
+
+This update provides comprehensive instructions for building a custom pipeline trigger API, including code examples, Dockerfile setup, and deployment guidelines.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Update Method 2 section headings to match Method 1 style
+
+Revised heading structure in the tutorial to maintain consistent style between methods.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* add icon for page
+
+* Add explicit explanation of PIPELINE_API_KEY security purpose
+
+The tutorial now clearly explains that PIPELINE_API_KEY is a security token
+to protect API endpoints and emphasizes the importance of using strong,
+random keys in production environments.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Add explicit status codes to FastAPI endpoints
+
+- Add status_code=202 to the /trigger-async endpoint to properly indicate accepted status
+- Add status_code=200 to the /trigger endpoint for consistency
+- Better aligns API behavior with REST standards
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Simplify custom API section in pipeline trigger tutorial
+
+- Remove synchronous /trigger endpoint
+- Use only one asynchronous trigger endpoint for better comparison with Method 1
+- Update documentation to reflect the API changes
+- Streamline the Triggering Pipelines via API section
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>
+(cherry picked from commit 7ec8c6f2ec18957892191a31c589838a2c44fbe7)"
+zenml-io,zenml,3531,https://github.com/zenml-io/zenml/pull/3531,MERGED,1,147,7,154,1,"Add Kubernetes schedule documentation and fix heading hierarchy (#3530)
+
+* docs: Add Kubernetes schedule documentation and fix heading hierarchy
+
+- Add documentation on running scheduled pipelines with Kubernetes
+- Explain how to create, verify, update, and delete scheduled pipelines
+- Fix heading hierarchy to follow consistent H1 -> H2 -> H3 structure
+- Improve code block indentation for better readability
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* docs: Update heading hierarchy in Kubernetes orchestrator documentation
+
+- Change section headings from H4 to H3 for better structure and consistency
+- Improve readability and navigation within the Kubernetes orchestrator documentation
+
+This update aims to enhance the clarity of the documentation, making it easier for users to follow the content related to Kubernetes orchestrators.
+
+* docs: Add tutorial link for managing scheduled pipelines in Kubernetes documentation
+
+- Included a link to the tutorial on managing scheduled pipelines within the Kubernetes orchestrator documentation.
+- This addition aims to provide users with direct access to relevant resources, enhancing their understanding of scheduling in ZenML.
+
+This update improves the usability of the documentation by connecting users to practical guidance on scheduled pipelines.
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>
+(cherry picked from commit 9b777beca5af02d36f538b46ed98e752a2bfe419)"

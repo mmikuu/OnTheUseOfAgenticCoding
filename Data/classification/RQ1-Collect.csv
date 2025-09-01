@@ -1,0 +1,16 @@
+Purpose Lable,,APR,HPR
+feat,,57,61
+fix,,66,68
+perf,,11,3
+refactor,,53,33
+style,,16,4
+,,,
+target Lable,,,
+docs,,47,31
+test,,40,10
+ci,,13,16
+build,,23,8
+,,,
+chore,,8,23
+not sure,,0,0
+,,334,257

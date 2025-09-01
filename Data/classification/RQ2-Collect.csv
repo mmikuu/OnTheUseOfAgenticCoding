@@ -1,0 +1,15 @@
+Category,Count
+Are implementated by other PRs/developers,11
+Submission for Verification,5
+Are too large,3
+Are obsolete,3
+Contain choices of non-optimal design solutions,2
+Are inactivie: (author / community ),2
+Do not add value ,1
+Increase complexity,1
+No Confidence in AI-Generated Code,1
+Introduce bugs / break APIs / breaks compatibility,1
+Are not in the community interest,1
+Introduce merge conflicts,1
+Not sure,1
+Unknown (No feedback provided),58
